@@ -19441,8 +19441,8 @@ char,jyutping
 塊體,faai3 tai2
 快艇,faai3 teng5
 快慰,faai3 wai3
-快活谷,faai3 wut6 guk1
 快活,faai3 wut6
+快活谷,faai3 wut6 guk1
 快掣,faai3 zai3
 筷子,faai3 zi2
 筷子架,faai3 zi2 gaa2
@@ -28087,8 +28087,8 @@ char,jyutping
 敬賢禮士,ging3 jin4 lai5 si6
 敬業,ging3 jip6
 敬業福,ging3 jip6 fuk1
-敬業樂羣,ging3 jip6 lok6 kwan4[ging3 jip6 ngaau6 kwan4]
 敬業樂業,ging3 jip6 lok6 jip6[ging3 jip6 ngaau6 jip6]
+敬業樂羣,ging3 jip6 lok6 kwan4[ging3 jip6 ngaau6 kwan4]
 敬業精神,ging3 jip6 zing1 san4
 敬若神明,ging3 joek6 san4 ming4
 敬仰,ging3 joeng5
@@ -53298,9 +53298,11 @@ char,jyutping
 弄短,lung6 dyun2
 弄僵,lung6 goeng1
 弄崗穗鶥,lung6 gong1 seoi6 mei4
+弄下,lung6 haa5
 弄巧反拙,lung6 haau2 faan2 zyut6
 弄虛作假,lung6 heoi1 zok3 gaa2
 弄權,lung6 kyun4
+弄了,lung6 liu5
 弄亂,lung6 lyun6
 弄瓦,lung6 ngaa5
 弄瓦之喜,lung6 ngaa5 zi1 hei2
@@ -61066,8 +61068,8 @@ char,jyutping
 年功加俸,nin4 gung1 gaa1 fung2
 年關,nin4 gwaan1
 年均日照,nin4 gwan1 jat6 ziu3
-年輕幹部,nin4 hing1 gon3 bou6
 年輕,nin4 hing1
+年輕幹部,nin4 hing1 gon3 bou6
 年輕氣盛,nin4 hing1 hei3 sing6
 年輕有爲,nin4 hing1 jau5 wai4
 年輕力壯,nin4 hing1 lik6 zong3
@@ -75633,7 +75635,6 @@ char,jyutping
 彈奏,taan4 zau3
 彈指如飛,taan4 zi2 jyu4 fei1
 彈指之間,taan4 zi2 zi1 gaan1
-塌Q,taap3 kiu1
 塔崩,taap3 bang1
 榻牀,taap3 cong4
 塌地,taap3 dei2
@@ -75641,6 +75642,7 @@ char,jyutping
 塌棵菜,taap3 fo2 coi3
 塔吉克,taap3 gat1 hak1
 拓印,taap3 jan3
+塌Q,taap3 kiu1
 塔林,taap3 lam4
 塔里班,taap3 lei5 baan1
 塔里木河,taap3 lei5 muk6 ho4
@@ -90855,5 +90857,3 @@ T裇,ti1 seot1
 絕招,zyut6 ziu1
 絕章,zyut6 zoeng1
 絕種,zyut6 zung2
-弄下,lung6 haa5
-弄了,lung6 liu5
