@@ -553,7 +553,6 @@ char,jyutping,fq
 釛,baat3,0%
 釟,baat3,0%
 尣,baat3 jan4,0%
-丷,baat3 zi6 tau4,0%
 坺,baat6,0%
 墢,baat6,0%
 茇,baat6,0%
@@ -2115,7 +2114,6 @@ char,jyutping,fq
 鐺,caang1
 饓,caang1
 𦉘,caang1
-辶,caang1 teng5,0%
 橙,caang2
 撐,caang3,5%
 牚,caang3,3%
@@ -4107,7 +4105,6 @@ char,jyutping,fq
 艸,cou2,0%
 草,cou2
 騲,cou2
-艹,cou2 faa1 tau2,0%
 䆆,cou3,0%
 䥄,cou3,0%
 厝,cou3
@@ -6364,7 +6361,6 @@ char,jyutping,fq
 返,faan2
 阪,faan2,0%
 𠆩,faan2
-攵,faan2 man4 bin1,0%
 㛯,faan3
 㤆,faan3
 䀀,faan3
@@ -7430,7 +7426,6 @@ char,jyutping,fq
 鳧,fu4
 鳬,fu4,0%
 𠒎,fu4
-乊,fu4 zi6 tau4,0%
 婦,fu5
 媍,fu5
 萯,fu5
@@ -8054,11 +8049,6 @@ char,jyutping,fq
 鹻,gaan2
 鹼,gaan2
 𨰝,gaan2
-丬,gaan2 baan6 bin1,0%
-钅,gaan2 faa3 gam1 zi6 bin1,0%
-讠,gaan2 faa3 jin4 zi6 bin1,0%
-纟,gaan2 faa3 kiu5 si1 bin1,0%
-饣,gaan2 faa3 sik6 zi6 bin1,0%
 㵎,gaan3
 橺,gaan3,0%
 澗,gaan3
@@ -8167,7 +8157,6 @@ char,jyutping,fq
 郊,gaau1
 鮫,gaau1
 鵁,gaau1
-罓,gaau1 caa1 sei3,0%
 㚣,gaau2
 㩭,gaau2
 㽱,gaau2
@@ -8280,7 +8269,6 @@ char,jyutping,fq
 鍂,gam1,0%
 黅,gam1,0%
 𤯌,gam1
-釒,gam1 zi6 bin1,0%
 䃭,gam2
 䤗,gam2,0%
 䧩,gam2,0%
@@ -8600,7 +8588,6 @@ char,jyutping,fq
 镹,gau2,0%
 韭,gau2
 韮,gau2
-犭,gau2 zaau2 bin1,0%
 㗕,gau3
 㝅,gau3
 㝌,gau3
@@ -13562,7 +13549,6 @@ char,jyutping,fq
 嬄,jat1,0%
 弌,jat1
 辷,jat1,0%
-丆,jat1 waang4 jat1 pit3,0%
 㳑,jat6
 䒤,jat6
 䫻,jat6
@@ -14040,8 +14026,6 @@ char,jyutping,fq
 𦸒,ji1
 𩂱,ji1
 𪘲,ji1
-衤,ji1 zi6 bin1,0%
-𧘇,ji1 zi6 dai2,0%
 㕈,ji2
 㫊,ji2
 㰻,ji2
@@ -14313,7 +14297,6 @@ char,jyutping,fq
 𤣱,ji5
 𤤳,ji5
 𦢈,ji5
-阝,ji5 zai2 bin1,0%
 㑥,ji6
 㒃,ji6
 㓷,ji6
@@ -17197,7 +17180,6 @@ char,jyutping,fq
 徛,kei5
 跂,kei5
 𦮳,kei5
-亻,kei5 jan4 bin1,0%
 㞃,kek6
 乪,kek6
 劇,kek6
@@ -17505,7 +17487,6 @@ char,jyutping,fq
 皛,kiu5,0%
 繑,kiu5
 藠,kiu5
-糹,kiu5 si1 bin1,0%
 鈳,ko1
 𠹭,ko1
 啹,koe1
@@ -18214,7 +18195,6 @@ char,jyutping,fq
 鶪,kyut3,0%
 鷢,kyut3
 𠄌,kyut3,0%
-彑,kyut3 tau4 wu6,0%
 橛,kyut6
 啦,la1
 嘞,la3,99%
@@ -20415,7 +20395,6 @@ char,jyutping,fq
 鹵,lou5
 𠐔,lou5
 𦚱,lou5
-耂,lou5 zi6 tau4,0%
 㯝,lou6
 䵏,lou6
 勞,lou6
@@ -23205,7 +23184,6 @@ char,jyutping,fq
 蚼,ngau1
 鈎,ngau1,0%
 鉤,ngau1
-乄,ngau1 mei5 gaau1 caa1,0%
 䋅,ngau4,0%
 䒜,ngau4
 呍,ngau4,0%
@@ -25223,8 +25201,6 @@ char,jyutping,fq
 釤,saam1
 鬖,saam1
 𠚹,saam1
-氵,saam1 dim2 seoi2,0%
-𠃑,saam1 zit3 syu6,0%
 摻,saam2,3%
 籸,saam2,0%
 糂,saam2,0%
@@ -25452,7 +25428,6 @@ char,jyutping,fq
 𦎾,sai1
 𦚵,sai1
 𨬯,sai1
-覀,sai1 zi6 tau4,0%
 使,sai2
 枲,sai2
 洒,sai2
@@ -25979,8 +25954,6 @@ char,jyutping,fq
 蕼,sei3
 貄,sei3
 卌,sei3 aa6
-灬,sei3 dim2,0%
-罒,sei3 mong5 tau4,0%
 㒪,sek3
 惜,sek3
 錫,sek3
@@ -26666,7 +26639,6 @@ char,jyutping,fq
 跱,si6,0%
 鉃,si6,0%
 𥘅,si6
-礻,si6 zi6 bin1,0%
 㗭,sik1
 㙽,sik1,0%
 㛫,sik1
@@ -26778,7 +26750,6 @@ char,jyutping,fq
 蝕,sik6
 食,sik6
 飤,sik6,0%
-飠,sik6 zi6 bin1,0%
 痁,sim1
 笘,sim1,0%
 苫,sim1
@@ -27785,7 +27756,6 @@ char,jyutping,fq
 鄃,syu1
 鵨,syu1
 𨥤,syu1
-肀,syu1 zi6 tau4,0%
 㓿,syu2,0%
 䑕,syu2
 䵓,syu2
@@ -27857,7 +27827,6 @@ char,jyutping,fq
 裋,syu6
 豎,syu6
 𣗳,syu6
-忄,syu6 sam1 bin1,0%
 㩊,syun1
 䕖,syun1
 䘒,syun1
@@ -28020,7 +27989,6 @@ char,jyutping,fq
 𡘙,taai3
 𡛕,taai3
 𣳾,taai3
-氺,taai3 zi6 dai2,0%
 柁,taai5,0%
 舦,taai5,0%
 舵,taai5,0%
@@ -28555,7 +28523,6 @@ char,jyutping,fq
 鋱,tik1
 鬄,tik1,0%
 𩮜,tik1
-扌,tik1 sau2 bin1,0%
 㖭,tim1
 㬲,tim1
 䋬,tim1
@@ -29683,8 +29650,6 @@ char,jyutping,fq
 鑅,waang4
 韹,waang4,0%
 黌,waang4,0%
-乛,waang4 ngau1,0%
-𠃍,waang4 syu6 gok3,0%
 桄,waang6
 橫,waang6,3%
 㱧,waat3
@@ -31395,7 +31360,6 @@ char,jyutping,fq
 瑵,zaau2,0%
 肘,zaau2
 菷,zaau2,0%
-爫,zaau2 zi6 tau4,0%
 㷹,zaau3
 䈇,zaau3
 䍜,zaau3
@@ -33461,7 +33425,6 @@ char,jyutping,fq
 阻,zo2
 𠂇,zo2
 𣳇,zo2
-牜,zo2 pong4 ngau4,0%
 㟇,zo3
 䐍,zo3
 䐢,zo3,0%
