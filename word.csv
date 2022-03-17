@@ -28087,8 +28087,8 @@ char,jyutping
 敬賢禮士,ging3 jin4 lai5 si6
 敬業,ging3 jip6
 敬業福,ging3 jip6 fuk1
-敬業樂羣,ging3 jip6 lok6 kwan4
-敬業樂業,ging3 jip6 ngaau6 jip6
+敬業樂羣,ging3 jip6 lok6 kwan4[ging3 jip6 ngaau6 kwan4]
+敬業樂業,ging3 jip6 lok6 jip6[ging3 jip6 ngaau6 jip6]
 敬業精神,ging3 jip6 zing1 san4
 敬若神明,ging3 joek6 san4 ming4
 敬仰,ging3 joeng5
@@ -33191,7 +33191,7 @@ char,jyutping
 敲入,haau1 jap6
 烤肉醬,haau1 juk6 zoeng3
 烤麪包,haau1 min6 baau1
-烤面包機,haau1 min6 baau1 gei1
+烤麪包機,haau1 min6 baau1 gei1
 酵母,haau1 mou5
 酵母醇,haau1 mou5 seon4
 敲門,haau1 mun4
@@ -36558,8 +36558,8 @@ char,jyutping
 開天辟地,hoi1 tin1 pik1 dei6
 開天闢地,hoi1 tin1 pik1 dei6
 開天索價,hoi1 tin1 saak3 gaa3
-開天索價落地還錢,hoi1 tin1 saak3 gaa3 lok6 dei6 waan4 cin4
-開天殺價落地還錢,hoi1 tin1 saat3 gaa3 lok6 dei6 waan4 cin4
+開天索價，落地還錢,hoi1 tin1 saak3 gaa3 lok6 dei6 waan4 cin4
+開天殺價，落地還錢,hoi1 tin1 saat3 gaa3 lok6 dei6 waan4 cin4
 開庭,hoi1 ting4
 開拖,hoi1 to1
 開檯,hoi1 toi2
@@ -41888,8 +41888,7 @@ char,jyutping
 依鬱,ji1 wat1
 醫護,ji1 wu6
 姨仔,ji1 zai2
-咿陣,ji1 zan6 si4
-咿陣時,ji1 zan6 si4
+依陣時,ji1 zan6 si4
 醫者父母心,ji1 ze2 fu6 mou5 sam1
 衣子,ji1 zi2
 衣紙,ji1 zi2
@@ -73114,7 +73113,6 @@ char,jyutping
 傻瓜相機,so4 gwaa1 soeng3 gei1
 傻瓜豬,so4 gwaa1 zyu1
 傻下,so4 haa5
-傻丅傻丅,so4 haa6 so4 haa6
 傻閪閪,so4 hai1 hai1
 傻氣,so4 hei3
 傻人,so4 jan4
@@ -76663,7 +76661,7 @@ char,jyutping
 頹垣敗瓦,teoi4 wun4 baai6 ngaa5
 頹垣斷壁,teoi4 wun4 dyun6 bik1
 盾牌,teon5 paai4
-丅裇,ti1 seot1
+T裇,ti1 seot1
 剔除,tik1 ceoi4
 剔出,tik1 ceot1
 剔號,tik1 hou2
@@ -76817,6 +76815,7 @@ char,jyutping
 天光星,tin1 gwong1 sing1
 天下,tin1 haa6
 天下大事,tin1 haa6 daai6 si6
+天下興亡,tin1 haa6 hing1 mong4
 天下興亡，匹夫有責,tin1 haa6 hing1 mong4 pat1 fu1 jau5 zaak3
 天下一家,tin1 haa6 jat1 gaa1
 天下糧倉,tin1 haa6 loeng4 cong1
@@ -90855,3 +90854,5 @@ char,jyutping
 絕招,zyut6 ziu1
 絕章,zyut6 zoeng1
 絕種,zyut6 zung2
+弄下,lung6 haa5
+弄了,lung6 liu5
