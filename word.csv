@@ -21808,6 +21808,7 @@ char,jyutping
 浮雲朝露,fau4 wan4 ziu1 lou6
 浮質,fau4 zat1
 浮腫病,fau4 zung2 beng6
+覆蓋,fau6 goi3
 復刻,fau6 hak1
 覆蓋,fau6 koi3
 阜南,fau6 naam4
@@ -23588,6 +23589,7 @@ char,jyutping
 福建,fuk1 gin3
 福建炒飯,fuk1 gin3 caau2 faan6
 福建夾板,fuk1 gin3 gaap3 baan2
+覆蓋,fuk1 goi3
 腹稿,fuk1 gou2
 腹黑,fuk1 haak1
 腹黑,fuk1 hak1
@@ -23627,8 +23629,6 @@ char,jyutping
 腹鰭,fuk1 kei4
 覆蓋,fuk1 koi3
 覆蓋,fuk1 koi3
-覆蓋,fuk1 goi3
-覆蓋,fau6 goi3
 福利,fuk1 lei6
 福利事業,fuk1 lei6 si6 jip6
 福祿貝爾,fuk1 luk6 bui3 ji5
@@ -29248,6 +29248,7 @@ char,jyutping
 嬌縱,giu1 zung3
 驕縱,giu1 zung3
 澆注,giu1 zyu3
+轎車,giu2 ce1
 矯情,giu2 cing4
 繳槍,giu2 coeng1
 繳槍不殺,giu2 coeng1 bat1 saat3
@@ -49220,7 +49221,6 @@ char,jyutping
 蹺蹊,kiu1 kei1
 轎車,kiu2 ce1
 轎車,kiu2 ce1
-轎車,giu2 ce1
 繑口,kiu2 hau2
 蹺口,kiu2 hau2
 蹺口㔆手,kiu2 hau2 caam5 sau2
@@ -92980,8 +92980,6 @@ T裇,ti1 seot1
 棕黃,zung1 wong4
 綜援,zung1 wun4
 綜援,zung1 wun4
-綜援,zung3 wun4
-綜援,zung3 jyun4
 鐘罩,zung1 zaau3
 盅仔飯,zung1 zai2 faan6
 中脊,zung1 zek3
@@ -93206,6 +93204,7 @@ T裇,ti1 seot1
 縱慾,zung3 juk6
 縱慾無度,zung3 juk6 mou4 dou6
 縱容,zung3 jung4
+綜援,zung3 jyun4
 衆擎易舉,zung3 king4 ji6 geoi2
 綜括,zung3 kut3
 中拳,zung3 kyun4
@@ -93251,6 +93250,7 @@ T裇,ti1 seot1
 縱壞,zung3 waai6
 縱橫天下,zung3 waang4 tin1 haa6
 種禾,zung3 wo4
+綜援,zung3 wun4
 糉子,zung3 zi2
 衆志成城,zung3 zi3 sing4 sing4
 種植,zung3 zik6
