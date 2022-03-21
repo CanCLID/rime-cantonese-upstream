@@ -18,7 +18,7 @@ jobs:
       - name: Validate
         run: python scripts/validate.py
       - name: Sort
-        run: python scripts/sort.py
+        run: python scripts/sort_and_dedup.py
       - name: Push back to GitHub when contents changed
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
