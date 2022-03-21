@@ -1647,7 +1647,7 @@ char,jyutping
 白鮓,baak6 zaa3
 白澤,baak6 zaak6
 白斬雞,baak6 zaam2 gai1
-白斬鷄,baak6 zaam2 gai1
+白斬雞,baak6 zaam2 gai1
 白枕鶴,baak6 zam2 hok6
 白汁,baak6 zap1
 白酒,baak6 zau2
@@ -14417,7 +14417,7 @@ char,jyutping
 大牙,daai6 ngaa4
 大額,daai6 ngaak2
 大眼雞,daai6 ngaan5 gai1
-大眼鷄,daai6 ngaan5 gai1
+大眼雞,daai6 ngaan5 gai1
 大眼金魚,daai6 ngaan5 gam1 jyu2
 大眼角,daai6 ngaan5 gok3
 大眼乞兒,daai6 ngaan5 hat1 ji1
@@ -16288,7 +16288,7 @@ char,jyutping
 鬥架勢,dau3 gaa3 sai3
 鬥雞,dau3 gai1
 鬥雞眼,dau3 gai1 ngaan5
-鬥鷄眼,dau3 gai1 ngaan5
+鬥雞眼,dau3 gai1 ngaan5
 鬥雞聲,dau3 gai1 seng1
 鬥雞走馬,dau3 gai1 zau2 maa5
 鬥下氣,dau3 haa6 hei3
@@ -20678,7 +20678,7 @@ char,jyutping
 發瘋佬,faat3 fung1 lou2
 髮膠,faat3 gaau1
 發雞盲,faat3 gai1 maang4
-發鷄盲,faat3 gai1 maang4
+發雞盲,faat3 gai1 maang4
 發雞盲呀,faat3 gai1 maang4 aa4
 發雞瘟,faat3 gai1 wan1
 發紺,faat3 gam3
@@ -25995,7 +25995,7 @@ char,jyutping
 雞樅,gai1 cung1
 雞蟲,gai1 cung4
 雞蛋,gai1 daan2
-鷄蛋,gai1 daan2
+雞蛋,gai1 daan2
 雞蛋炒飯,gai1 daan2 caau2 faan6
 雞蛋清,gai1 daan2 cing1
 雞蛋花,gai1 daan2 faa1
@@ -26040,7 +26040,7 @@ char,jyutping
 雞翼,gai1 jik6
 雞翼檯,gai1 jik6 toi2
 雞翼袖,gai1 jik6 zau6
-鷄翼袖,gai1 jik6 zau6
+雞翼袖,gai1 jik6 zau6
 雞翼尖,gai1 jik6 zim1
 雞哽頸,gai1 kang2 geng2
 雞骾頸,gai1 kang2 geng2
@@ -26054,7 +26054,7 @@ char,jyutping
 雞寮,gai1 liu4
 雞麻峒,gai1 maa4 tung4
 雞尾,gai1 mei5
-鷄尾,gai1 mei5
+雞尾,gai1 mei5
 雞尾包,gai1 mei5 baau1
 雞尾歌,gai1 mei5 go1
 雞尾酒,gai1 mei5 zau2
@@ -26080,7 +26080,7 @@ char,jyutping
 雞扒飯,gai1 paa2 faan6
 雞皮,gai1 pei4
 雞皮紙,gai1 pei4 zi2
-鷄皮紙,gai1 pei4 zi2
+雞皮紙,gai1 pei4 zi2
 雞婆,gai1 po4
 雞泡魚,gai1 pou5 jyu2
 雞心,gai1 sam1
@@ -26092,7 +26092,7 @@ char,jyutping
 雞腎,gai1 san2
 雞腎衣,gai1 san2 ji1
 雞手鴨腳,gai1 sau2 aap3 goek3
-鷄手鴨腳,gai1 sau2 aap3 goek3
+雞手鴨腳,gai1 sau2 aap3 goek3
 雞聲雞氣,gai1 seng1 gai1 hei3
 雞歲,gai1 seoi3
 雞碎,gai1 seoi3
@@ -26114,9 +26114,9 @@ char,jyutping
 雞澤,gai1 zaak6
 雞雜,gai1 zaap6
 雞扎,gai1 zaat3
-鷄仔,gai1 zai2
+雞仔,gai1 zai2
 雞仔餅,gai1 zai2 beng2
-鷄仔餅,gai1 zai2 beng2
+雞仔餅,gai1 zai2 beng2
 雞仔蛋,gai1 zai2 daan2
 雞仔架步,gai1 zai2 gaa3 bou6
 雞仔網,gai1 zai2 mong5
@@ -29355,7 +29355,7 @@ char,jyutping
 鋸齒形,goe3 ci2 jing4
 鋸架,goe3 gaa2
 鋸雞,goe3 gai1
-鋸鷄,goe3 gai1
+鋸雞,goe3 gai1
 鋸頸,goe3 geng2
 鋸工,goe3 gung1
 鋸木架,goe3 muk6 gaa2
@@ -42746,7 +42746,7 @@ char,jyutping
 野火春風,je5 fo2 ceon1 fung1
 惹火燒身,je5 fo2 siu1 san1
 野雞,je5 gai1
-野鷄,je5 gai1
+野雞,je5 gai1
 野雞學校,je5 gai1 hok6 haau6
 冶金,je5 gam1
 冶金工業,je5 gam1 gung1 jip6
@@ -44134,7 +44134,7 @@ char,jyutping
 鹽港,jim4 gong2
 鹽焗,jim4 guk6
 鹽焗雞,jim4 guk6 gai1
-鹽焗鷄,jim4 guk6 gai1
+鹽焗雞,jim4 guk6 gai1
 鹽工,jim4 gung1
 閻君,jim4 gwan1
 檐下,jim4 haa6
@@ -51453,7 +51453,7 @@ char,jyutping
 漏風,lau6 fung1
 漏加,lau6 gaa1
 漏雞,lau6 gai1
-漏鷄,lau6 gai1
+漏雞,lau6 gai1
 溜狗,lau6 gau2
 陋居,lau6 geoi1
 溜肩膀,lau6 gin1 bong2
@@ -53427,7 +53427,7 @@ char,jyutping
 兩岸對話,loeng5 ngon6 deoi3 waa6
 兩岸四地,loeng5 ngon6 sei3 dei6
 兩撇雞,loeng5 pit3 gai1
-兩撇鷄,loeng5 pit3 gai1
+兩撇雞,loeng5 pit3 gai1
 兩撇鬚,loeng5 pit3 sou1
 兩婆孫,loeng5 po4 syun1
 兩旁,loeng5 pong4
@@ -66506,7 +66506,7 @@ char,jyutping
 三腳櫈,saam1 goek3 dang3
 三腳架,saam1 goek3 gaa2
 三腳雞,saam1 goek3 gai1
-三腳鷄,saam1 goek3 gai1
+三腳雞,saam1 goek3 gai1
 三腳兩步,saam1 goek3 loeng5 bou6
 三腳貓,saam1 goek3 maau1
 三腳貓功夫,saam1 goek3 maau1 gung1 fu1
@@ -67096,7 +67096,7 @@ char,jyutping
 生飛螆,saang1 fei1 zi1
 生膠,saang1 gaau1
 生雞,saang1 gai1
-生鷄,saang1 gai1
+生雞,saang1 gai1
 生雞熟鴨,saang1 gai1 suk6 aap3
 生雞精,saang1 gai1 zing1
 生根,saang1 gan1
@@ -81372,7 +81372,7 @@ T裇,ti1 seot1
 童子,tung4 zi2
 筒子,tung4 zi2
 童子雞,tung4 zi2 gai1
-童子鷄,tung4 zi2 gai1
+童子雞,tung4 zi2 gai1
 童子軍跳彈牀,tung4 zi2 gwan1 tiu3 daan6 cong4
 童子口,tung4 zi2 hau2
 童子尿,tung4 zi2 niu6
@@ -83909,7 +83909,7 @@ T裇,ti1 seot1
 烏灰鷂,wu1 fui1 jiu6
 烏灰銀鷗,wu1 fui1 ngan4 au1
 烏雞,wu1 gai1
-烏鷄,wu1 gai1
+烏雞,wu1 gai1
 惡鯁,wu1 gang2
 污垢,wu1 gau3
 烏干達,wu1 gon1 daat6
@@ -86199,7 +86199,7 @@ T裇,ti1 seot1
 執拾乾淨,zap1 sap6 gon1 zeng6
 執手尾,zap1 sau2 mei5
 執死雞,zap1 sei2 gai1
-執死鷄,zap1 sei2 gai1
+執死雞,zap1 sei2 gai1
 執死雞仔,zap1 sei2 gai1 zai2
 執屍,zap1 si1
 執私,zap1 si1
@@ -86774,7 +86774,7 @@ T裇,ti1 seot1
 借鑒,ze3 gaam3
 蔗莢,ze3 gaap3
 蔗雞,ze3 gai1
-蔗鷄,ze3 gai1
+蔗雞,ze3 gai1
 借機,ze3 gei1
 借機報復,ze3 gei1 bou3 fuk6
 借記,ze3 gei3
@@ -88380,7 +88380,7 @@ T裇,ti1 seot1
 自駕租賃,zi6 gaa3 zou1 jam6
 自介,zi6 gaai3
 雉雞,zi6 gai1
-雉鷄,zi6 gai1
+雉雞,zi6 gai1
 飼雞,zi6 gai1
 雉雞尾,zi6 gai1 mei5
 雉雞尾扇,zi6 gai1 mei5 sin3
@@ -91945,7 +91945,7 @@ T裇,ti1 seot1
 足歲,zuk1 seoi3
 竹筍,zuk1 seon2
 竹絲雞,zuk1 si1 gai1
-竹絲鷄,zuk1 si1 gai1
+竹絲雞,zuk1 si1 gai1
 足癬,zuk1 sin2
 觸線,zuk1 sin3
 竹升,zuk1 sing1
