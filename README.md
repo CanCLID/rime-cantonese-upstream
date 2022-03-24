@@ -26,7 +26,6 @@
 - [Unihan 12.0 kCantonese](https://www.unicode.org/charts/unihan.html)
 - [粵語審音配詞字庫](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/)
 - [《廣州話正音字典》](https://github.com/jyutnet/cantonese-books-data/tree/master/2004_%E5%BB%A3%E5%B7%9E%E8%A9%B1%E6%AD%A3%E9%9F%B3%E5%AD%97%E5%85%B8)
-- [《粵音小鏡》](https://zhuanlan.zhihu.com/p/21693656)
 
 詞條主數據源
 
