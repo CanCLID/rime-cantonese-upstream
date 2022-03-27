@@ -5,11 +5,11 @@ char,jyutping
 椏杈,aa1 caa1
 吖嗪,aa1 ceon4
 吖啶,aa1 ding6
+吖嗱,aa1 laa4
 鴉佬恤,aa1 lou2 seot1
 鴉路恤,aa1 lou2 seot1
 吖嘛,aa1 maa3
 吖嗱,aa1 naa4
-吖嗱,aa1 laa4
 鴉片,aa1 pin3
 鴉片貿易,aa1 pin3 mau6 jik6
 鴉片戰爭,aa1 pin3 zin3 zang1
@@ -16945,8 +16945,8 @@ char,jyutping
 掂晒,dim1 saai3
 玷污,dim1 wu1
 點吖,dim2 a1
-點呀,dim2 aa4
 點啊,dim2 aa3
+點呀,dim2 aa4
 點喔,dim2 ak1
 點斑林鴿,dim2 baan1 lam4 gaap3
 點不知,dim2 bat1 zi1
@@ -18620,8 +18620,8 @@ char,jyutping
 都會大學,dou1 wui6 daai6 hok6
 刀仔,dou1 zai2
 刀仔鋸大樹,dou1 zai2 goe3 daai6 syu6
-都走晒喇,dou1 zau2 saai3 laa3
 都走晒啊,dou1 zau2 saai3 aa3
+都走晒喇,dou1 zau2 saai3 laa3
 刀嘴,dou1 zeoi2
 刀子,dou1 zi2
 刀字邊,dou1 zi6 bin1
@@ -24390,7 +24390,6 @@ char,jyutping
 加零一,gaa1 ling4 jat1
 加料,gaa1 liu2
 噶啷啷,gaa1 long1 long1
-㗎嘛,gaa3 maa3
 𠺢嘛,gaa1 maa3
 家麻雀,gaa1 maa4 zoek2
 加碼,gaa1 maa5
@@ -24578,8 +24577,6 @@ char,jyutping
 假話,gaa2 waa2
 賈汪,gaa2 wong1
 假齋,gaa2 zaai1
-㗎嗟,gaa3 ze1
-㗎啫,gaa3 ze1
 假借,gaa2 ze3
 假肢,gaa2 zi1
 假正經,gaa2 zing3 ging1
@@ -24637,6 +24634,7 @@ char,jyutping
 架構,gaa3 kau3
 假期,gaa3 kei4
 架橋,gaa3 kiu4
+㗎啦,gaa3 laa1
 㗎喇,gaa3 laa3
 駕臨,gaa3 lam4
 假柳,gaa3 lau5
@@ -24650,6 +24648,7 @@ char,jyutping
 價廉物美,gaa3 lim4 mat6 mei5
 駕齡,gaa3 ling4
 架樑,gaa3 loeng2
+㗎嘛,gaa3 maa3
 價目,gaa3 muk6
 㗎你,gaa3 nei5
 嫁女,gaa3 neoi2
@@ -24669,6 +24668,8 @@ char,jyutping
 㗎咋,gaa3 zaa3
 咖咋,gaa3 zaa3
 架咋,gaa3 zaa3
+㗎啫,gaa3 ze1
+㗎嗟,gaa3 ze1
 嫁資,gaa3 zi1
 架子大,gaa3 zi1 daai6
 架子,gaa3 zi2
@@ -24687,7 +24688,6 @@ char,jyutping
 嫁妝,gaa3 zong1
 嫁裝,gaa3 zong1
 嘎嘎聲,gaa4 gaa2 seng1
-㗎啦,gaa3 laa1
 㗎佬,gaa4 lou2
 嘎佬,gaa4 lou2
 㗎文,gaa4 man2
@@ -25173,8 +25173,8 @@ char,jyutping
 監粗,gaam3 cou1
 監粗嚟,gaam3 cou1 lai4
 監粗嚟吖,gaam3 cou1 lai4 aa1
-監粗嚟,gaam3 cou1 lei4
 監粗嚟呀,gaam3 cou1 lai4 aa4
+監粗嚟,gaam3 cou1 lei4
 監粗來,gaam3 cou1 loi4
 鑑定,gaam3 ding6
 鑒定,gaam3 ding6
@@ -34376,8 +34376,8 @@ char,jyutping
 奚落,hai4 lok6
 鼷鼠,hai4 syu2
 係呢,hai5 ne1
-係呀,hai6 aa4
 係啊,hai6 aa3
+係呀,hai6 aa4
 係波,hai6 bo1
 係噃,hai6 bo3
 繫泊,hai6 bok6
@@ -42845,8 +42845,8 @@ char,jyutping
 夜冷,je6 laang1
 夜冷貨,je6 laang1 fo3
 夜裏,je6 leoi5
-夜來香,je6 loi4 hoeng1
 夜咯,je6 lo3
+夜來香,je6 loi4 hoeng1
 夜媽媽,je6 maa1 maa1
 夜麻麻,je6 maa1 maa1
 夜晚,je6 maan5
@@ -49858,8 +49858,8 @@ char,jyutping
 𠸎耕,laa1 gaang1
 喇合,laa1 hap6
 啦啦亂,laa1 laa1 lyun6
-喇嘛,laa1 maa4
 啦嘛,laa1 maa3
+喇嘛,laa1 maa4
 𠸎埋,laa1 maai4
 揦返拃沙,laa2 faan2 zaa3 saa1
 揦高肚皮,laa2 gou1 tou5 pei4
@@ -50690,9 +50690,9 @@ char,jyutping
 戾狗邊,lai2 gau2 bin1
 戾埋片面,lai2 maai4 pin3 min6
 戾歪面,lai2 me2 min6
+嚟手,lai2 sau2
 戾手,lai2 sau2
 捩手,lai2 sau2
-嚟手,lai2 sau2
 戾橫折曲,lai2 waang4 zit3 kuk1
 捩橫折曲,lai2 waang4 zit3 kuk1
 嚟真,lai2 zan1
@@ -52992,7 +52992,6 @@ char,jyutping
 籮霸,lo1 baa3
 籮拔,lo1 bat4
 羅拔,lo1 bat4
-攞個,lo2 go3
 囉氣,lo1 hei3
 籮柚,lo1 jau2
 攞意頭,lo1 ji3 tau4
@@ -53030,6 +53029,7 @@ char,jyutping
 裸機,lo2 gei1
 攞景,lo2 ging2
 攞景定贈興,lo2 ging2 ding6 zang6 hing3
+攞個,lo2 go3
 攞個鏡嚟,lo2 go3 geng3 lai4
 攞下,lo2 haa5
 攞口響,lo2 hau2 hoeng2
@@ -57022,8 +57022,8 @@ char,jyutping
 茂盛,mau6 sing6
 謬種,mau6 zung2
 咩吖,me1 aa1
-咩呀,me1 aa4
 咩啊,me1 aa3
+咩呀,me1 aa4
 咩班,me1 baan1
 咩錢,me1 cin2
 孭重飛,me1 cung5 fei1
@@ -58716,21 +58716,18 @@ char,jyutping
 無奸不商,mou4 gaan1 bat1 soeng1
 無間,mou4 gaan3
 無搞,mou4 gaau2
-冇計咯,mou5 gai2 lok3
 毛巾,mou4 gan1
 毛巾架,mou4 gan1 gaa2
 毛巾褸,mou4 gan1 lau1
 毛巾恤,mou4 gan1 seot1
 毛巾毡,mou4 gan1 zin1
 毛茛,mou4 gan3
-冇𨳊用,mou5 gau1 jung6
 無機,mou4 gei1
 無機化合物,mou4 gei1 faa3 hap6 mat6
 無機可乘,mou4 gei1 ho2 sing4
 無機鹽,mou4 gei1 jim4
 無機物,mou4 gei1 mat6
 無幾何,mou4 gei2 ho4
-冇記得,mou5 gei3 dak1
 無記名,mou4 gei3 ming4
 無技可施,mou4 gei6 ho2 si1
 無懼,mou4 geoi6
@@ -58913,7 +58910,6 @@ char,jyutping
 無聊無賴,mou4 liu4 mou4 laai6
 無了期,mou4 liu5 kei4
 無料,mou4 liu6
-冇囉,mou5 lo1
 無良,mou4 loeng4
 無量壽,mou4 loeng6 sau6
 無祿,mou4 luk6
@@ -59176,9 +59172,12 @@ char,jyutping
 冇解,mou5 gaai2
 母雞,mou5 gai1
 冇計,mou5 gai2
+冇計咯,mou5 gai2 lok3
 冇咁,mou5 gam3
+冇𨳊用,mou5 gau1 jung6
 冇機,mou5 gei1
 母機,mou5 gei1
+冇記得,mou5 gei3 dak1
 武舉,mou5 geoi2
 武經七書,mou5 ging1 cat1 syu1
 武經總要,mou5 ging1 zung2 jiu3
@@ -59232,6 +59231,7 @@ char,jyutping
 武陵源,mou5 ling4 jyun4
 武陵區,mou5 ling4 keoi1
 冇料,mou5 liu2
+冇囉,mou5 lo1
 武略,mou5 loek6
 姆佬族,mou5 lou2 zuk6
 母老虎,mou5 lou5 fu2
@@ -78806,8 +78806,8 @@ char,jyutping
 聽從,teng1 cung4
 聽電話,teng1 din6 waa2
 聽到,teng1 dou2
-聽㗎,teng1 gaa3
 聽𠿪,teng1 gaa2
+聽㗎,teng1 gaa3
 聽教,teng1 gaau3
 聽教聽話,teng1 gaau3 teng1 waa6
 聽見,teng1 gin3
@@ -82318,8 +82318,8 @@ T裇,ti1 seot1
 委屈,wai2 wat1
 委屈求全,wai2 wat1 kau4 cyun4
 位值,wai2 zik6
-喂呀,wai3 aa4
 喂啊,wai3 aa3
+喂呀,wai3 aa4
 餵飽,wai3 baau2
 尉遲恭,wai3 ci4 gung1
 畏忌,wai3 gei6
@@ -83855,8 +83855,8 @@ T裇,ti1 seot1
 烏鴉,wu1 aa1
 烏鴉口,wu1 aa1 hau2
 烏鴉頭,wu1 aa1 tau4
-嗚呀,wu1 aa4
 嗚啊,wu1 aa3
+嗚呀,wu1 aa4
 烏𥌽𥌽,wu1 aang1 aang1
 烏壓壓,wu1 aat3 aat3
 烏齊雅,wu1 cai4 ngaa5
@@ -84654,6 +84654,7 @@ T裇,ti1 seot1
 活字,wut6 zi6
 活字版,wut6 zi6 baan2
 活組織檢查,wut6 zou2 zik1 gim2 caa4
+咋嘛,za1 maa3
 咋噃,za3 bo3
 揸爆,zaa1 baau3
 揸波,zaa1 bo1
@@ -84685,7 +84686,6 @@ T裇,ti1 seot1
 揸流攤,zaa1 lau4 taan1
 揸流灘,zaa1 lau4 taan1
 揸𨋢人,zaa1 lip1 jan4
-咋嘛,za1 maa3
 咋嘛,zaa1 maa3
 喳嘛,zaa1 maa3
 渣馬,zaa1 maa5
