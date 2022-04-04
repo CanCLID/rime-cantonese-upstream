@@ -522,7 +522,8 @@ char,jyutping
 壓力,aat3 lik6
 壓力表,aat3 lik6 biu1
 壓力煲,aat3 lik6 bou1
-壓力的來源,aat3 lik6 dik1 loi4 jyun4
+壓力,aat3 lik6
+來源,loi4 jyun4
 壓力計,aat3 lik6 gai3
 壓力強度,aat3 lik6 koeng4 dou6
 壓埋,aat3 maai4
@@ -677,7 +678,8 @@ char,jyutping
 暗斜,am3 ce3
 暗娼,am3 coeng1
 暗瘡,am3 cong1
-暗瘡的形成,am3 cong1 dik1 jing4 sing4
+暗瘡,am3 cong1
+形成,jing4 sing4
 暗瘡膏,am3 cong1 gou1
 暗藏,am3 cong4
 暗處,am3 cyu3
@@ -3296,7 +3298,8 @@ char,jyutping
 不足,bat1 zuk1
 𢳂粥,bat1 zuk1
 不足齒數,bat1 zuk1 ci2 sou3
-不足的地方,bat1 zuk1 dik1 dei6 fong1
+不足,bat1 zuk1
+地方,dei6 fong1
 不足掛齒,bat1 zuk1 gwaa3 ci2
 不足月,bat1 zuk1 jyut6
 不足爲訓,bat1 zuk1 wai4 fan3
@@ -5128,7 +5131,8 @@ char,jyutping
 保持,bou2 ci4
 保持個人衛生,bou2 ci4 go3 jan4 wai6 sang1
 保持原貌,bou2 ci4 jyun4 maau6
-保持環境衛生的方法,bou2 ci4 waan4 ging2 wai6 sang1 dik1 fong1 faat3
+保持環境衛生,bou2 ci4 waan4 ging2 wai6 sang1
+方法,fong1 faat3
 寶清縣,bou2 cing1 jyun6
 保呈,bou2 cing4
 保長對應,bou2 coeng4 deoi3 jing3
@@ -6826,7 +6830,8 @@ char,jyutping
 燦若繁星,caan3 joek6 faan4 sing1
 璨玉,caan3 juk6
 燦爛,caan3 laan6
-燦爛的中國文化,caan3 laan6 dik1 zung1 gwok3 man4 faa3
+燦爛,caan3 laan6 
+中國文化,zung1 gwok3 man4 faa3
 燦爛多彩,caan3 laan6 do1 coi2
 羼水,caan3 seoi2
 羼雜,caan3 zaap6
@@ -8752,7 +8757,8 @@ char,jyutping
 春風化雨,ceon1 fung1 faa3 jyu5
 春風風人,ceon1 fung1 fung1 jan4
 春風一度,ceon1 fung1 jat1 dou6
-春風深醉的晚上,ceon1 fung1 sam1 zeoi3 dik1 maan5 soeng6
+春風深醉,ceon1 fung1 sam1 zeoi3
+晚上,maan5 soeng6
 春風和氣,ceon1 fung1 wo4 hei3
 春景,ceon1 ging2
 春江花月夜,ceon1 gong1 faa1 jyut6 je6
@@ -10109,8 +10115,10 @@ char,jyutping
 青春痘,cing1 ceon1 dau6
 青春一族,cing1 ceon1 jat1 zuk6
 青春期,cing1 ceon1 kei4
-青春期的心理特徵,cing1 ceon1 kei4 dik1 sam1 lei5 dak6 zing1
-青春期的心理衛生,cing1 ceon1 kei4 dik1 sam1 lei5 wai6 sang1
+青春期,cing1 ceon1 kei4 
+心理特徵,sam1 lei5 dak6 zing1
+青春期,cing1 ceon1 kei4 
+心理衛生,sam1 lei5 wai6 sang1
 青春永駐,cing1 ceon1 wing5 zyu3
 青春頌,cing1 ceon1 zung6
 青出於藍,cing1 ceot1 jyu1 laam4
@@ -12707,8 +12715,6 @@ char,jyutping
 處境,cyu2 ging2
 杵臼,cyu2 kau5
 處理,cyu2 lei5
-處理壓力的方法,cyu2 lei5 aat3 lik6 dik1 fong1 faat3
-處理暗瘡的方法,cyu2 lei5 am3 cong1 dik1 fong1 faat3
 處理公款,cyu2 lei5 gung1 fun2
 處理器,cyu2 lei5 hei3
 處理藥物,cyu2 lei5 joek6 mat6
@@ -16604,7 +16610,8 @@ char,jyutping
 地球,dei6 kau4
 地球村,dei6 kau4 cyun1
 地球大氣,dei6 kau4 daai6 hei3
-地球的表面,dei6 kau4 dik1 biu2 min6
+地球,dei6 kau4
+表面,biu2 min6
 地球科學,dei6 kau4 fo1 hok6
 地球儀,dei6 kau4 ji4
 地球暖化,dei6 kau4 nyun5 faa3
@@ -16692,7 +16699,7 @@ char,jyutping
 地黃,dei6 wong4
 地糊,dei6 wu2
 地震,dei6 zan3
-地震的形成,dei6 zan3 dik1 jing4 sing4
+形成,jing4 sing4
 地震儀,dei6 zan3 ji4
 地震預報,dei6 zan3 jyu6 bou3
 地震區,dei6 zan3 keoi1
@@ -16703,7 +16710,7 @@ char,jyutping
 地蓆,dei6 zek6
 地支,dei6 zi1
 地址,dei6 zi2
-地址的轉換,dei6 zi2 dik1 zyun2 wun6
+轉換,zyun2 wun6
 地誌,dei6 zi3
 地氈,dei6 zin1
 地氊,dei6 zin1
@@ -16866,7 +16873,7 @@ char,jyutping
 對角線,deoi3 gok3 sin3
 對講電話,deoi3 gong2 din6 waa2
 對講機,deoi3 gong2 gei1
-對光的反應,deoi3 gwong1 dik1 faan2 jing3
+反應,faan2 jing3
 對撼,deoi3 ham2
 對口徑,deoi3 hau2 ging3
 對口型,deoi3 hau2 jing4
@@ -18559,7 +18566,8 @@ char,jyutping
 當代,dong1 doi6
 當代新儒家,dong1 doi6 san1 jyu4 gaa1
 當代史,dong1 doi6 si2
-當代中國的少數民族,dong1 doi6 zung1 gwok3 dik1 siu2 sou3 man4 zuk6
+當代中國,dong1 doi6 zung1 gwok3 
+少數民族,siu2 sou3 man4 zuk6
 鐺鐺,dong1 dong1
 噹噹車,dong1 dong1 ce1
 當斷則斷,dong1 dyun3 zak1 dyun3
@@ -19225,8 +19233,8 @@ char,jyutping
 獨霸一方,duk6 baa3 jat1 fong1
 獨白,duk6 baak6
 毒品,duk6 ban2
-毒品的禍害,duk6 ban2 dik1 wo6 hoi6
-毒品的種類,duk6 ban2 dik1 zung2 leoi6
+禍害,wo6 hoi6
+種類,zung2 leoi6
 讀本,duk6 bun2
 毒蕈,duk6 cam5
 讀取,duk6 ceoi2
@@ -19858,7 +19866,8 @@ char,jyutping
 花旦,faa1 daan2
 花燈,faa1 dang1
 花燈戲,faa1 dang1 hei3
-花的結構,faa1 dik1 git3 gau3
+花,faa1 
+結構,git3 gau3
 花點子,faa1 dim2 zi2
 花店,faa1 dim3
 花雕,faa1 diu1
@@ -21439,7 +21448,7 @@ char,jyutping
 婚紗舖,fan1 saa1 pou2
 分散,fan1 saan2
 分散,fan1 saan3
-分散的策略,fan1 saan3 dik1 caak3 loek6
+策略,caak3 loek6
 分散注意力,fan1 saan3 zyu3 ji3 lik6
 分心,fan1 sam1
 分身,fan1 san1
@@ -22036,7 +22045,7 @@ char,jyutping
 飛檐走壁,fei1 jim4 zau2 bik1
 飛鷹走馬,fei1 jing1 zau2 maa5
 非盈利,fei1 jing4 lei6
-非盈利的組織,fei1 jing4 lei6 dik1 zou2 zik1
+非盈利組織,fei1 jing4 lei6 zou2 zik1
 非營利組織,fei1 jing4 lei6 zou2 zik1
 非盈利組織,fei1 jing4 lei6 zou2 zik1
 飛躍,fei1 joek3
@@ -22434,7 +22443,7 @@ char,jyutping
 火盆,fo2 pun4
 火三角,fo2 saam1 gok3
 火山,fo2 saan1
-火山爆發的形成,fo2 saan1 baau3 faat3 dik1 jing4 sing4
+火山爆發,fo2 saan1 baau3 faat3
 火山爆發指數,fo2 saan1 baau3 faat3 zi2 sou3
 火山帶,fo2 saan1 daai3
 火山灰土,fo2 saan1 fui1 tou2
@@ -22878,7 +22887,7 @@ char,jyutping
 放走,fong3 zau2
 放紙鷂,fong3 zi2 jiu2
 放置,fong3 zi3
-放置的位置,fong3 zi3 dik1 wai6 zi3
+放置位置,fong3 zi3 wai6 zi3
 放咗工,fong3 zo2 gung1
 放在眼內,fong3 zoi6 ngaan5 noi6
 放逐,fong3 zuk6
@@ -24182,7 +24191,7 @@ char,jyutping
 風流雲散,fung1 lau4 wan4 saan3
 風流債,fung1 lau4 zaai3
 鋒利,fung1 lei6
-風雷雨電的形成,fung1 leoi4 jyu5 din6 dik1 jing4 sing4
+風雷雨電,fung1 leoi4 jyu5 din6
 風呂,fung1 leoi5
 風栗,fung1 leot2
 風力,fung1 lik6
@@ -26767,7 +26776,7 @@ char,jyutping
 感覺點,gam2 gok3 dim2
 感覺器,gam2 gok3 hei3
 感覺器官,gam2 gok3 hei3 gun1
-感覺器官的功能,gam2 gok3 hei3 gun1 dik1 gung1 nang4
+感覺器官,gam2 gok3 hei3 gun1
 感覺上,gam2 gok3 soeng6
 感官,gam2 gun1
 錦綸,gam2 gwaan1
@@ -27198,7 +27207,7 @@ char,jyutping
 急急口,gap1 gap1 hau2
 急急忙忙,gap1 gap1 mong4 mong4
 急救,gap1 gau3
-急救的方法,gap1 gau3 dik1 fong1 faat3
+急救方法,gap1 gau3 fong1 faat3
 急救醫療,gap1 gau3 ji1 liu4
 急救箱,gap1 gau3 soeng1
 急救護理,gap1 gau3 wu6 lei5
@@ -28765,7 +28774,7 @@ char,jyutping
 見稱,gin3 cing1
 建設,gin3 cit3
 建設性,gin3 cit3 sing3
-建設性的批評,gin3 cit3 sing3 dik1 pai1 ping4
+建設性批評,gin3 cit3 sing3 pai1 ping4
 建材,gin3 coi4
 建材設備,gin3 coi4 cit3 bei6
 見財化水,gin3 coi4 faa3 seoi2
@@ -32520,7 +32529,7 @@ char,jyutping
 季子,gwai3 zi2
 癸巳,gwai3 zi6
 季節,gwai3 zit3
-季節的轉移,gwai3 zit3 dik1 zyun2 ji4
+季節轉移,gwai3 zit3 zyun2 ji4
 貴族,gwai3 zuk6
 貴族世家,gwai3 zuk6 sai3 gaa1
 貴族身份,gwai3 zuk6 san1 fan6
@@ -33341,7 +33350,8 @@ char,jyutping
 光速,gwong1 cuk1
 光衝量,gwong1 cung1 loeng6
 光柱,gwong1 cyu5
-光的反射,gwong1 dik1 faan2 se6
+光,gwong1 
+反射,faan2 se6
 光電池,gwong1 din6 ci4
 光電子,gwong1 din6 zi2
 光碟,gwong1 dip2
@@ -35443,7 +35453,8 @@ char,jyutping
 合一,hap6 jat1
 瞌一陣,hap6 jat1 zan2
 合意,hap6 ji3
-合宜的打扮,hap6 ji4 dik1 daa2 baan6
+合宜,hap6 ji4
+打扮,daa2 baan6
 合而爲一,hap6 ji4 wai4 jat1
 俠義,hap6 ji6
 合義複詞,hap6 ji6 fuk1 ci4
@@ -36412,9 +36423,7 @@ char,jyutping
 棄坑,hei3 haang1
 氣候,hei3 hau6
 氣候變化,hei3 hau6 bin3 faa3
-氣候變化的影響,hei3 hau6 bin3 faa3 dik1 jing2 hoeng2
 氣候特徵,hei3 hau6 dak6 zing1
-氣候的特徵,hei3 hau6 dik1 dak6 zing1
 氣候學家,hei3 hau6 hok6 gaa1
 氣候異常,hei3 hau6 ji6 soeng4
 氣候暖化,hei3 hau6 nyun5 faa3
@@ -37250,7 +37259,8 @@ char,jyutping
 可磁化體,ho2 ci4 faa3 tai2
 可持續,ho2 ci4 zuk6
 可持續發展,ho2 ci4 zuk6 faat3 zin2
-可操作的藝術,ho2 cou1 zok3 dik1 ngai6 seot6
+可操作,ho2 cou1 zok3
+藝術,ngai6 seot6
 可大可小,ho2 daai6 ho2 siu2
 可多可少,ho2 do1 ho2 siu2
 可導,ho2 dou6
@@ -37361,7 +37371,7 @@ char,jyutping
 可再生源,ho2 zoi3 sang1 jyun4
 可再生能源,ho2 zoi3 sang1 nang4 jyun4
 可再生能源技術,ho2 zoi3 sang1 nang4 jyun4 gei6 seot6
-可再生能源技術的應用,ho2 zoi3 sang1 nang4 jyun4 gei6 seot6 dik1 jing3 jung6
+應用,jing3 jung6
 可造之材,ho2 zou6 zi1 coi4
 可頌,ho2 zung6
 可轉讓證券,ho2 zyun3 joeng6 zing3 hyun3
@@ -37539,17 +37549,17 @@ char,jyutping
 香港大學大學堂,hoeng1 gong2 daai6 hok6 daai6 hok6 tong4
 香港特別行政區,hoeng1 gong2 dak6 bit6 hang4 zing3 keoi1
 香港地,hoeng1 gong2 dei2
-香港的地理環境,hoeng1 gong2 dik1 dei6 lei5 waan4 ging2
-香港的房屋,hoeng1 gong2 dik1 fong4 uk1
-香港的居住環境,hoeng1 gong2 dik1 geoi1 zyu6 waan4 ging2
-香港的經濟,hoeng1 gong2 dik1 ging1 zai3
-香港的氣候特徵,hoeng1 gong2 dik1 hei3 hau6 dak6 zing1
-香港的漁業,hoeng1 gong2 dik1 jyu4 jip6
-香港的綠化工作,hoeng1 gong2 dik1 luk6 faa3 gung1 zok3
-香港的農業,hoeng1 gong2 dik1 nung4 jip6
-香港的天氣預測,hoeng1 gong2 dik1 tin1 hei3 jyu6 caak1
-香港的天氣狀況,hoeng1 gong2 dik1 tin1 hei3 zong6 fong3
-香港的環境污染,hoeng1 gong2 dik1 waan4 ging2 wu1 jim5
+地理環境,dei6 lei5 waan4 ging2
+房屋,fong4 uk1
+居住環境,geoi1 zyu6 waan4 ging2
+經濟,ging1 zai3
+氣候特徵,hei3 hau6 dak6 zing1
+漁業,jyu4 jip6
+綠化工作,luk6 faa3 gung1 zok3
+農業,nung4 jip6
+天氣預測,tin1 hei3 jyu6 caak1
+天氣狀況,tin1 hei3 zong6 fong3
+環境污染,waan4 ging2 wu1 jim5
 香港電影金像獎,hoeng1 gong2 din6 jing2 gam1 zoeng6 zoeng2
 香港電臺,hoeng1 gong2 din6 toi4
 香港代購,hoeng1 gong2 doi6 kau3
@@ -37582,7 +37592,7 @@ char,jyutping
 香港兒童健康基金,hoeng1 gong2 ji4 tung4 gin6 hong1 gei1 gam1
 香港兒童合唱團,hoeng1 gong2 ji4 tung4 hap6 coeng3 tyun4
 香港兒童太空站,hoeng1 gong2 ji4 tung4 taai3 hung1 zaam6
-香港熱帶氣旋的消息,hoeng1 gong2 jit6 daai3 hei3 syun4 dik1 siu1 sik1
+熱帶氣旋,jit6 daai3 hei3 syun4
 香港語言學學會粵語拼音方案,hoeng1 gong2 jyu5 jin4 hok6 hok6 wui2 jyut6 jyu5 ping3 jam1 fong1 on3
 香港卡,hoeng1 gong2 kaat1
 香港吸菸與健康委員會,hoeng1 gong2 kap1 jin1 jyu5 gin6 hong1 wai2 jyun4 wui2
@@ -37594,7 +37604,8 @@ char,jyutping
 香港舞蹈團,hoeng1 gong2 mou5 dou6 tyun4
 香港牙醫學會,hoeng1 gong2 ngaa4 ji1 hok6 wui2
 香港銀行公會,hoeng1 gong2 ngan4 hong4 gung1 wui2
-香港惡劣天氣的警告,hoeng1 gong2 ok3 lyut3 tin1 hei3 dik1 ging2 gou3
+惡劣天氣,ok3 lyut3 tin1 hei3
+警告,ging2 gou3
 香港生態遊,hoeng1 gong2 sang1 taai3 jau4
 香港生態環境,hoeng1 gong2 sang1 taai3 waan4 ging2
 香港溼地公園,hoeng1 gong2 sap1 dei6 gung1 jyun2
@@ -37602,8 +37613,9 @@ char,jyutping
 香港是我家,hoeng1 gong2 si6 ngo5 gaa1
 香港式,hoeng1 gong2 sik1
 香港小姐,hoeng1 gong2 siu2 ze2
-香港常見的樹木,hoeng1 gong2 soeng4 gin3 dik1 syu6 muk6
-香港常見的疾病,hoeng1 gong2 soeng4 gin3 dik1 zat6 beng6
+常見,soeng4 gin3
+樹木,syu6 muk6
+常見疾病,soeng4 gin3 zat6 beng6
 香港樹木,hoeng1 gong2 syu6 muk6
 香港天氣,hoeng1 gong2 tin1 hei3
 香港天氣預測,hoeng1 gong2 tin1 hei3 jyu6 caak1
@@ -38271,7 +38283,6 @@ char,jyutping
 海扇,hoi2 sin3
 海星,hoi2 sing1
 海嘯,hoi2 siu3
-海嘯的形成,hoi2 siu3 dik1 jing4 sing4
 海嘯,hoi2 siu6
 海上世界,hoi2 soeng6 sai3 gaai3
 海上鮮,hoi2 soeng6 sin1
@@ -38356,7 +38367,7 @@ char,jyutping
 學校設備,hok6 haau6 cit3 bei6
 學校設施,hok6 haau6 cit3 si1
 學校成員,hok6 haau6 sing4 jyun4
-學校成員的責任,hok6 haau6 sing4 jyun4 dik1 zaak3 jam6
+責任,zaak3 jam6
 學校活動,hok6 haau6 wut6 dung6
 學系,hok6 hai6
 學口學舌,hok6 hau2 hok6 sit6
@@ -38406,7 +38417,7 @@ char,jyutping
 學生,hok6 saang1
 學生壓力處理,hok6 saang1 aat3 lik6 cyu2 lei5
 學生報,hok6 saang1 bou3
-學生的行爲,hok6 saang1 dik1 hang4 wai4
+學生行爲,hok6 saang1 hang4 wai4
 學生機,hok6 saang1 gei1
 學生紀錄 冊,hok6 saang1 gei2 luk6 caak3
 學生哥,hok6 saang1 go1
@@ -38545,8 +38556,9 @@ char,jyutping
 漢子,hon3 zi2
 漢字,hon3 zi6
 漢字查字法,hon3 zi6 caa4 zi6 faat3
-漢字的結構,hon3 zi6 dik1 git3 gau3
-漢字的起源及變遷,hon3 zi6 dik1 hei2 jyun4 kap6 bin3 cin1
+漢字結構,hon3 zi6 git3 gau3
+漢字,hon3 zi6 
+起源及變遷,hei2 jyun4 kap6 bin3 cin1
 厂字旁,hon3 zi6 pong4
 漢字字體,hon3 zi6 zi6 tai2
 看着不管,hon3 zoek6 bat1 gun2
@@ -39334,9 +39346,9 @@ char,jyutping
 空氣取樣,hung1 hei3 ceoi2 joeng6
 空氣取樣器,hung1 hei3 ceoi2 joeng6 hei3
 空氣清新機,hung1 hei3 cing1 san1 gei1
-空氣的存在,hung1 hei3 dik1 cyun4 zoi6
-空氣的特性,hung1 hei3 dik1 dak6 sing3
-空氣的成分,hung1 hei3 dik1 sing4 fan6
+存在,cyun4 zoi6
+特性,dak6 sing3
+成分,sing4 fan6
 空氣動力,hung1 hei3 dung6 lik6
 空氣瀏海,hung1 hei3 lau4 hoi2
 空氣微粒,hung1 hei3 mei4 nap1
@@ -43697,7 +43709,8 @@ char,jyutping
 薏米,ji3 mai5
 意味,ji3 mei6
 意外,ji3 ngoi6
-意外的處理方法,ji3 ngoi6 dik1 cyu2 lei5 fong1 faat3
+意外,ji3 ngoi6 
+處理方法,cyu2 lei5 fong1 faat3
 意念,ji3 nim6
 意念移物,ji3 nim6 ji4 mat6
 意思,ji3 si1
@@ -45317,7 +45330,8 @@ char,jyutping
 影快相,jing2 faai3 soeng2
 影后,jing2 hau6
 影響,jing2 hoeng2
-影響健康的因素,jing2 hoeng2 gin6 hong1 dik1 jan1 sou3
+影響健康,jing2 hoeng2 gin6 hong1 
+因素,jan1 sou3
 影響力,jing2 hoeng2 lik6
 影圈,jing2 hyun1
 影音,jing2 jam1
@@ -45682,7 +45696,8 @@ char,jyutping
 醃豬肉,jip3 zyu1 juk6
 孽報,jip6 bou3
 頁底,jip6 dai2
-葉的功能,jip6 dik1 gung1 nang4
+葉,jip6 
+功能,gung1 nang4
 葉飛,jip6 fei1
 業荒於嬉,jip6 fong1 jyu1 hei1
 業界,jip6 gaai3
@@ -45762,8 +45777,10 @@ char,jyutping
 熱帶植物,jit6 daai3 zik6 mat6
 熱底,jit6 dai2
 熱對流,jit6 deoi3 lau4
-熱的傳遞,jit6 dik1 cyun4 dai6
-熱的來源,jit6 dik1 loi4 jyun4
+熱,jit6 
+傳遞,cyun4 dai6
+熱,jit6 
+來源,loi4 jyun4
 熱點,jit6 dim2
 熱到飛起,jit6 dou3 fei1 hei2
 熱到流晒汗,jit6 dou3 lau4 saai3 hon6
@@ -47421,8 +47438,10 @@ char,jyutping
 語音指令,jyu5 jam1 zi2 ling6
 予人口實,jyu5 jan4 hau2 sat6
 與人無尤,jyu5 jan4 mou4 jau4
-與人相處的技巧,jyu5 jan4 soeng3 cyu2 dik1 gei6 haau2
-與人相處的態度,jyu5 jan4 soeng3 cyu2 dik1 taai3 dou6
+與人相處,jyu5 jan4 soeng3 cyu2 
+技巧,gei6 haau2
+與人相處,jyu5 jan4 soeng3 cyu2 
+態度,taai3 dou6
 與人爲善,jyu5 jan4 wai4 sin6
 與日俱輝,jyu5 jat6 keoi1 fai1
 與日俱增,jyu5 jat6 keoi1 zang1
@@ -48395,7 +48414,8 @@ char,jyutping
 越級,jyut6 kap1
 月球,jyut6 kau4
 月球車,jyut6 kau4 ce1
-月球的運動,jyut6 kau4 dik1 wan6 dung6
+月球,jyut6 kau4 
+運動,wan6 dung6
 粵劇,jyut6 kek6
 越僑,jyut6 kiu4
 粵曲,jyut6 kuk1
@@ -48412,9 +48432,12 @@ char,jyutping
 月曆,jyut6 lik6
 閱歷,jyut6 lik6
 月亮,jyut6 loeng6
-月亮的變化,jyut6 loeng6 dik1 bin3 faa3
-月亮的故事,jyut6 loeng6 dik1 gu3 si6
-月亮的形狀,jyut6 loeng6 dik1 jing4 zong6
+月亮,jyut6 loeng6 
+變化,bin3 faa3
+月亮,jyut6 loeng6 
+故事,gu3 si6
+月亮,jyut6 loeng6 
+形狀,jing4 zong6
 月亮盈虧,jyut6 loeng6 jing4 kwai1
 越來越,jyut6 loi4 jyut6
 月盲症,jyut6 maang4 zing3
@@ -48798,7 +48821,8 @@ char,jyutping
 扱得好冚,kap1 dak1 hou2 ham6
 吸地,kap1 dei6
 吸毒,kap1 duk6
-吸毒的禍害,kap1 duk6 dik1 wo6 hoi6
+吸毒,kap1 duk6 
+禍害,wo6 hoi6
 吸毒成癮,kap1 duk6 sing4 jan5
 吸附洗消劑,kap1 fu6 sai2 siu1 zai1
 吸附性,kap1 fu6 sing3
@@ -50111,7 +50135,8 @@ char,jyutping
 規例,kwai1 lai6
 規率,kwai1 leot2
 規律,kwai1 leot6
-規律的生活,kwai1 leot6 dik1 sang1 wut6
+規律,kwai1 leot6 
+生活,sang1 wut6
 虧佬,kwai1 lou2
 虧佬褲,kwai1 lou2 fu3
 規勉,kwai1 min5
@@ -55216,7 +55241,8 @@ char,jyutping
 氯化鋅,luk6 faa3 san1
 綠化社區,luk6 faa3 se5 keoi1
 綠化環境,luk6 faa3 waan4 ging2
-綠化環境的優點,luk6 faa3 waan4 ging2 dik1 jau1 dim2
+綠化環境,luk6 faa3 waan4 ging2 
+優點,jau1 dim2
 六分儀,luk6 fan6 ji4
 六氟化鈾,luk6 fat1 faa3 jau4
 六氟化硫,luk6 fat1 faa3 lau4
@@ -58340,7 +58366,8 @@ char,jyutping
 麪餅,min6 beng2
 面壁思過,min6 bik1 si1 gwo3
 面部,min6 bou6
-面部的感覺器官,min6 bou6 dik1 gam2 gok3 hei3 gun1
+面部,min6 bou6 
+感覺器官,gam2 gok3 hei3 gun1
 面診,min6 can2
 面青,min6 ceng1
 面青青,min6 ceng1 ceng1
@@ -58851,7 +58878,8 @@ char,jyutping
 妙不可言,miu6 bat1 ho2 jin4
 妙筆生花,miu6 bat1 sang1 faa1
 妙策,miu6 caak3
-妙趣的漢字,miu6 ceoi3 dik1 hon3 zi6
+妙趣,miu6 ceoi3 
+漢字,hon3 zi6
 妙趣橫生,miu6 ceoi3 waang4 saang1
 妙法蓮華經,miu6 faat3 lin4 waa4 ging1
 妙計,miu6 gai3
@@ -61322,11 +61350,16 @@ char,jyutping
 能醫不自醫,nang4 ji1 bat1 zi6 ji1
 能弱能強,nang4 joek6 nang4 koeng4
 能源,nang4 jyun4
-能源的形態,nang4 jyun4 dik1 jing4 taai3
-能源的用途,nang4 jyun4 dik1 jung6 tou4
-能源的原理,nang4 jyun4 dik1 jyun4 lei5
-能源的來源,nang4 jyun4 dik1 loi4 jyun4
-能源的作用,nang4 jyun4 dik1 zok3 jung6
+能源,nang4 jyun4 
+形態,jing4 taai3
+能源,nang4 jyun4 
+用途,jung6 tou4
+能源,nang4 jyun4 
+原理,jyun4 lei5
+能源,nang4 jyun4 
+來源,loi4 jyun4
+能源,nang4 jyun4 
+作用,zok3 jung6
 能源短缺,nang4 jyun4 dyun2 kyut3
 能源教育訊網,nang4 jyun4 gaau3 juk6 seon3 mong5
 能源管理,nang4 jyun4 gun2 lei5
@@ -61338,8 +61371,10 @@ char,jyutping
 能力,nang4 lik6
 能力值,nang4 lik6 zik6
 能量,nang4 loeng6
-能量的來源,nang4 loeng6 dik1 loi4 jyun4
-能量的轉變,nang4 loeng6 dik1 zyun2 bin3
+能量,nang4 loeng6 
+來源,loi4 jyun4
+能量,nang4 loeng6 
+轉變,zyun2 bin3
 能量代謝,nang4 loeng6 doi6 ze6
 能量守恆定律,nang4 loeng6 sau2 hang4 ding6 leot6
 能耐,nang4 noi6
@@ -61871,8 +61906,10 @@ char,jyutping
 牙擦仔,ngaa4 caat3 zai2
 牙齒,ngaa4 ci2
 牙齒打卦,ngaa4 ci2 daa2 gwaa3
-牙齒的結構,ngaa4 ci2 dik1 git3 gau3
-牙齒的種類,ngaa4 ci2 dik1 zung2 leoi6
+牙齒,ngaa4 ci2 
+結構,git3 gau3
+牙齒,ngaa4 ci2 
+種類,zung2 leoi6
 牙齒當金使,ngaa4 ci2 dong3 gam1 sai2
 牙齒矯正器,ngaa4 ci2 giu2 zing3 hei3
 牙齒痕,ngaa4 ci2 han2
@@ -69887,9 +69924,12 @@ char,jyutping
 生物傳感器,sang1 mat6 cyun4 gam2 hei3
 生物大滅絕,sang1 mat6 daai6 mit6 zyut6
 生物彈藥,sang1 mat6 daan2 joek6
-生物的特性,sang1 mat6 dik1 dak6 sing3
-生物的特徵,sang1 mat6 dik1 dak6 zing1
-生物的分類,sang1 mat6 dik1 fan1 leoi6
+生物,sang1 mat6 
+特性,dak6 sing3
+生物,sang1 mat6 
+特徵,dak6 zing1
+生物,sang1 mat6 
+分類,fan1 leoi6
 生物多樣性,sang1 mat6 do1 joeng6 sing3
 生物多元化,sang1 mat6 do1 jyun4 faa3
 生物化學家,sang1 mat6 faa3 hok6 gaa1
@@ -69905,7 +69945,8 @@ char,jyutping
 生物恐怖主義,sang1 mat6 hung2 bou3 zyu2 ji6
 生物醫學工程,sang1 mat6 ji1 hok6 gung1 cing4
 生物燃料,sang1 mat6 jin4 liu2
-生物與環境的關係,sang1 mat6 jyu5 waan4 ging2 dik1 gwaan1 hai6
+生物與環境,sang1 mat6 jyu5 waan4 ging2 
+關係,gwaan1 hai6
 生物羣,sang1 mat6 kwan4
 生物鏈,sang1 mat6 lin2
 生物量,sang1 mat6 loeng6
@@ -69924,7 +69965,8 @@ char,jyutping
 生命有價,sang1 meng6 jau5 gaa3
 生命之光,sang1 meng6 zi1 gwong1
 生命,sang1 ming6
-生命的意義,sang1 ming6 dik1 ji3 ji6
+生命,sang1 ming6 
+意義,ji3 ji6
 生命多樣性,sang1 ming6 do1 joeng6 sing3
 生命吠陀,sang1 ming6 fai6 to4
 生命力,sang1 ming6 lik6
@@ -70012,7 +70054,8 @@ char,jyutping
 溼柴,sap1 caai4
 溼疹,sap1 can2
 溼地,sap1 dei6
-溼地的生態環境,sap1 dei6 dik1 sang1 taai3 waan4 ging2
+溼地,sap1 dei6 
+生態環境,sang1 taai3 waan4 ging2
 溼笛笛,sap1 det4 det4
 溼腯腯,sap1 det6 det6
 溼電,sap1 din6
@@ -72288,12 +72331,18 @@ char,jyutping
 水痘,seoi2 dau6
 水豆腐,seoi2 dau6 fu6
 水嗲嗲,seoi2 de4 de4
-水的不衕形態,seoi2 dik1 bat1 dung6 jing4 taai3
-水的變化,seoi2 dik1 bin3 faa3
-水的循環,seoi2 dik1 ceon4 waan4
-水的形態,seoi2 dik1 jing4 taai3
-水的用途,seoi2 dik1 jung6 tou4
-水的三態,seoi2 dik1 saam1 taai3
+水,seoi2 
+不同形態,bat1 tung4 jing4 taai3
+水,seoi2 
+變化,bin3 faa3
+水,seoi2 
+循環,ceon4 waan4
+水,seoi2 
+形態,jing4 taai3
+水,seoi2 
+用途,jung6 tou4
+水,seoi2 
+三態,saam1 taai3
 水滴石穿,seoi2 dik1 sek6 cyun1
 水滴,seoi2 dik6
 水電,seoi2 din6
@@ -74281,8 +74330,10 @@ char,jyutping
 食𩜠𩜠,sik6 mam1 mam1
 食物,sik6 mat6
 食物纖維,sik6 mat6 cim1 wai4
-食物的來源,sik6 mat6 dik1 loi4 jyun4
-食物的生產,sik6 mat6 dik1 sang1 caan2
+食物,sik6 mat6 
+來源,loi4 jyun4
+食物,sik6 mat6 
+生產,sang1 caan2
 食物加工過程,sik6 mat6 gaa1 gung1 gwo3 cing4
 食物金字塔,sik6 mat6 gam1 zi6 taap3
 食物櫃,sik6 mat6 gwai6
@@ -74321,8 +74372,10 @@ char,jyutping
 食死貓,sik6 sei2 maau1
 食四方飯,sik6 sei3 fong1 faan6
 食水,sik6 seoi2
-食水的處理程序,sik6 seoi2 dik1 cyu2 lei5 cing4 zeoi6
-食水的來源,sik6 seoi2 dik1 loi4 jyun4
+食水,sik6 seoi2 
+處理程序,cyu2 lei5 cing4 zeoi6
+食水,sik6 seoi2 
+來源,loi4 jyun4
 食水幾深,sik6 seoi2 gei2 sam1
 食水深,sik6 seoi2 sam1
 食髓知味,sik6 seoi5 zi1 mei6
@@ -74682,7 +74735,8 @@ char,jyutping
 撣人,sin6 jan4
 善有善報,sin6 jau5 sin6 bou3
 善意,sin6 ji3
-善意的謊言,sin6 ji3 dik1 fong1 jin4
+善意,sin6 ji3 
+謊言,fong1 jin4
 善言,sin6 jin4
 善言辭,sin6 jin4 ci4
 禪讓,sin6 joeng6
@@ -74767,7 +74821,8 @@ char,jyutping
 猩紅色,sing1 hung4 sik1
 聲音,sing1 jam1
 聲音傳播,sing1 jam1 cyun4 bo3
-聲音的變調,sing1 jam1 dik1 bin3 diu6
+聲音,sing1 jam1 
+變調,bin3 diu6
 聲音模型,sing1 jam1 mou4 jing4
 勝任,sing1 jam6
 升任,sing1 jam6
@@ -78035,8 +78090,10 @@ char,jyutping
 樹莓,syu6 mui4
 樹木,syu6 muk6
 樹木詞彙,syu6 muk6 ci4 wui6
-樹木的繁殖,syu6 muk6 dik1 faan4 zik6
-樹木的分類和命名,syu6 muk6 dik1 fan1 leoi6 wo4 ming6 ming4
+樹木,syu6 muk6 
+繁殖,faan4 zik6
+樹木,syu6 muk6 
+分類和命名,fan1 leoi6 wo4 ming6 ming4
 樹木學習活動,syu6 muk6 hok6 zaap6 wut6 dung6
 樹木研習徑,syu6 muk6 jin4 zaap6 ging3
 樹木與大自然,syu6 muk6 jyu5 daai6 zi6 jin4
@@ -80144,10 +80201,13 @@ T裇,ti1 seot1
 天后廟宇,tin1 hau6 miu2 jyu5
 天氣,tin1 hei3
 天氣報告,tin1 hei3 bou3 gou3
-天氣報告的術語,tin1 hei3 bou3 gou3 dik1 seot6 jyu5
+天氣報告,tin1 hei3 bou3 gou3 
+術語,seot6 jyu5
 天氣潮溼,tin1 hei3 ciu4 sap1
-天氣的變化,tin1 hei3 dik1 bin3 faa3
-天氣的特色,tin1 hei3 dik1 dak6 sik1
+天氣,tin1 hei3 
+變化,bin3 faa3
+天氣,tin1 hei3 
+特色,dak6 sik1
 天氣現象,tin1 hei3 jin6 zoeng6
 天氣預測,tin1 hei3 jyu6 caak1
 天險,tin1 him2
@@ -80340,7 +80400,8 @@ T裇,ti1 seot1
 天竺鼠,tin1 zuk1 syu2
 天誅,tin1 zyu1
 天主,tin1 zyu2
-天主的羔羊,tin1 zyu2 dik1 gou1 joeng4
+天主,tin1 zyu2 
+羔羊,gou1 joeng4
 天主教,tin1 zyu2 gaau3
 靦臉,tin2 lim5
 填鴨,tin4 aap3
@@ -83986,7 +84047,8 @@ T裇,ti1 seot1
 芸芸衆生,wan4 wan4 zung3 sang1
 蕓蕓衆生,wan4 wan4 zung3 sang1
 雲和雨,wan4 wo4 jyu5
-雲和雨的關係,wan4 wo4 jyu5 dik1 gwaan1 hai6
+雲和雨,wan4 wo4 jyu5 
+關係,gwaan1 hai6
 暈糊,wan4 wu4
 雲集,wan4 zaap6
 暈針,wan4 zam1
@@ -85032,8 +85094,10 @@ T裇,ti1 seot1
 弧長參數,wu4 coeng4 caam1 sou3
 糊牆紙,wu4 coeng4 zi2
 蝴蝶,wu4 dip2
-蝴蝶的一生,wu4 dip2 dik1 jat1 sang1
-蝴蝶的成長,wu4 dip2 dik1 sing4 zoeng2
+蝴蝶,wu4 dip2 
+一生,jat1 sang1
+蝴蝶,wu4 dip2 
+成長,sing4 zoeng2
 蝴蝶粉,wu4 dip2 fan2
 蝴蝶,wu4 dip6
 蝴蝶刀,wu4 dip6 dou1
@@ -89990,8 +90054,10 @@ T裇,ti1 seot1
 殖民,zik6 man4
 殖民地,zik6 man4 dei6
 植物,zik6 mat6
-植物的用途,zik6 mat6 dik1 jung6 tou4
-植物的重要性,zik6 mat6 dik1 zung6 jiu3 sing3
+植物,zik6 mat6 
+用途,jung6 tou4
+植物,zik6 mat6 
+重要性,zung6 jiu3 sing3
 植物分類,zik6 mat6 fan1 leoi6
 植物構造,zik6 mat6 gau3 zou6
 植物結構,zik6 mat6 git3 gau3
@@ -90848,7 +90914,8 @@ T裇,ti1 seot1
 正楷,zing3 kaai2
 正球,zing3 kau4
 正確,zing3 kok3
-正確的姿勢,zing3 kok3 dik1 zi1 sai3
+正確,zing3 kok3 
+姿勢,zi1 sai3
 正確路線,zing3 kok3 lou6 sin3
 正確使用零用錢,zing3 kok3 sai2 jung6 ling4 jung6 cin2
 正規,zing3 kwai1
@@ -92740,7 +92807,6 @@ T裇,ti1 seot1
 造句,zou6 geoi3
 造句法,zou6 geoi3 faat3
 做嗰時,zou6 go2 si2
-做個清潔的孩子,zou6 go3 cing1 git3 dik1 haai4 zi2
 做個好學生,zou6 go3 hou3 hok6 saang1
 皁角,zou6 gok3
 做工,zou6 gung1
@@ -93304,13 +93370,16 @@ T裇,ti1 seot1
 中國地震局,zung1 gwok3 dei6 zan3 guk6
 中國地震臺,zung1 gwok3 dei6 zan3 toi4
 中國地質調查局,zung1 gwok3 dei6 zat1 diu6 caa4 guk6
-中國的概況,zung1 gwok3 dik1 koi3 fong3
-中國的珍禽異獸動物世界,zung1 gwok3 dik1 zan1 kam4 ji6 sau3 dung6 mat6 sai3 gaai3
+中國,zung1 gwok3 
+概況,koi3 fong3
+中國,zung1 gwok3 
+珍禽異獸動物世界,zan1 kam4 ji6 sau3 dung6 mat6 sai3 gaai3
 中國代理,zung1 gwok3 doi6 lei5
 中國東方航空,zung1 gwok3 dung1 fong1 hong4 hung1
 中國教育網,zung1 gwok3 gaau3 juk6 mong5
 中國教育和科研計算機網,zung1 gwok3 gaau3 juk6 wo4 fo1 jin4 gai3 syun3 gei1 mong5
-中國各民族的生活特色,zung1 gwok3 gok3 man4 zuk6 dik1 sang1 wut6 dak6 sik1
+中國各民族,zung1 gwok3 gok3 man4 zuk6 
+生活特色,sang1 wut6 dak6 sik1
 中國共產黨,zung1 gwok3 gung6 caan2 dong2
 中國共產黨中央委員會,zung1 gwok3 gung6 caan2 dong2 zung1 joeng1 wai2 jyun4 wui2
 中國共產黨中央委員會宣傳部,zung1 gwok3 gung6 caan2 dong2 zung1 joeng1 wai2 jyun4 wui2 syun1 cyun4 bou6
@@ -93344,7 +93413,8 @@ T裇,ti1 seot1
 中國歷史人物,zung1 gwok3 lik6 si2 jan4 mat2
 中國歷史人物小故事,zung1 gwok3 lik6 si2 jan4 mat2 siu2 gu3 si6
 中國歷史名人,zung1 gwok3 lik6 si2 ming4 jan4
-中國歷史上的少數民族,zung1 gwok3 lik6 si2 soeng5 dik1 siu2 sou3 man4 zuk6
+中國歷史上,zung1 gwok3 lik6 si2 soeng5 
+少數民族,siu2 sou3 man4 zuk6
 中國聯合航空,zung1 gwok3 lyun4 hap6 hong4 hung1
 中國文化,zung1 gwok3 man4 faa3
 中國民用航空局,zung1 gwok3 man4 jung6 hong4 hung1 guk6
@@ -93677,7 +93747,8 @@ T裇,ti1 seot1
 中華文化,zung1 waa4 man4 faa3
 中華民國,zung1 waa4 man4 gwok3
 中華民族,zung1 waa4 man4 zuk6
-中華民族的形成,zung1 waa4 man4 zuk6 dik1 jing4 sing4
+中華民族,zung1 waa4 man4 zuk6 
+形成,jing4 sing4
 中華民族風情,zung1 waa4 man4 zuk6 fung1 cing4
 中華沙律,zung1 waa4 saa1 leot2
 中華仙鶲,zung1 waa4 sin1 jung1
@@ -94836,7 +94907,8 @@ T裇,ti1 seot1
 絕滅,zyut6 mit6
 絕妙,zyut6 miu6
 絕望,zyut6 mong6
-絕望的境地,zyut6 mong6 dik1 ging2 dei6
+絕望,zyut6 mong6 
+境地,ging2 dei6
 絕無花假,zyut6 mou4 faa1 gaa2
 絕無僅有,zyut6 mou4 gan2 jau5
 絕藝,zyut6 ngai6
