@@ -354,6 +354,7 @@ char,jyutping,fq
 鷗,au1
 𠥹,au1
 𡂿,au1
+勾,au1
 塸,au2,0%
 敺,au2,0%
 歐,au2,0%
@@ -1887,6 +1888,7 @@ char,jyutping,fq
 餷,caa4
 𤨓,caa4
 𥻗,caa4
+扠,caa5
 䟀,caai1,0%
 䠕,caai1,0%
 偲,caai1,3%
@@ -4651,6 +4653,7 @@ char,jyutping,fq
 䚟,daai2
 傣,daai2
 歹,daai2
+大,daai2
 侢,daai3,0%
 帯,daai3,0%
 蔕,daai3,0%
@@ -5253,6 +5256,7 @@ char,jyutping,fq
 嗲,de2
 嗲,de4
 哋,dei2,5%
+地,dei2
 坔,dei6,0%
 埊,dei6,0%
 嶳,dei6,0%
@@ -5401,6 +5405,7 @@ char,jyutping,fq
 掉,deu6,0%
 調,deu6,0%
 啲,di1
+地,di4
 㠃,dik1,0%
 啇,dik1,0%
 墑,dik1,0%
@@ -6359,6 +6364,7 @@ char,jyutping,fq
 橎,faan2
 返,faan2
 𠆩,faan2
+犯,faan2
 䒦,faan3,0%
 䣲,faan3,0%
 反,faan3,3%
@@ -7427,6 +7433,7 @@ char,jyutping,fq
 婦,fu5
 媍,fu5
 萯,fu5
+父,fu5
 㖚,fu6,0%
 㭥,fu6,0%
 俌,fu6,0%
@@ -13117,6 +13124,9 @@ char,jyutping,fq
 趐,hyut3
 吔,jaa1
 吔,jaa2
+吔,jaa3
+吔,jaa4
+吔,jaa5
 也,jaa5
 釶,jaa5
 廾,jaa6,0%
@@ -13395,6 +13405,7 @@ char,jyutping,fq
 讔,jan2
 隐,jan2
 隱,jan2
+人,jan2
 懚,jan3,0%
 暈,jan3,3%
 炘,jan3,0%
@@ -13662,6 +13673,7 @@ char,jyutping,fq
 聈,jau2
 蚴,jau2
 黝,jau2
+友,jau2
 䟬,jau3,0%
 孧,jau3,0%
 泑,jau3,0%
@@ -13828,6 +13840,7 @@ char,jyutping,fq
 𥤃,jau5
 𦮖,jau5
 𩵼,jau5
+由,jau5
 㐛,jau6,0%
 㳓,jau6,0%
 䞥,jau6,0%
@@ -15644,6 +15657,7 @@ char,jyutping,fq
 𨚼,juk1
 𨩄,juk1
 褥,juk2,3%
+玉,juk2
 㻙,juk6,0%
 俼,juk6,0%
 哊,juk6,0%
@@ -21916,6 +21930,7 @@ char,jyutping,fq
 髦,mou1
 帽,mou2
 模,mou2
+毋,mou2
 㣳,mou4,0%
 䥻,mou4,0%
 亡,mou4,0%
@@ -27961,6 +27976,7 @@ char,jyutping,fq
 𦱆,taa1
 呔,taai1
 𧘹,taai1
+太,taai2
 㣖,taai3,0%
 㤗,taai3,0%
 㳲,taai3,0%
