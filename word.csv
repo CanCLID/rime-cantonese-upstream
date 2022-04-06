@@ -5952,7 +5952,6 @@ char,jyutping
 半拱,bun3 gung2
 半胱氨酸,bun3 gwong1 on1 syun1
 半鹹半淡,bun3 haam4 bun3 taam5
-半咸淡,bun3 haam4 taam5
 半鹹淡,bun3 haam4 taam5
 半響,bun3 hoeng2
 半開半關,bun3 hoi1 bun3 gwaan1
@@ -29455,7 +29454,7 @@ char,jyutping
 叫嚷,giu3 joeng6
 叫佢,giu3 keoi5
 叫驢,giu3 leoi4
-叫駡,giu3 maa6
+叫罵,giu3 maa6
 叫賣,giu3 maai6
 叫牌,giu3 paai2
 叫生晒,giu3 saang1 saai3
@@ -34109,19 +34108,17 @@ char,jyutping
 鹹菜西裝,haam4 coi3 sai1 zong1
 涵蓄,haam4 cuk1
 鹹蟲,haam4 cung2
-咸蟲,haam4 cung4
 鹹蟲,haam4 cung4
 鹹帶,haam4 daai2
 鹹帶,haam4 daai3
 鹹蛋,haam4 daan2
 鹹蛋滾湯,haam4 daan2 gwan2 tong1
 鹹得滯,haam4 dak1 zai6
-咸啲,haam4 di1
+鹹啲,haam4 di1
 鹹碟,haam4 dip6
 鹹苦,haam4 fu2
 咸豐嗰年,haam4 fung1 go2 nin4
 咸豐年,haam4 fung1 nin4
-咸柑桔,haam4 gam1 gat1
 鹹柑桔,haam4 gam1 gat1
 函件,haam4 gin2
 鹹澀,haam4 gip3
@@ -34139,10 +34136,8 @@ char,jyutping
 鹹鹽,haam4 jim4
 咸陽地區,haam4 joeng4 dei6 keoi1
 涵養,haam4 joeng5
-咸肉,haam4 juk6
 鹹肉,haam4 juk6
 鹹肉糉,haam4 juk6 zung2
-咸魚,haam4 jyu2
 鹹魚,haam4 jyu2
 鹹魚白菜,haam4 jyu2 baak6 coi3
 鹹魚翻生,haam4 jyu2 faan1 saang1
@@ -34152,17 +34147,14 @@ char,jyutping
 涵蓋,haam4 koi3
 鹹粒,haam4 lap1
 鹹龍,haam4 lung2
-咸網,haam4 mong5
 鹹網,haam4 mong5
 鹹赧赧,haam4 naan2 naan2
-咸片,haam4 pin2
 鹹片,haam4 pin2
-咸溼,haam4 sap1
 鹹溼,haam4 sap1
 鹹溼伯父,haam4 sap1 baak3 fu2
 鹹溼電影,haam4 sap1 din6 jing2
 鹹溼故仔,haam4 sap1 gu2 zai2
-咸溼公,haam4 sap1 gung1
+鹹溼公,haam4 sap1 gung1
 鹹溼鬼,haam4 sap1 gwai2
 鹹溼佬,haam4 sap1 lou2
 鹹溼妹,haam4 sap1 mui1
@@ -34178,30 +34170,25 @@ char,jyutping
 鹹水貨,haam4 seoi2 fo3
 鹹水歌,haam4 seoi2 go1
 鹹水角,haam4 seoi2 gok2
-咸水角,haam4 seoi2 gok3
 鹹水角,haam4 seoi2 gok3
 鹹水魚,haam4 seoi2 jyu2
 鹹水樓,haam4 seoi2 lau2
 鹹水話,haam4 seoi2 waa2
 鹹水話,haam4 seoi2 waa6
 涵攝,haam4 sip3
-咸相,haam4 soeng2
 鹹相,haam4 soeng2
 鹹酥雞,haam4 sou1 gai1
 函數,haam4 sou3
 鹹餸,haam4 sung3
 函送法辦,haam4 sung3 faat3 baan6
-咸酸,haam4 syun1
 鹹酸,haam4 syun1
 鹹酸菜,haam4 syun1 coi3
 鹹淡場,haam4 taam5 coeng4
 鹹淡水,haam4 taam5 seoi2
 銜頭,haam4 tau4
-咸煎餅,haam4 zin1 beng2
 鹹煎餅,haam4 zin1 beng2
 銜接,haam4 zip3
 鹹豬骨粥,haam4 zyu1 gwat1 zuk1
-咸豬手,haam4 zyu1 sau2
 鹹豬手,haam4 zyu1 sau2
 檻車,haam5 ce1
 檻花籠鶴,haam5 faa1 lung4 hok6
@@ -64094,7 +64081,7 @@ char,jyutping
 怒號,nou6 hou4
 怒形於色,nou6 jing4 jyu1 sik1
 怒容滿面,nou6 jung4 mun5 min6
-怒駡,nou6 maa6
+怒罵,nou6 maa6
 怒目切齒,nou6 muk6 cit3 ci2
 怒目相向,nou6 muk6 soeng1 hoeng3
 怒視,nou6 si6
@@ -74112,7 +74099,6 @@ char,jyutping
 食得睏得,sik6 dak1 fan3 dak1
 食得瞓得,sik6 dak1 fan3 dak1
 食得下,sik6 dak1 haa5
-食得咸魚抵得渴,sik6 dak1 haam4 jyu4 dai2 dak1 hot3
 食得鹹魚抵得渴,sik6 dak1 haam4 jyu4 dai2 dak1 hot3
 食得禾米多,sik6 dak1 wo4 mai5 do1
 食得就食,sik6 dak1 zau6 sik6
@@ -80860,7 +80846,7 @@ T裇,ti1 seot1
 妥否,to2 fau2
 唾液,to3 jik6
 唾液腺,to3 jik6 sin3
-唾駡,to3 maa6
+唾罵,to3 maa6
 唾面自乾,to3 min6 zi6 gon1
 唾沫星子,to3 mut6 sing1 zi2
 唾手可得,to3 sau2 ho2 dak1
@@ -89025,7 +89011,6 @@ T裇,ti1 seot1
 紙上富貴,zi2 soeng6 fu3 gwai3
 紙上談兵,zi2 soeng6 taam4 bing1
 指桑罵槐,zi2 song1 maa6 waai4
-指桑駡槐,zi2 song1 maa6 waai4
 紫蘇屬,zi2 sou1 suk6
 指數,zi2 sou3
 指數套利,zi2 sou3 tou3 lei6
