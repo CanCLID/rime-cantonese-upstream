@@ -2,7 +2,7 @@ from glob import iglob
 
 def sort_criteria(line):
     word, romans, *rest = line.split(',')
-    return romans, word, *rest
+    return word, romans, *rest
 
 for filename in iglob('*.csv'):
     with open(filename) as f:
