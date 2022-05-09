@@ -15,28 +15,11 @@
 1. `phrase_fragment.csv`：短句、文字碎片、常見輸入組合、ngram
 1. `trending.csv`未分類嘅流行詞
 
-#### 格式説明
+### 單字收錄 `char.csv` 格式説明
 
-`char.csv` 文件有以下列：
-
-- char 漢字
-- jyutping 粵拼
-- pron_rank 發音常見度
-  - 預設（唯一，從 kCantonese 導入）
-  - 常用
-  - 罕見
-  - 棄用
-- （可選）tone_var 本調變調
-  - 本調
-  - 變調
-- （可選）literary_vernacular 文白異讀音
-  - 文牘
-  - 白讀
-- comment 備註
-  - 如果係罕見音，唔可以留空
-  - 如果個發音無能產性，就放例詞
-  - 可以放發音來源
-  - 注意唔可以有半角逗號`,`
+| char         | jyutping                 | pron_rank                                                                                                                 | tone_var                                               | literary_vernacular                                                      | comment                                                                                                                                               |
+| ------------ | ------------------------ | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 漢字 Unicode | 粵拼：漢字對應嘅粵拼發音 | 發音常見度： <ul><li>`預設`：必須且唯一，常用度一定最高</li><li>`常用`：可以有多於一個</li><li>`罕見`</li><li>`棄用`</li> | 該發音是否本調變調：<ul><li>`本調`</li><li>`變調`</li> | 該發音是否文白異讀：<ul><li>`無`</li><li>`文讀`</li><li>`白讀`</li></ul> | 該發音例子、解釋：<ul><li>如果係罕見音，唔可以留空</li><li>如果個發音無能產性，就放例詞</li><li>可以放發音來源</li><li> 唔可以有半角逗號`,`</li></ul> |
 
 ## 收錄原則
 
@@ -73,36 +56,15 @@
 - 《廣州話詞典》
 - 《地道廣州話用語》
 
-# rime-cantonese Upstream Word List
+## 貢獻人員名單
 
-This repo serves as the upstream data storage for [rime-cantonese](https://github.com/rime/rime-cantonese). The rime-cantonese repo regularly pulls data from this repo and compile the lexicon.
-
-## Structure
-
-This repo contains the following files:
-
-1. `char.csv`: Characters
-1. `word.csv`: Common words
-1. `phrase_fragment.csv`: Short phrases, input fragments and combos, ngrams
-1. `trending.csv`: Uncategorized newly added words.
-
-## Data sources
-
-Source of single character entries
-
-- LSHK 電腦用漢字粵語拼音表 https://github.com/lshk-org/jyutping-table
-
-Consultant resources for single character entries
-
-- [Unihan 12.0 kCantonese](https://www.unicode.org/charts/unihan.html)
-- [粵語審音配詞字庫](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/)
-- [《廣州話正音字典》](https://github.com/jyutnet/cantonese-books-data/tree/master/2004_%E5%BB%A3%E5%B7%9E%E8%A9%B1%E6%AD%A3%E9%9F%B3%E5%AD%97%E5%85%B8)
-
-Source of word entries
-
-- [粵典](https://words.hk/faiman/analysis/wordslist/)
-- [冚唪唥粵文](https://hambaanglaang.hk/)
-- [《實用廣州話分類詞典》](https://github.com/rime/rime-cantonese/blob/build/lexicons/%E3%80%8A%E5%AF%A6%E7%94%A8%E5%BB%A3%E5%B7%9E%E8%A9%B1%E5%88%86%E9%A1%9E%E8%A9%9E%E5%85%B8%E3%80%8B.tsv)
-- A Dictionary of Cantonese Slang
-- 《廣州話詞典》
-- 《地道廣州話用語》
+- laubonghaudoi
+- Ayaka
+- Leimaau
+- Chaak
+- Bing Cheung
+- Cherry
+- Lili Ou
+- Philip Wong
+- Henry Chan
+- Alex Man
