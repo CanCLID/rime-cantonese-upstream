@@ -9,6 +9,7 @@ A sample line in the output looks like:
 This means that the line "到未啊,dou3 mei6 aa3" is duplicated
 in phrase_fragment.csv on line 1830 and in word.csv on line 11234.
 """
+import sys
 from glob import iglob
 
 line_to_locations = {}
@@ -24,7 +25,13 @@ for filename in iglob('*.csv'):
             else:
                 line_to_locations[line] = [location]
 
+has_error = False
+
 for line, locations in line_to_locations.items():
     if len(locations) > 1:
+        has_error = True
         locations_str = ' and '.join(locations)
-        print(f'WARNING: {line.strip()} is duplicated in {locations_str}\n')
+        print(f'WARNING: {line.strip()} is duplicated in {locations_str}\n', file=sys.stderr)
+
+if has_error:
+    sys.exit(1)
