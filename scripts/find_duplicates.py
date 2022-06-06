@@ -11,8 +11,9 @@ in phrase_fragment.csv on line 1830 and in word.csv on line 11234.
 """
 import sys
 from glob import iglob
+from collections import defaultdict
 
-line_to_locations = {}
+line_to_locations = defaultdict(lambda: [])
 
 for filename in iglob('*.csv'):
     with open(filename) as f:
@@ -20,10 +21,7 @@ for filename in iglob('*.csv'):
         
         for line_num, line in enumerate(f, 2):
             location = f'{filename}:{line_num}'
-            if line in line_to_locations:
-                line_to_locations[line].append(location)
-            else:
-                line_to_locations[line] = [location]
+            line_to_locations[line].append(location)
 
 has_error = False
 
