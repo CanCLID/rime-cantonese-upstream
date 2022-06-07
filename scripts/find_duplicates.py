@@ -9,11 +9,11 @@ A sample line in the output looks like:
 This means that the line "到未啊,dou3 mei6 aa3" is duplicated
 in phrase_fragment.csv on line 1830 and in word.csv on line 11234.
 """
-import sys
-from glob import iglob
 from collections import defaultdict
+from glob import iglob
+import sys
 
-line_to_locations = defaultdict(lambda: [])
+line_to_locations = defaultdict(list)
 
 for filename in iglob('*.csv'):
     with open(filename) as f:
