@@ -17,6 +17,8 @@ jobs:
           python -m pip install git+https://github.com/ayaka14732/python-jyutping.git@167865b
       - name: Validate
         run: python scripts/validate.py
+      - name: Find Duplicated Lines
+        run: python scripts/find_duplicates.py
       - name: Sort
         run: python scripts/sort_and_dedup.py
       - name: Push back to GitHub when contents changed
