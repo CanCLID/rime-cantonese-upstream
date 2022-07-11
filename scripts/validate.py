@@ -1,9 +1,10 @@
-import sys
 from glob import iglob
 import jyutping
+import sys
 
 non_han = '，。：'
 multisyllable_allowlist = '兡瓸䇉竡尣兛瓩竏𥪕兝瓰竕嗧浬兞瓱竓呎吋啢𠺖兣糎甅竰卅𠯢兙瓧䇆竍卌'
+invalidchar_list = ' 　！？；'
 
 has_error = False
 i = 0
@@ -13,16 +14,18 @@ for filename in iglob('*.csv'):
         assert next(f).startswith('char,jyutping'), 'Invalid CSV header'
 
         for line_num, line in enumerate(f, 2):
-            word, romans, *_ = line.rstrip('\n').split(',', 3)
+            word, romans, *_ = line.rstrip('\n').split(',')
 
             word_ = [char for char in word if char not in non_han]
             romans_ = romans.split(' ')
 
-            if len(word_) != len(romans_):
-                if any(char in multisyllable_allowlist for char in word):
-                    continue
-
+            if len(word_) != len(romans_) and not any(char in multisyllable_allowlist for char in word):
                 print(f'[{i:04}] WARNING: File {filename} line {line_num}, length do not match: {word}, {romans}', file=sys.stderr)
+                i += 1
+
+            if any(char in invalidchar_list for char in word):
+                print(f'[{i:04}] \033[91mERROR: File {filename} line {line_num}, word contains invalid char: {word}, {romans}\033[0m', file=sys.stderr)
+                has_error = True
                 i += 1
 
             for char, roman in zip(word_, romans_):
@@ -35,4 +38,5 @@ for filename in iglob('*.csv'):
                     has_error = True
                     i += 1
 
-# assert not has_error, 'The file should not contain errors'
+if has_error:
+    sys.exit(1)
