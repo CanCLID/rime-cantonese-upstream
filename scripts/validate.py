@@ -19,6 +19,13 @@ for filename in iglob('*.csv'):
             word_ = [char for char in word if char not in non_han]
             romans_ = romans.split(' ')
 
+            if '' in romans_:
+                print(f'[{i:04}] \033[91mERROR: File {filename} line {line_num}, leading, trailing or continous spaces are not allowed: {word}, {romans}\033[0m', file=sys.stderr)
+                has_error = True
+                i += 1
+
+            romans_ = [roman for roman in romans_ if roman]
+
             if len(word_) != len(romans_) and not any(char in multisyllable_allowlist for char in word):
                 print(f'[{i:04}] WARNING: File {filename} line {line_num}, length do not match: {word}, {romans}', file=sys.stderr)
                 i += 1
