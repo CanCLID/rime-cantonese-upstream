@@ -237,7 +237,7 @@ char,jyutping
 一兩晚,jat1 loeng5 maan5
 一兩歲,jat1 loeng5 seoi3
 一兩首,jat1 loeng5 sau2
-一公一乸,jat1 gung1 jat1 naa3
+一公一乸,jat1 gung1 jat1 naa2
 一共,jat1 gung6
 一再,jat1 zoi3
 一凹一凸,jat1 nap1 jat1 dat6
@@ -1478,7 +1478,7 @@ char,jyutping
 上海,soeng6 hoi2
 上海合作組織,soeng6 hoi2 hap6 zok3 zou2 zik1
 上海汽車工業,soeng6 hoi2 hei3 ce1 gung1 jip6
-上海證券交易所綜合股價指,soeng6 hoi2 zing3 hyun3 gaau1 jik6 so2 zung3 hap6 gu2 gaa3 zi2
+上海證券交易所,soeng6 hoi2 zing3 hyun3 gaau1 jik6 so2
 上游,soeng6 jau4
 上游工業,soeng6 jau4 gung1 jip6
 上湯,soeng6 tong1
@@ -3533,8 +3533,8 @@ char,jyutping
 乸型,naa2 jing4
 乸形,naa2 jing4
 乸聲乸氣,naa2 seng1 naa2 hei3
-乸脷,laa2 lei6
-乸西,laa2 sai1
+揦脷,laa2 lei6
+揦西,laa2 sai1
 乾一杯,gon1 jat1 bui1
 乾兒子,gon1 ji4 zi2
 乾冰,gon1 bing1
@@ -7449,7 +7449,6 @@ char,jyutping
 傢俬,gaa1 si1
 傢俬舖,gaa1 si1 pou2
 傢俬雜物,gaa1 si1 zaap6 mat6
-傢俱,gaa1 geoi6
 傢具,gaa1 geoi6
 催乳激素,ceoi1 jyu5 gik1 sou3
 催促,ceoi1 cuk1
@@ -29207,7 +29206,7 @@ char,jyutping
 幾乎,gei1 fu4
 幾乎話要,gei1 fu4 waa6 jiu3
 幾乖仔,gei2 gwaai1 zai2
-幾仔乸,gei2 zai2 naa3
+幾仔乸,gei2 zai2 naa2
 幾似啊,gei2 ci5 aa3
 幾何,gei2 ho4
 幾何平均數,gei2 ho4 ping4 gwan1 sou3
@@ -33977,7 +33976,7 @@ char,jyutping
 打亂,daa2 lyun6
 打亂種,daa2 lyun6 zung2
 打交,daa2 gaau1
-打交叉,daa2 kaau1 caa1
+打交叉,daa2 gaau1 caa1
 打交道,daa2 gaau1 dou6
 打仔,daa2 zai2
 打仔明星,daa2 zai2 ming4 sing1
@@ -35601,7 +35600,6 @@ char,jyutping
 拌嘴鬥舌,bun6 zeoi2 dau3 sit3
 拌蒜,bun6 syun3
 拌麪,bun6 min6
-拍乸,paat1 naa4
 拍住上,paak3 zyu6 soeng5
 拍劇,paak3 kek6
 拍卡,paak3 kaat1
@@ -57879,7 +57877,7 @@ char,jyutping
 癲癲得得,din1 din1 dat1 dat1
 癲癲肺肺,din1 din1 fai3 fai3
 癲雞,din1 gai1
-癲雞乸,din1 gai1 naa3
+癲雞乸,din1 gai1 naa2
 癸巳,gwai3 zi6
 癸未,gwai3 mei6
 癸水,gwai3 seoi2
@@ -62444,7 +62442,6 @@ char,jyutping
 穹丘,kung4 jau1
 穹廬,hung1 lou4
 空䆲䆡,hung1 kwaang1 laang1
-空䆲䆲,hung1 gwaang1 gwaang1
 空䆲䆲,hung1 kwaang1 kwaang1
 空中,hung1 zung1
 空中交通管制,hung1 zung1 gaau1 tung1 gun2 zai3
