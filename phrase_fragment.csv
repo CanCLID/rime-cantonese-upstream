@@ -310,7 +310,7 @@ char,jyutping
 不見棺材不落淚,bat1 gin3 gun1 coi4 bat1 lok6 leoi6
 不識廬山真面目,bat1 sik1 lou4 saan1 zan1 min6 muk6
 不費吹灰之力,bat1 fai3 ceoi1 fui1 zi1 lik6
-不食人間菸火,bat1 sik6 jan4 gaan1 jin1 fo2
+不食人間煙火,bat1 sik6 jan4 gaan1 jin1 fo2
 且聽下回分解,ce2 ting1 haa6 wui4 fan1 gaai2
 世上無難事,sai3 soeng5 mou4 naan4 si6
 丙到豬頭噉,bing2 dou3 zyu1 tau4 gam2
@@ -2875,7 +2875,7 @@ char,jyutping
 唔諗嘢,m4 nam2 je5
 唔講一唔講三講義，唔講風唔講雨講雷,m4 gong2 jat1 m4 gong2 saam1 gong2 ji6 m4 gong2 fung1 m4 gong2 jyu5 gong2 leoi4
 唔講了,m4 gong2 liu5
-唔講住了,m4 gong2 zyu6 liu5
+唔講住,m4 gong2 zyu6
 唔講我,m4 gong2 ngo5
 唔識㩒,m4 sik1 gam6
 唔識唱歌,m4 sik1 coeng3 go1
@@ -4829,7 +4829,6 @@ char,jyutping
 收聲啦,sau1 seng1 la1
 收順啲,sau1 seon6 di1
 改咗啦,goi2 zo2 la1
-放下屠刀立地成佛,fong3 haa6 tou4 dou1 laap6 dei6 sing4 fat1
 放下屠刀，立地成佛,fong3 haa6 tou4 dou1 laap6 dei6 sing4 fat6
 放下心頭大石,fong3 haa6 sam1 tau4 daai6 sek6
 放之四海而皆準,fong3 zi1 sei3 hoi2 ji4 gaai1 zeon2
@@ -5211,6 +5210,7 @@ char,jyutping
 未食五月糉，寒衣未入櫳,mei6 sik6 ng5 jyut6 zung2 hon4 ji1 mei6 jap6 lung4
 本地薑唔辣,bun2 dei6 goeng1 m4 laat6
 本是同根生,bun2 si6 tung4 gan1 sang1
+本是同根生，相煎何太急,bun2 si6 tung4 gan1 sang1 soeng1 zin1 ho4 taai3 gap1
 札起咗,zaat3 hei2 zo2
 朽木不可雕也,nau2 muk6 bat1 ho2 diu1 jaa5
 東南西北中,dung1 naam4 sai1 bak1 zung1
@@ -5998,7 +5998,7 @@ char,jyutping
 瞄咗下,miu4 zo2 haa5
 瞓唔夠,fan3 m4 gau3
 瞓唔安食唔落,fan3 m4 on1 sik6 m4 lok6
-瞓唔着,fan3 m4 zyu6
+瞓唔着,fan3 m4 zoek6
 瞓唔着覺,fan3 m4 zoek6 gaau3
 瞓喺度都贏,fan3 hai2 dou6 dou1 jeng4
 瞓得唔淰,fan3 dak1 m4 nam6
@@ -6829,7 +6829,7 @@ char,jyutping
 貼錢買難受,tip3 cin2 maai5 naan4 sau6
 賊佬試沙煲,caak6 lou2 si3 saa1 bou1
 賊佬試砂煲,caak6 lou2 si3 saa1 bou1
-賊公計狀元纔,caak6 gung1 gai3 zong6 jyun4 coi4
+賊公計狀元才,caak6 gung1 gai3 zong6 jyun4 coi4
 賓壚噉嘅場面,ban1 heoi1 gam2 ge3 coeng4 min2
 賓虛咁大場面,ban1 heoi1 gam3 daai6 coeng4 min2
 賓虛噉嘅場面,ban1 heoi1 gam2 ge3 coeng4 min2
@@ -7279,7 +7279,6 @@ char,jyutping
 雞春咁密都哺得出雞仔,gai1 ceon1 gam3 mat6 dou1 bou6 dak1 ceot1 gai1 zai2
 雞碎咁多,gai1 seoi3 gam3 do1
 雞肶打人牙骹軟,gai1 bei2 daa2 jan4 ngaa4 gaau3 jyun5
-雞脾打人牙骹軟,gai1 bei2 daa2 jan4 ngaa4 gaau3 jyun5
 雞蛋碰石頭,gai1 daan2 pung3 sek6 tau4
 雞蛋裏挑骨頭,gai1 daan2 leoi5 tiu1 gwat1 tau4
 雞蛋裡挑骨頭,gai1 daan2 leoi5 tiu1 gwat1 tau4
@@ -7564,7 +7563,6 @@ char,jyutping
 點係呀,dim2 hai6 aa3
 點係啊,dim2 hai6 aa3
 點係噃,dim2 hai6 bo3
-點券啊,dim2 gyun3 aa3
 點啊你,dim2 aa3 nei5
 點對你,dim2 deoi3 nei5
 點幫你,dim2 bong1 nei5
@@ -7609,3 +7607,136 @@ char,jyutping
 𨳒你老味,diu2 nei5 lou5 mei2
 𨳒你老母,diu2 nei5 lou5 mou2
 𨳒你鹵味,diu2 nei5 lou5 mei2
+我得咗,ngo5 dak1 zo2
+我得咗喇,ngo5 dak1 zo2 laa3
+得咗喇,dak1 zo2 laa3
+冇咁似,mou5 gam3 ci5
+高下立判,gou1 haa6 laap6 pun3
+敬畏之心,ging3 wai3 zi1 sam1
+嘈唔醒,cou4 m4 seng2
+好摺,hou2 zip6
+我好摺,ngo5 hou2 zip6
+版本控制,baan2 bun2 hung3 zai3
+認唔認同,jing6 m4 jing6 tung4
+呢段時間,ni1 dyun6 si4 gaan3
+預你,jyu6 nei5
+預佢,jyu6 keoi5
+預咗你,jyu6 zo2 nei5
+預咗佢,jyu6 zo2 keoi5
+預埋你,jyu6 maai4 nei5
+預埋佢,jyu6 maai4 keoi5
+預埋我,jyu6 maai4 ngo2
+預我,jyu6 ngo2
+遇事不決,jyu6 si6 bat1 kyut3
+勁痛,ging6 tung3
+你嗰範,nei5 go2 faan6
+份嘢,fan5 je5
+本書,bun2 syu1
+隻字未提,zek3 zi6 mei6 tai4
+發惡夢,faat3 ok3 mung6
+名從主人,ming4 cung4 zyu2 jan4
+打後,daa2 hau6
+試錯,si3 coi3
+跟開,gan1 hoi1
+望下,mong6 haa5
+𥄫下,gap6 haa5
+睇下,tai2 haa5
+加名,gaa1 meng2
+貴少少,gwai3 siu2 siu2
+太粗鄙,taai3 cou1 pei2
+冇得避,mou5 dak1 bei6
+年幾兩年,nin4 gei2 loeng5 nin4
+年幾兩年前,nin4 gei2 loeng5 nin4 cin4
+成年幾兩年前,sing4 nin4 gei2 loeng5 nin4 cin4
+成年幾兩年前,seng4 nin4 gei2 loeng5 nin4 cin4
+開心仔,hoi1 sam1 zai2
+無畏無懼,mou4 wai3 mou4 geoi6
+冇假,mou5 gaa2
+冇仔,mou5 zai2
+冇女,mou5 neoi2
+留低嘅,lau4 dai1 ge3
+我識,ngo5 sik1
+我識有,ngo5 sik1 jau5
+我識得,ngo5 sik1 dak1
+我識佢,ngo5 sik1 keoi5
+識佢老鼠,sik1 keoi5 lou5 syu2
+咁小事,gam3 siu2 si6
+蝦我,haa1 ngo5
+呢堆,ni1 deoi1
+覆你,fuk1 nei5
+覆佢,fuk1 keoi5
+覆我,fuk1 ngo5
+覆返,fuk1 faan1
+覆返你,fuk1 faan1 nei5
+覆返佢,fuk1 faan1 keoi5
+覆返我,fuk1 faan1 ngo5
+起過個,hei2 gwo3 go3
+起過,hei2 gwo3
+都癲,dou1 din1
+整崩,zing2 bang1
+整爛,zing2 laan6
+整碎,zing2 seoi3
+喺廁所,hai2 ci3 so2
+喺廳,hai2 teng1
+喺房,hai2 fong2
+喺梳化,hai2 so1 faa2
+喺牀,hai2 cong4
+攤咗喺廳,taan1 zo2 hai2 teng1
+攤咗喺房,taan1 zo2 hai2 fong2
+攤咗喺梳化,taan1 zo2 hai2 so1 faa2
+攤咗喺牀,taan1 zo2 hai2 cong4
+瞓咗喺廳,fan3 zo2 hai2 teng1
+瞓咗喺房,fan3 zo2 hai2 fong2
+瞓咗喺梳化,fan3 zo2 hai2 so1 faa2
+瞓咗喺牀,fan3 zo2 hai2 cong4
+中咗新冠,zung3 zo2 san1 gun1
+中咗肺炎,zung3 zo2 fai3 jim4
+沖完涼,cung1 jyun4 loeng4
+移晒民,ji4 saai3 man4
+四五代,sei3 ng5 doi6
+回流返晒,wui4 lau4 faan1 saai3
+返晒,faan1 saai3
+抄唔抄,caau1 m4 caau1
+剁走,doek1 zau2
+棵嘢,po1 je5
+摙碎,lin2 seoi3
+捽爛,zeot1 laan6
+夾扁,gep6 bin2
+夾死,gep6 sei2
+買紙,maai5 zi2
+未約,mei6 joek3
+承上題,sing4 soeng6 tai4
+好令,hou2 ling3
+好靚,hou2 leng3
+好掂,hou2 dim6
+啱音,ngaam1 jam1
+唔啱音,m4 ngaam1 jam1
+勁啱音,ging6 ngaam1 jam1
+勁唔啱音,ging6 m4 ngaam1 jam1
+冇仇報,mou5 sau4 bou3
+輪唔到,leon4 m4 dou2
+輪唔到,leon4 m4 dou3
+未輪到,mei6 leon4 dou2
+未輪到,mei6 leon4 dou3
+搵唔到,wan2 m4 dou2
+搵極都搵唔到,wan2 gik6 dou1 wan2 m4 dou2
+由佢,jau2 keoi5
+由得佢,jau2 dak1 keoi5
+而係,ji4 hai6
+睇過,tai2 gwo3
+篩走,sai1 zau2
+中過,zung3 gwo3
+中過肺炎,zung3 gwo3 fai3 jim4
+中過新冠,zung3 gwo3 san1 gun1
+講乜,gong3 mat1
+講乜啫,gong3 mat1 ze1
+死囉,sei2 lo1
+死咯,sei2 lo3
+咁多,gam3 do1
+咁多嘢,gam3 do1 je5
+問緊,man6 gan2
+交返,gaau1 faan1
+點嚟,dim2 lai4
+層樓,cang4 lau2
+棟樓,dung6 lau2
+牙腳軟,ngaa4 geok3 jyun5
