@@ -216,7 +216,6 @@ char,jyutping
 一個崩,jat1 go3 bang1
 一個巴仙,jat1 go3 baa1 sin1
 一個師兄,jat1 go3 si1 hing1
-一個招牌砸落嚟都砸死幾件,jat1 go3 ziu1 paai4 zaak3 lok6 lai4 dou1 zaak3 sei2 gei2 gin6
 一個號,jat1 go3 hou6
 一個鏰,jat1 go3 bang1
 一個餅印,jat1 go3 beng2 jan3
@@ -293,14 +292,12 @@ char,jyutping
 一啖飯,jat1 daam6 faan6
 一啲,jat1 di1
 一嘢,jat1 je5
-一嚿云,jat1 gau6 wan4
 一嚿佛,jat1 gau6 fat6
 一嚿嚿,jat1 gau6 gau6
 一嚿木,jat1 gau6 muk6
 一嚿石頭,jat1 gau6 sek6 tau4
 一嚿雲,jat1 gau6 wan4
 一嚿飯,jat1 gau6 faan6
-一囗,jat1 hau2
 一國三公,jat1 gwok3 saam1 gung1
 一國之主,jat1 gwok3 zi1 zyu2
 一國兩制,jat1 gwok3 loeng5 zai3
@@ -337,13 +334,18 @@ char,jyutping
 一大部分,jat1 daai6 bou6 fan6
 一天一地,jat1 tin1 jat1 dei6
 一天光晒,jat1 tin1 gwong1 saai3
+一夫一妻,jat1 fu1 jat1 cai1
 一夫一妻制,jat1 fu1 jat1 cai1 zai3
+一夫多妻,jat1 fu1 do1 cai1
+一夫多妻制,jat1 fu1 do1 cai1 zai3
+一夫制,jat1 fu1 zai3
 一夫當關,jat1 fu1 dong1 gwaan1
 一如,jat1 jyu4
 一如以往,jat1 jyu4 ji5 wong5
 一如所料,jat1 jyu4 so2 liu6
 一如既往,jat1 jyu4 gei3 wong5
 一妻制,jat1 cai1 zai3
+一妻多夫,jat1 cai1 do1 fu1
 一妻多夫制,jat1 cai1 do1 fu1 zai3
 一姐,jat1 ze1
 一孔之見,jat1 hung2 zi1 gin3
@@ -13335,7 +13337,7 @@ char,jyutping
 占滿,zim3 mun5
 卡介苗,kaa1 gaai3 miu4
 卡位,kaa1 wai2
-卡住,kaak1 zyu6
+卡住,kaa1 zyu6
 卡佬,kaa1 lou2
 卡債,kaat1 zaai3
 卡其,kaa1 kei4
@@ -13605,8 +13607,6 @@ char,jyutping
 厘米,lei4 mai5
 厘金,lei4 gam1
 厚切,hau5 cit3
-厚叠叠,hau5 dap6 dap6
-厚叠叠,hau5 dep6 dep6
 厚古薄今,hau5 gu2 bok6 gam1
 厚嘴葦鶯,hau5 zeoi2 wai5 ang1
 厚報,hau5 bou3
@@ -16574,7 +16574,7 @@ char,jyutping
 咭咭呱呱,gat1 gat1 gwaa1 gwaa1
 咭數,kaat1 sou3
 咭片,kaat1 pin2
-咭紙,kaak1 zi2
+咭紙,kaat1 zi2
 咯吱,lok3 zi1
 咯咯,gok4 gok1
 咯咯咯咯,gok4 gok1 gok3 gok6
@@ -17352,14 +17352,13 @@ char,jyutping
 啫嘛,ze1 maa3
 啫屐,ze1 kek6
 啫文,zoe1 man4
-啱使,aam1 sai2
+啱使,ngaam1 sai2
 啱偈,ngaam1 gai2
 啱傾,ngaam1 king1
 啱先,ngaam1 sin1
 啱到,ngaam1 dou3
 啱到廣州,ngaam1 dou3 gwong2 zau1
 啱去,ngaam1 heoi3
-啱咀形,aam1 zeoi2 jing4
 啱咀形,ngaam1 zeoi2 jing4
 啱咗,ngaam1 zo2
 啱啊,ngaam1 aa3
@@ -17373,22 +17372,22 @@ char,jyutping
 啱啱遇着剛剛,ngaam1 ngaam1 jyu6 zoek6 gong1 gong1
 啱喬,ngaam1 kiu4
 啱嘞,ngaam1 la3
-啱嘴形,aam1 zeoi2 jing4
+啱嘴形,ngaam1 zeoi2 jing4
 啱夠,ngaam1 gau3
 啱巧,ngaam1 kiu2
 啱心水,ngaam1 sam1 seoi2
-啱數,aam1 sou3
+啱數,ngaam1 sou3
 啱晒,ngaam1 saai3
 啱晒合尺,ngaam1 saai3 ho4 ce1
 啱牙,ngaam1 ngaa2
-啱用,aam1 jung6
+啱用,ngaam1 jung6
 啱瞓醒覺,ngaam1 fan3 seng2 gaau3
 啱竅,ngaam1 kiu2
 啱線,ngaam1 sin3
 啱聽,ngaam1 teng1
 啱蕎,ngaam1 kiu2
 啱蹺,ngaam1 kiu2
-啱身,aam1 san1
+啱身,ngaam1 san1
 啱過,ngaam1 gwo3
 啲人,di1 jan4
 啲咑,di1 daa2
@@ -23168,6 +23167,7 @@ char,jyutping
 夾縫,gaap3 fung4
 夾肢窩,gaap3 zi1 wo1
 夾腳,gep6 goek3
+夾腳,gip6 goek3
 夾腳拖鞋,gep6 goek3 to1 haai2
 夾萬,gaap3 maan6
 夾螺角,gaap3 lo4 gok3
@@ -31040,7 +31040,7 @@ char,jyutping
 心情,sam1 cing4
 心想事成,sam1 soeng2 si6 sing4
 心意,sam1 ji3
-心意咭,sam1 ji3 kaak1
+心意咭,sam1 ji3 kaat1
 心愛,sam1 oi3
 心慈面善,sam1 ci4 min6 sin6
 心態,sam1 taai3
@@ -34080,7 +34080,7 @@ char,jyutping
 打單,daa2 daan1
 打單信,daa2 daan1 seon3
 打單泡,daa2 daan1 paau1
-打嗐嗤,daa2 haat1 ci1
+打嗐嗤,daa2 hat1 ci1
 打嗝兒,daa2 gaak3 ji4
 打嘴,daa2 zeoi2
 打嘴巴,daa2 zeoi2 baa1
@@ -35340,7 +35340,7 @@ char,jyutping
 抽動症,cau1 dung6 zing3
 抽取,cau1 ceoi2
 抽吖,cau1 a1
-抽咭,cau1 kaak1
+抽咭,cau1 kaat1
 抽咽,cau1 jit3
 抽啊,cau1 aa3
 抽啦,cau1 la1
@@ -35973,8 +35973,8 @@ char,jyutping
 拜帖,baai3 tip2
 拜師,baai3 si1
 拜年,baai3 nin4
-拜年卡,baai3 nin4 kaak1
-拜年咭,baai3 nin4 kaak1
+拜年卡,baai3 nin4 kaat1
+拜年咭,baai3 nin4 kaat1
 拜廟,baai3 miu6
 拜懺,baai3 caam3
 拜拜,baai1 baai3
@@ -36432,8 +36432,6 @@ char,jyutping
 挾持,hip6 ci4
 挾持雇主,hip6 ci4 gu3 zyu2
 挾細拿粗,hip6 sai3 naa4 cou1
-挾腳,gep6 goek3
-挾腳,gip6 goek3
 挾製,hip6 zai3
 挾親,gip6 can1
 捅婁子,tung2 lau4 zi2
@@ -57972,7 +57970,7 @@ char,jyutping
 發信,faat3 seon3
 發個好夢,faat3 go3 hou2 mung6
 發個豬頭,faat3 gwo3 zyu1 tau4
-發個輪,faak3 go3 leon2
+發個輪,faat3 go3 leon2
 發光,faat3 gwong1
 發光二極管,faat3 gwong1 ji6 gik6 gun2
 發光二極體,faat3 gwong1 ji6 gik6 tai2
@@ -68999,7 +68997,7 @@ char,jyutping
 腰封,jiu1 fung1
 腰帶,jiu1 daai2
 腰帶,jiu1 daai3
-腰心腰肺,jiu2 sam1 jiu2 fi3
+腰心腰肺,jiu2 sam1 jiu2 fai3
 腰斬,jiu1 zaam2
 腰枕,jiu1 zam2
 腰果,jiu1 gwo2
@@ -83498,7 +83496,6 @@ char,jyutping
 金卡,gam1 kaat1
 金句,gam1 geoi3
 金叵羅,gam1 bo1 lo1
-金咭,gam1 kaak1
 金咭,gam1 kaat1
 金圓券,gam1 jyun4 gyun3
 金埕,gam1 cing4
