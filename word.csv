@@ -3616,11 +3616,12 @@ char,jyutping
 亂作古仔,lyun6 zok3 gu2 zai2
 亂作決定,lyun6 zok3 kyut3 ding6
 亂倫,lyun6 leon4
+亂咁,lyun2 gam3
 亂咁,lyun6 gam3
 亂咕攘,lyun6 gu1 joeng5
 亂哄哄,lyun6 hung6 hung6
-亂噏,lyun2 ap1
-亂噏廿四,lyun2 ap1 jaa6 sei3
+亂噏,lyun2 ngap1
+亂噏廿四,lyun2 ngap1 jaa6 sei3
 亂噏廿四,lyun6 ngap1 jaa6 sei3
 亂噏無爲,lyun2 ngap1 mou4 wai4
 亂嚟,lyun6 lai4
@@ -3638,8 +3639,11 @@ char,jyutping
 亂晒坑,lyun6 saai3 haang1
 亂晒大坑,lyun6 saai3 daai6 haang1
 亂晒大龍,lyun6 saai3 daai6 lung4
+亂晒籠,lyun2 saai3 lung4
 亂晒籠,lyun6 saai3 lung4
+亂晒龍,lyun2 saai3 lung4
 亂晒龍,lyun6 saai3 lung4
+亂爬,lyun2 paa4
 亂爬,lyun6 paa4
 亂石砸死,lyun6 sek6 zaap3 sei2
 亂碼,lyun6 maa5
@@ -3649,12 +3653,13 @@ char,jyutping
 亂籠,lyun2 lung4
 亂籠,lyun6 lung4
 亂糟糟,lyun6 zou1 zou1
+亂罰款,lyun2 fat6 fun2
 亂罰款,lyun6 fat6 fun2
 亂臣,lyun6 san4
 亂葬崗,lyun6 zong3 gong1
 亂蓬蓬,lyun6 pung4 pung4
+亂講,lyun2 gong2
 亂講,lyun6 gong2
-亂講也,lyun2 gong2 jaa5
 亂講無爲,lyun6 gong2 mou4 wai4
 亂象,lyun6 zoeng6
 亂趯,lyun6 dek3
@@ -11122,6 +11127,7 @@ char,jyutping
 刷新,caat3 san1
 刷爆,caat3 baau3
 刷牙,caat3 ngaa4
+刷牙洗面,caat3 ngaa4 sai2 min6
 刷牙先,caat3 ngaa4 sin1
 刷白,caat3 baak6
 刷過,caat3 gwo3
@@ -18328,15 +18334,13 @@ char,jyutping
 噍完唱,ziu6 jyun4 coeng3
 噍完鬆,ziu6 jyun4 sung1
 噎住,jit3 zyu6
-噏三噏四,ap1 saam1 ap1 sei3
 噏三噏四,ngap1 saam1 ngap1 sei3
-噏下,ap1 haa5
-噏下噏下,ap1 haa5 ap1 haa5
+噏下,ngap1 haa5
 噏出嚟,ngap1 ceot1 lai4
 噏動,ngap1 dung6
-噏得就噏,ap1 dak1 zau6 ap1
-噏撈,ap1 lou1
-噏東噏西,ap1 dung1 ap1 sai1
+噏得就噏,ngap1 dak1 zau6 ngap1
+噏撈,ngap1 lou1
+噏東噏西,ngap1 dung1 ngap1 sai1
 噏瘋,ngap1 fung1
 噏耷,ap1 dap1
 噏風,ngap1 fung1
@@ -19992,7 +19996,6 @@ char,jyutping
 埋周,maai4 zau1
 埋單,maai4 daan1
 埋嚟,maai4 lai4
-埋囄,maai4 lei4
 埋堆,maai4 deoi1
 埋天怨地,maai4 tin1 jyun3 dei6
 埋尾,maai4 mei5
@@ -25106,7 +25109,6 @@ char,jyutping
 學院,hok6 jyun2
 學霸,hok6 baa3
 學額,hok6 ngaak2
-學額,hok6 ngaak6
 學風,hok6 fung1
 學養,hok6 joeng5
 學齡兒童,hok6 ling4 ji4 tung4
@@ -27907,6 +27909,7 @@ char,jyutping
 屹立,ngat6 laap6
 屹立,ngat6 lap6
 屹立不動,ngat6 laap6 bat1 dung6
+岌下岌下,ngap6 haa5 ngap6 haa5
 岌岌可危,kap1 kap1 ho2 ngai4
 岌岌貢,ngap6 ngap6 gung3
 岌頭,ngap6 tau2
@@ -37338,7 +37341,6 @@ char,jyutping
 揀樓,gaan2 lau2
 揀蟀,gaan2 seot1
 揀起,gaan2 hei2
-揀過晒,gaan2 gwo3 saai3
 揀選,gaan2 syun2
 揀靚衫,gaan2 leng3 saam1
 揀飲擇喫,gaan2 jam2 zaak6 jaak3
@@ -62526,7 +62528,6 @@ char,jyutping
 空姐,hung1 ze2
 空室清野,hung1 sat1 cing1 je5
 空寥寥,hung1 leu1 leu1
-空少,hung1 siu2
 空少,hung1 siu3
 空尖彈,hung1 zim1 daan2
 空幻,hung1 waan6
@@ -78496,6 +78497,7 @@ char,jyutping
 赤頸鶇,cek3 geng2 dung1
 赤頸鷿鷈,cek3 geng2 pik1 tai4
 赤魚,cek3 jyu2
+赤鱲角,cek3 laap6 gok3
 赦令,se3 ling6
 赦免,se3 min5
 赧然,naan5 jin4
@@ -86101,6 +86103,7 @@ char,jyutping
 陰穴,jam1 jyut6
 陰翳,jam1 ai3
 陰聲細氣,jam1 seng1 sai3 hei3
+陰聲調,jam1 sing1 diu6
 陰脣,jam1 seon4
 陰莖,jam1 ging3
 陰莖套,jam1 ging3 tou3
@@ -86249,6 +86252,7 @@ char,jyutping
 陽江,joeng4 gong1
 陽江話,joeng4 gong1 waa2
 陽泉,joeng4 cyun4
+陽聲調,joeng4 sing1 diu6
 陽臺,joeng4 toi2
 陽臺,joeng4 toi4
 陽間,joeng4 gaan1
