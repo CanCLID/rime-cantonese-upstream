@@ -1,16 +1,22 @@
 from glob import iglob
 import jyutping
+import re
 import sys
 
-non_han = '，。：'
-multisyllable_allowlist = '兡瓸䇉竡尣兛瓩竏𥪕兝瓰竕嗧浬兞瓱竓呎吋啢𠺖兣糎甅竰卅𠯢兙瓧䇆竍卌'
-invalidchar_list = ' 　！？；'
+non_han = list('，：')
+multisyllable_allowlist = list('兡瓸䇉竡尣兛瓩竏𥪕兝瓰竕嗧浬兞瓱竓呎吋啢𠺖兣糎甅竰卅𠯢兙瓧䇆竍卌')
+
+with open('scripts/ignore.csv', encoding='utf-8') as f:
+    next(f)
+    ignoreroman_list = list(map(lambda line: tuple(line.rstrip('\n').split(',')), f))
+
+hanregex = re.compile(r'[\u3007\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\U00020000-\U0002a6df\U0002a700-\U0002ebef\U0002f800-\U0002fa1f\U00030000-\U000323af]')
 
 has_error = False
 i = 0
 
 for filename in iglob('*.csv'):
-    with open(filename) as f:
+    with open(filename, encoding='utf-8') as f:
         assert next(f).startswith('char,jyutping'), 'Invalid CSV header'
 
         for line_num, line in enumerate(f, 2):
@@ -26,16 +32,19 @@ for filename in iglob('*.csv'):
 
             romans_ = [roman for roman in romans_ if roman]
 
-            if len(word_) != len(romans_) and not any(char in multisyllable_allowlist for char in word):
-                print(f'[{i:04}] WARNING: [{filename}:{line_num}] Length do not match: {word}, "{romans}"', file=sys.stderr)
+            if len(word_) != len(romans_) and not any(char in multisyllable_allowlist for char in word_):
+                print(f'[{i:04}] \033[91m  ERROR: [{filename}:{line_num}] Length do not match: {word}, "{romans}"\033[0m', file=sys.stderr)
+                has_error = True
                 i += 1
 
-            if any(char in invalidchar_list for char in word):
+            if not all(re.fullmatch(hanregex, char) for char in word_):
                 print(f'[{i:04}] \033[91m  ERROR: [{filename}:{line_num}] Word contains invalid char: {word}, "{romans}"\033[0m', file=sys.stderr)
                 has_error = True
                 i += 1
 
             for char, roman in zip(word_, romans_):
+                if (char, roman) in ignoreroman_list:
+                    continue
                 status = jyutping.validate(roman)
                 if status == jyutping.ValidationStatus.UNCOMMON:
                     print(f'[{i:04}] WARNING: [{filename}:{line_num}] Uncommon jyutping "{roman}": {word}, "{romans}"', file=sys.stderr)

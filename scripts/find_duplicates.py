@@ -8,7 +8,7 @@ has_error = False
 i = 0
 
 for filename in iglob('*.csv'):
-    with open(filename) as f:
+    with open(filename, encoding='utf-8') as f:
         assert next(f).startswith('char,jyutping'), 'Invalid CSV header'
 
         for line_num, line in enumerate(f, 2):
