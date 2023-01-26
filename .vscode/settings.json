@@ -1,0 +1,5 @@
+{
+  "triggerTaskOnSave.tasks": {
+    "Lint": ["*.csv"]
+  }
+}
