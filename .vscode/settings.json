@@ -1,5 +1,6 @@
 {
   "triggerTaskOnSave.tasks": {
     "Lint": ["*.csv"]
-  }
+  },
+  "editor.fontSize": 24
 }
