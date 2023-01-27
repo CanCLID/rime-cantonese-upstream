@@ -57021,7 +57021,7 @@ char,jyutping
 甾醇,zoi1 seon4
 畀㗎,bei2 gaa3
 畀三盒飯,bei2 saam1 hap6 faan6
-畀下面,bei2 haa6 min6
+畀下面,bei2 haa5 min2
 畀位,bei2 wai2
 畀個答覆,bei2 go3 daap3 fuk1
 畀利事,bei2 lai6 si6
@@ -57029,8 +57029,16 @@ char,jyutping
 畀卡,bei2 kaat1
 畀咩,bei2 me1
 畀咭,bei2 kaat1
-畀問起,bei2 man6 hei2
+畀人問起,bei2 jan4 man6 hei2
+畀人考起,bei2 jan4 haau2 hei2
+畀你問起,bei2 nei5 man6 hei2
+畀你考起,bei2 nei5 haau2 hei2
+畀佢問起,bei2 keoi5 man6 hei2
+畀佢考起,bei2 keoi5 haau2 hei2
+畀我問起,bei2 ngo5 man6 hei2
+畀我考起,bei2 ngo5 haau2 hei2
 畀啦,bei2 laa1
+畀喇,bei2 laa3
 畀嘢,bei2 je5
 畀夜作晝,bei2 je6 zok3 zau3
 畀天收,bei2 tin1 sau1
@@ -57039,14 +57047,22 @@ char,jyutping
 畀晝作夜,bei2 zau3 zok3 je6
 畀格米,bei2 gaak3 mai5
 畀次,bei2 ci3
+畀次機會,bei2 ci3 gei1 wui6
 畀水沉死,bei2 seoi2 zam6 sei2
+畀水沉親,bei2 seoi2 zam6 can1
+畀水濁到,bei2 seoi2 zuk6 dou2
+畀水濁死,bei2 seoi2 zuk6 sei2
 畀水濁親,bei2 seoi2 zuk6 can1
 畀油,bei2 jau2
+畀油啦,bei2 jau2 laa1
+畀油喇,bei2 jau2 laa3
+畀地板油,bei2 dei6 baan2 jau2
 畀盒,bei2 hap6
 畀眼睇,bei2 ngaan5 tai2
 畀着,bei2 zoek6
+畀着我,bei2 zoek6 ngo5
+畀着你,bei2 zoek6 nei5
 畀睇,bei2 tai2
-畀考起,bei2 haau2 hei2
 畀蚊啄親,bei2 man1 doeng1 can1
 畀說話聽,bei2 syut3 waa6 teng1
 畀路支,bei2 lou6 zi1
@@ -57058,7 +57074,6 @@ char,jyutping
 畀雪藏,bei2 syut3 cong4
 畀雷劈,bei2 leoi4 pek3
 畀電話,bei2 din6 waa2
-畀電話,bei2 din6 waa3
 畀非士,bei2 fei1 si2
 畀面,bei2 min2
 畀面制,bei2 min6 zai3
@@ -74106,6 +74121,7 @@ char,jyutping
 被告,bei6 gou3
 被告人,bei6 gou3 jan4
 被和諧,bei6 wo4 haai4
+被問起,bei6 man6 hei2
 被單,pei5 daan1
 被困,bei6 kwan3
 被套,pei5 tou3
