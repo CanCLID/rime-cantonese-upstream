@@ -6,8 +6,9 @@
     {
       "label": "Lint",
       "type": "shell",
-      "command": "${config:python.defaultInterpreterPath}",
-      "args": ["${workspaceFolder}/scripts/lint.py", "${relativeFile}"],
+      "command": "python",
+      "args": ["${workspaceFolder}/scripts/lint.py"],
+      "isBackground": true,
       "presentation": {
         "clear": true,
         "reveal": "never"
@@ -16,13 +17,18 @@
         "owner": "python",
         "fileLocation": ["relative", "${workspaceFolder}"],
         "pattern": {
-          "regexp": "^(WARNING|ERROR):\\s+\\[(.*?):(\\d+):(\\d+),(\\d+)\\]\\s+(.*)$",
-          "severity": 1,
-          "file": 2,
-          "line": 3,
-          "column": 4,
-          "endColumn": 5,
+          "regexp": "^(.*?):(\\d+):(\\d+),(\\d+):\\s+(WARNING|ERROR):\\s+(.*)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "endColumn": 4,
+          "severity": 5,
           "message": 6
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "----- Message Starts -----",
+          "endsPattern": "----- Message Ends -----"
         }
       },
       "runOptions": {

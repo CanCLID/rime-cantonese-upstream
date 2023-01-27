@@ -1,12 +1,19 @@
-from glob import iglob
 import jyutping
-import re
-import sys
+import time
+from glob import iglob
+from os.path import basename
 from itertools import zip_longest, accumulate
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
 
 non_han = {*'，：'}
-other_han = {*'\u3006\ufa0e\ufa0f\ufa11\ufa13\ufa14\ufa1f\ufa21\ufa23\ufa24\ufa27\ufa28\ufa29'}
+other_han = {*'〇﨎﨏﨑﨓﨔﨟﨡﨣﨤﨧﨨﨩'}
 multisyllable_allowlist = {*'兡瓸䇉竡尣兛瓩竏𥪕兝瓰竕嗧浬兞瓱竓呎吋啢𠺖兣糎甅竰卅𠯢兙瓧䇆竍卌'}
+other_column_values = {
+    "pron_rank": {"預設", "常用", "罕見", "棄用"},
+    "tone_var": {"", "本調", "變調"},
+    "literary_vernacular": {"", "文讀", "白讀"},
+}
 
 with open('scripts/ignore.csv', encoding='utf-8') as f:
     next(f)
@@ -31,20 +38,33 @@ def get_additional_information(char):
 def utf16_byte_length(char):
     return (char >= '\U00010000') + 1
 
-for filename in sys.argv[1:] or iglob('*.csv'):
+cache = {}
+headers = {}
+curr_messages = {}
+
+def lint(filename):
     with open(filename, encoding='utf-8') as f:
-        first_line = next(f)
+        new_messages = []
+
+        first_line = next(f, "")
         if not first_line.startswith('char,jyutping'):
-            print(f'ERROR: [{filename}:1:1,{sum(map(utf16_byte_length, first_line)) + 1}] Invalid CSV header')
+            new_messages.append(f'{filename}:1:1,{sum(map(utf16_byte_length, first_line)) + 1}: ERROR: Invalid CSV header')
+        other_column_names = first_line.rstrip('\n').split(',')[2:]
+
+        if first_line != headers.get(filename):
+            cache[filename] = {}
 
         for line_num, line in enumerate(f, 2):
+            if line in cache[filename]:
+                new_messages += map(lambda line: f'{filename}:{line_num}:{line}', cache[filename][line])
+                continue
+            messages = []
+
             def error(start, end, message):
-                # nonlocal filename, line
-                print(f'ERROR: [{filename}:{line_num}:{utf16_column_mapper[start]},{utf16_column_mapper[end]}] {message}')
+                messages.append(f'{utf16_column_mapper[start]},{utf16_column_mapper[end]}: ERROR: {message}')
 
             def warn(start, end, message):
-                # nonlocal filename, line
-                print(f'WARNING: [{filename}:{line_num}:{utf16_column_mapper[start]},{utf16_column_mapper[end]}] {message}')
+                messages.append(f'{utf16_column_mapper[start]},{utf16_column_mapper[end]}: WARNING: {message}')
 
             def yieldChars(chars):
                 s = ''
@@ -95,7 +115,7 @@ for filename in sys.argv[1:] or iglob('*.csv'):
             if len(columns) < 2:
                 error(0, len(line), 'Invalid line')
                 continue
-            chars, romans, *_ = columns
+            chars, romans, *other_columns = columns
 
             length_mismatch = False
             for (char_i, char), (roman_i, roman) in zip_longest(yieldChars(chars), yieldRomans(romans, len(chars) + 1), fillvalue=(None, None)):
@@ -113,5 +133,45 @@ for filename in sys.argv[1:] or iglob('*.csv'):
                     elif status == jyutping.ValidationStatus.INVALID:
                         error(roman_i - len(roman), roman_i, f'Invalid jyutping: "{roman}"')
 
+            other_start = len(f'{chars},{romans},')
             if length_mismatch:
-                warn(0, len(line), 'Length does not match')
+                warn(0, other_start - 1, 'Word length does not match the number of syllables')
+
+            i = other_start
+            for name, value in zip(other_column_names, other_columns):
+                if name in other_column_values and value not in other_column_values[name]:
+                    error(i, i + len(value), f'Illegal value for column "{name}"')
+                i += len(value) + 1
+
+            len_other_column_names = len(other_column_names)
+            len_other_columns = len(other_columns)
+            if len_other_column_names != len_other_columns:
+                warn(i - 1 if len_other_columns > len_other_column_names else other_start, len(line), 'Number of columns does not match the header')
+
+            new_messages += map(lambda line: f'{filename}:{line_num}:{line}', messages)
+            cache[filename][line] = messages
+
+        curr_messages[filename] = "\n".join(new_messages)
+
+    print("----- Message Starts -----")
+    print(*curr_messages.values(), sep="\n")
+    print("----- Message Ends -----")
+
+
+for filename in iglob("*.csv"):
+    lint(filename)
+
+class EventHandler(FileSystemEventHandler):
+    def on_modified(self, event):
+        if event.src_path.endswith(".csv"):
+            lint(basename(event.src_path))
+
+observer = Observer()
+observer.schedule(EventHandler(), ".")
+observer.start()
+try:
+    while True:
+        time.sleep(1)
+except KeyboardInterrupt:
+    observer.stop()
+observer.join()
