@@ -13,6 +13,7 @@
 1. `char.csv`：單字音
 1. `variant.csv`：異體字分類
 1. `word.csv`：常用詞
+1. `fixed_expressions.csv`：成語、諺語、歇後語、文言短句
 1. `phrase_fragment.csv`：短句、文字碎片、常見輸入組合、ngram
 1. `trending.csv`未分類嘅流行詞
 
