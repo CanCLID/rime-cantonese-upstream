@@ -3,13 +3,11 @@ char,jyutping
 㓟菠蘿皮,pai1 bo1 lo4 pei4
 㓟蘋果,pai1 ping4 gwo2
 㓟鉛筆,pai1 jyun4 bat1
-㓤個窿,gat1 go3 lung1
 㓤傷,gat1 soeng1
-㓤出血,gat1 ceot1 hyut3
 㓤喉,gat1 hau4
+㓤心肝,gat1 sam1 gon1
+㓤穿,gat1 cyun1
 㓤肉,gat1 juk6
-㓤親,gat1 can1
-㓤親手,gat1 can1 sau2
 㔆手,caam5 sau2
 㕵㕵狗,wau1 wau1 gau2
 㗎仔,gaa4 zai2
@@ -156,6 +154,7 @@ char,jyutping
 䰾魚,baa1 jyu2
 䱽魚,cong1 jyu2
 䴉嘴鷸,waan4 zeoi2 wat6
+一拮就穿,jat1 gat1 zau6 cyun1
 一㓤就穿,jat1 gat1 zau6 cyun1
 一㧻就穿,jat1 duk1 zau6 cyun1
 一一,jat1 jat1
@@ -5138,7 +5137,6 @@ char,jyutping
 仳離,pei2 lei4
 仵作,ng5 zok3
 仵作佬,ng5 zok3 lou2
-件衫㓤肉,gin6 saam1 gat1 juk6
 件頭,gin6 tau2
 任人唯親,jam6 jan4 wai4 can1
 任人唯賢,jam6 jan4 wai4 jin4
@@ -5184,6 +5182,7 @@ char,jyutping
 仿效,fong2 haau6
 仿文,fong2 man4
 仿照,fong2 ziu3
+仿生,fong2 sang1
 仿皮,fong2 pei2
 仿真服務器,fong2 zan1 fuk6 mou6 hei3
 仿紙,fong2 zi2
@@ -35974,6 +35973,10 @@ char,jyutping
 拭目傾耳,sik1 muk6 king1 ji5
 拭除,sik1 ceoi4
 拮傷,gat1 soeng1
+拮喉,gat1 hau4
+拮心肝,gat1 sam1 gon1
+拮穿,gat1 cyun1
+拮肉,gat1 juk6
 拮据,git3 geoi3
 拯救,cing2 gau3
 拯救佢,cing2 gau3 keoi5
@@ -38945,6 +38948,7 @@ char,jyutping
 擔起上身,daam1 hei2 soeng5 san1
 擔起頭家,daam1 hei2 tau4 gaa1
 擔返張凳,daam1 faan1 zoeng1 dang3
+擔遮,daam1 ze1
 擔鋤頭,daam1 co4 tau4
 擔雪填井,daam1 syut3 tin4 zeng2
 擔風險,daam1 fung1 him2
