@@ -22,9 +22,11 @@ simplified_start = "䌶䜣䞌䢀䥺䦶䭪䯃䲝䴓䶭丬卤纟见觇讠贝车钅
 simplified_end = "䍁䜩䞐䢂䦆䦸䭪䯅䲤䴙䶮丬卤缵觅觑谶赣辚镶长阛韬颧飚飞馕骧鳤鹴鹾麦麺黄黾鼍齑龌龛龟鿏鿕鿭鿺𦈡𧮪𧹗𨐊𨱖𨸎𩐀𩖗𩙰𩠏𩨐𩽿𩾈𩾌𩾎𪉕𪎐𪚐𫄹𫌭𫍿𫎬𫐙𫔕𫔹𫖖𫖺𫗌𫗵𫘱𫚭𫜆𫜊𫜕" + \
     "𫜟𫜰𫜳𫟇𫟢𫟦𫠂𫠈𫠌𫠒𫠗𫠜𬌒𬙋𬢔𬤱𬦀𬨕𬮃𬮹𬰸𬱳𬲈𬳔𬴐𬶻𬷕𬸱𬸹𬹎𬹤𬹳𬺖𬺞𮉯𮙋𮝺𮣷𮤸𮧵𮨶𮩞𮪥𮬤𮭪𮭰𮮇𮯙黾𰠘𰭁𰴞𰶏𰷮𰺤𰿊𰿖𱀀𱂌𱂻𱃠𱄊𱅬𱈜𱊵𱊽𱋮𱌉𱌙𱌽𱍈𱭘𱺰𲁙𲂗𲃆𲅃𲈡𲈥𲉈𲊥𲋃𲋑𲋓𲋬𲌋𲍙𲎊𲎓𲎫𲎮"
 
-with open('scripts/ignore.csv', encoding='utf-8') as f:
-    next(f)
-    ignoreroman_list = set(map(lambda line: tuple(line.rstrip('\n').split(',')), f))
+ignoreroman_list = {}
+
+cache = {}
+headers = {}
+curr_messages = {}
 
 def is_unified_ideograph(char):
     return '\u4e00' <= char <= '\u9fff' or \
@@ -45,6 +47,9 @@ def get_additional_information(char):
            ': Compatibility Ideographs Supplement' if '\U0002f800' <= char <= '\U0002fa1f' else \
            ''
 
+def is_ascii_lowercase_letter(char):
+    return 'a' <= char <= 'z'
+
 def is_ascii_letter(char):
     return 'A' <= char <= 'Z' or 'a' <= char <= 'z'
 
@@ -53,10 +58,6 @@ def utf16_byte_length(char):
 
 def column_start(column):
     return len(column) + 1
-
-cache = {}
-headers = {}
-curr_messages = {}
 
 def lint(filename):
     with open(filename, encoding='utf-8') as f:
@@ -101,7 +102,7 @@ def lint(filename):
                             s = ''
                         is_punctuation = not is_punctuation
                         is_leading = False
-                    if not is_punctuation and s and not (is_ascii_letter(char) and is_ascii_letter(s[-1])):
+                    if not is_punctuation and s and not (is_ascii_lowercase_letter(char) and is_ascii_letter(s[-1])):
                         yield (i, s)
                         s = ''
                     s += char
@@ -211,17 +212,34 @@ def lint(filename):
     print(*curr_messages.values(), sep="\n")
     print("----- Message Ends -----")
 
-
-for filename in iglob("*.csv"):
-    lint(filename)
+def start_linter():
+    global ignoreroman_list, cache, headers, curr_messages
+    with open('scripts/ignore.csv', encoding='utf-8') as f:
+        next(f, "")
+        ignoreroman_list = set(map(lambda line: tuple(line.rstrip('\n').split(',')), f))
+    cache = {}
+    headers = {}
+    curr_messages = {}
+    for filename in iglob("*.csv"):
+        lint(filename)
 
 class EventHandler(FileSystemEventHandler):
     def on_modified(self, event):
         if event.src_path.endswith(".csv"):
+            time.sleep(0.01)
             lint(basename(event.src_path))
+
+class RestartHandler(FileSystemEventHandler):
+    def on_modified(self, event):
+        if event.src_path.endswith(".csv"):
+            time.sleep(0.01)
+            start_linter()
+
+start_linter()
 
 observer = Observer()
 observer.schedule(EventHandler(), ".")
+observer.schedule(RestartHandler(), "./scripts")
 observer.start()
 try:
     while True:
