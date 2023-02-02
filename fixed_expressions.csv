@@ -1,5 +1,5 @@
 char,jyutping
-一不做二不休,jat1 bat1 zou6 ji6 bat1 jau1
+一不做，二不休,jat1 bat1 zou6 ji6 bat1 jau1
 一人做事一人當,jat1 jan4 zou6 si6 jat1 jan4 dong1
 一人得道，雞犬升天,jat1 jan4 dak1 dou6 gai1 hyun2 sing1 tin1
 一人計短，二人計長,jat1 jan4 gai3 dyun2 ji6 jan4 gai3 coeng4
@@ -10,7 +10,21 @@ char,jyutping
 一個願打，一個願捱,jat1 go3 jyun6 daa2 jat1 go3 jyun6 ngaai4
 一分耕耘，一分收穫,jat1 fan1 gaang1 wan4 jat1 fan1 sau1 wok6
 一分錢，一分貨,jat1 fan1 cin4 jat1 fan1 fo3
+一啖砂糖一啖屎,jat1 daam6 saa1 tong4 jat1 daam6 si2
 一回生，兩回熟,jat1 wui4 sang1 loeng5 wui4 suk6
+一場歡喜一場空,jat1 coeng4 fun1 hei2 jat1 coeng4 hung1
+一夜夫妻百夜恩,jat1 je6 fu1 cai1 baak3 je6 jan1
+一夫當關，萬夫莫敵,jat1 fu1 dong1 gwaan1 maan6 fu1 mok6 dik6
+一夫當關，萬夫莫開,jat1 fu1 dong1 gwaan1 maan6 fu1 mok6 hoi1
+一失足成千古恨,jat1 sat1 zuk1 sing4 cin1 gu2 han6
+一子錯，滿盤皆落索,jat1 zi2 co3 mun5 pun4 gaai1 lok6 sok3
+一家便宜兩家着,jat1 gaa1 pin4 ji4 loeng5 gaa1 zoek6
+一家唔知一家事,jat1 gaa1 m4 zi1 jat1 gaa1 si6
+一寸光陰一寸金，寸金難買寸光陰,jat1 cyun3 gwong1 jam1 jat1 cyun3 gam1 cyun3 gam1 naan4 maai5 cyun3 gwong1 jam1
+一將功成萬骨枯,jat1 zoeng3 gung1 sing4 maan6 gwat1 fu1
+一山還有一山高,jat1 saan1 waan4 jau5 jat1 saan1 gou1
+一年之計在於春，一日之計在於晨,jat1 nin4 zi1 gai3 zoi6 jyu1 ceon1 jat1 jat6 zi1 gai3 zoi6 jyu1 san4
+一年被蛇咬，十年怕井繩,jat1 nin4 bei6 se4 ngaau5 sap6 nin4 paa3 zeng2 sing4
 一日不見，如隔三秋,jat1 jat6 bat1 gin3 jyu4 gaak3 saam1 cau1
 一日之計在於晨,jat1 jat6 zi1 gai3 zoi6 jyu1 san4
 一日爲師，終身爲父,jat1 jat6 wai4 si1 zung1 san1 wai4 fu6
@@ -120,7 +134,7 @@ char,jyutping
 人一世，物一世,jan4 jat1 sai3 mat6 jat1 sai3
 人不可貌相，海水不可斗量,jan4 bat1 ho2 maau6 soeng3 hoi2 seoi2 bat1 ho2 dau2 loeng6
 人不爲己，天誅地滅,jan4 bat1 wai6 gei2 tin1 zyu1 dei6 mit6
-人不犯我，我不犯人,jan4 bat1 faan6 ngo5 ngo5 bat1 faan6 jan4 
+人不犯我，我不犯人,jan4 bat1 faan6 ngo5 ngo5 bat1 faan6 jan4
 人之初，性本善,jan4 zi1 co1 sing3 bun2 sin6
 人之將死，其言也善,jan4 zi1 zoeng1 sei2 kei4 jin4 jaa5 sin6
 人人得而誅之,jan4 jan4 dak1 ji4 zyu1 zi1
@@ -147,8 +161,188 @@ char,jyutping
 人非生而知之者，熟能無惑,jan4 fei1 sang1 ji4 zi1 zi1 ze2 suk6 nang4 mou4 waak6
 人非聖賢，孰能無過,jan4 fei1 sing3 jin4 suk6 nang4 mou4 gwo3
 仁者見仁，智者見智,jan4 ze2 gin3 jan4 zi3 ze2 gin3 zi3
+以不變應萬變,ji5 bat1 bin3 jing3 maan6 bin3
+以其人之道，還治其人之身,ji5 kei4 jan4 zi1 dou6 waan4 zi6 kei4 jan4 zi1 san1
+以子之矛，攻子之盾,ji5 zi2 zi1 maau4 gung1 zi2 zi1 teon5
+以小人之心，度君子之腹,ji5 siu2 jan4 zi1 sam1 dok6 gwan1 zi2 zi1 fuk1
+以直報怨，以德報德,ji5 zik6 bou3 jyun3 ji5 dak1 bou3 dak1
 以眼還眼，以牙還牙,ji5 ngaan5 waan4 ngaan5 ji5 ngaa4 waan4 ngaa4
+以言代法，以權壓法,ji5 jin4 doi6 faat3 ji5 kyun4 aat3 faat3
+何不食肉糜,ho4 bat1 sik6 juk6 mei4
+何樂而不爲,ho4 lok6 ji4 bat1 wai4
+佛要金裝，人要衣裝,fat6 jiu3 gam1 zong1 jan4 jiu3 ji1 zong1
+你做初一，我做十五,nei5 zou6 co1 jat1 ngo5 zou6 sap6 ng5
+你敬我一尺，我敬你一丈,nei5 ging3 ngo5 jat1 cek3 ngo5 ging3 nei5 jat1 zoeng6
+你有你，我有我,nei5 jau5 nei5 ngo5 jau5 ngo5
+你有張良計，我有過牆梯,nei5 jau5 zoeng1 loeng4 gai3 ngo5 jau5 gwo3 coeng4 tai1
+你走你嘅陽關道，我過我嘅獨木橋,nei5 zau2 nei5 ge3 joeng4 gwaan1 dou6 ngo5 gwo3 ngo5 ge3 duk6 muk6 kiu4
+你走你的陽關道，我過我的獨木橋,nei5 zau2 nei5 dik1 joeng4 gwaan1 dou6 ngo5 gwo3 ngo5 dik1 duk6 muk6 kiu4
+你還你，我還我,nei5 waan4 nei5 ngo5 waan4 ngo5
+來得容易，去得快,loi4 dak1 jung4 ji6 heoi3 dak1 faai3
+來得早不如來得巧,loi4 dak1 zou2 bat1 jyu4 loi4 dak1 haau2
+來無影，去無蹤,loi4 mou4 jing2 heoi3 mou4 zung1
+來者不善，善者不來,loi4 ze2 bat1 sin6 sin6 ze2 bat1 loi4
+來而不往非禮也,loi4 ji4 bat1 wong5 fei1 lai5 jaa5
+來說是非者，便是是非人,loi4 syut3 si6 fei1 ze2 bin6 si6 si6 fei1 jan4
+做又三十六，唔做又三十六,zou6 jau6 saam1 sap6 luk6 m4 zou6 jau6 saam1 sap6 luk6
+做場大龍鳳,zou6 coeng4 daai6 lung4 fung6
+做慣乞兒懶做官,zou6 gwaan3 hat1 ji1 laan5 zou6 gun1
+做戲做全套,zou6 hei3 zou6 cyun4 tou3
+做生不如做熟,zou6 saang1 bat1 jyu4 zou6 suk6
+側側膊，唔多覺,zak1 zak1 bok3 m4 do1 gok3
+偷得浮生半日閒,tau1 dak1 fau4 sang1 bun3 jat6 haan4
+偷雞不成蝕把米,tau1 gai1 bat1 sing4 sik6 baa2 mai5
+偷雞唔到蝕揸米,tau1 gai1 m4 dou2 sit6 zaa1 mai5
+偷雞唔成蝕揸米,tau1 gai1 m4 seng4 sit6 zaa1 mai5
+傻人有傻福,so4 jan4 jau5 so4 fuk1
+先下手爲強,sin1 haa6 sau2 wai4 koeng4
+先使未來錢,sin1 sai2 mei6 loi4 cin4
+先天下之憂而憂，後天下之樂而樂,sin1 tin1 haa6 zi1 jau1 ji4 jau1 hau6 tin1 haa6 zi1 lok6 ji4 lok6
+先小人，後君子,sin1 siu2 jan4 hau6 gwan1 zi2
+先敬羅衣後敬人,sin1 ging3 lo4 ji1 hau6 ging3 jan4
+兒不嫌母醜，狗不嫌家貧,ji4 bat1 jim4 mou5 cau2 gau2 bat1 jim4 gaa1 pan4
+兒孫自有兒孫福,ji4 syun1 zi6 jau5 ji4 syun1 fuk1
+兔子不吃窩邊草,tou3 zi2 bat1 hek3 wo1 bin1 cou2
+入境問俗，入鄉隨俗,jap6 ging2 man6 zuk6 jap6 hoeng1 ceoi4 zuk6
+入屋叫人，入廟拜神,jap6 uk1 giu3 jan4 jap6 miu2 baai3 san4
+入得廚房，出得廳堂,jap6 dak1 ceoi4 fong2 ceot1 dak1 teng1 tong4
+內行看門道，外行看熱鬧,noi6 hong4 hon3 mun4 dou6 ngoi6 hong4 hon3 jit6 naau6
+兩公婆見鬼，唔係你就係我,loeng5 gung1 po2 gin3 gwai2 m4 hai6 nei5 zau6 hai6 ngo5
+兩國相爭，不斬來使,loeng5 gwok3 soeng1 zang1 bat1 zaam2 loi4 si3
+兩害取其輕,loeng5 hoi6 ceoi2 kei4 heng1
+兩害取其輕,loeng5 hoi6 ceoi2 kei4 hing1
+兩害相權取其輕,loeng5 hoi6 soeng1 kyun4 ceoi2 kei4 hing1
+兩虎相爭，必有一傷,loeng5 fu2 soeng1 zang1 bit1 jau5 jat1 soeng1
+兩虎相鬥，必有一傷,loeng5 fu2 soeng1 dau3 bit1 jau5 jat1 soeng1
+兩頭唔到岸,loeng5 tau4 m4 dou3 ngon6
+八九不離十,baat3 gau2 bat1 lei4 sap6
+八字生得正,baat3 zi6 saang1 dak1 zeng3
+八字還沒一撇,baat3 zi6 waan4 mut6 jat1 pit3
+八字都冇一撇,baat3 zi6 dou1 mou5 jat1 pit3
+兵來將擋，水來土掩,bing1 loi4 zoeng3 dong2 seoi2 loi4 tou2 jim2
+兵家必爭之地,bing1 gaa1 bit1 zang1 zi1 dei6
+冇咁大個頭唔好戴咁大頂帽,mou5 gam3 daai6 go3 tau4 m4 hou2 daai3 gam3 daai6 deng2 mou2
+冇咁大個頭就唔好戴咁大頂帽,mou5 gam3 daai6 go3 tau4 zau6 m4 hou2 daai3 gam3 daai6 deng2 mou2
 冇眼屎乾淨盲,mou5 ngaan5 si2 gon1 zeng6 maang4
+冇膽匪類,mou5 daam2 fei2 leoi2
+冇花假,mou5 faa1 gaa2
+冇花冇假,mou5 faa1 mou5 gaa2
+冇規冇矩,mou5 kwai1 mou5 geoi2
+冤冤相報何時了,jyun1 jyun1 soeng1 bou3 ho4 si4 liu5
+冤家宜解不宜結,jyun1 gaa1 ji4 gaai2 bat1 ji4 git3
+冤有頭，債有主,jyun1 jau5 tau4 zaai3 jau5 zyu2
+冰凍三尺，非一日之寒,bing1 dung3 saam1 cek3 fei1 jat1 jat6 zi1 hon4
+冰封三尺，非一日之寒,bing1 fung1 saam1 cek3 fei1 jat1 jat6 zi1 hon4
+冷手執個熱煎堆,laang5 sau2 zap1 go3 jit6 zin1 deoi1
+凡事留一線，他日好相見,faan4 si6 lau4 jat1 sin3 taa1 jat6 hou2 soeng1 gin3
+凡事留一線，日後好相見,faan4 si6 lau4 jat1 sin3 jat6 hau6 hou2 soeng1 gin3
+出乎意料,ceot1 fu4 ji3 liu6
+出乎意料之外,ceot1 fu4 ji3 liu6 zi1 ngoi6
+出其不意，攻其不備,ceot1 kei4 bat1 ji3 gung1 kei4 bat1 bei6
+出污泥而不染,ceot1 wu1 nai4 ji4 bat1 jim5
+出淤泥而不染,ceot1 jyu1 nai4 ji4 bat1 jim5
+初歸新抱，落地孩兒,co1 gwai1 sam1 pou5 lok6 dei6 haai4 ji4
+初生之犢不怕虎,co1 sang1 zi1 duk6 bat1 paa3 fu2
+初生之犢不畏虎,co1 sang1 zi1 duk6 bat1 wai3 fu2
+利口不利腹,lei6 hau2 bat1 lei6 fuk1
+利口唔利腹,lei6 hau2 m4 lei6 fuk1
+到喉唔到肺,dou3 hau4 m4 dou3 fai3
+前不見古人，後不見來者,cin4 bat1 gin3 gu2 jan4 hau6 bat1 gin3 loi4 ze2
+前世撈亂骨頭,cin4 sai3 lou1 lyun6 gwat1 tau4
+前事不忘，後事之師,cin4 si6 bat1 mong4 hau6 si6 zi1 si1
+前人種樹，後人乘涼,cin4 jan4 zung2 syu6 hau6 jan4 sing4 loeng4
+前怕狼後怕虎,cin4 paa3 long4 hau6 paa3 fu2
+前無古人，後無來者,cin4 mou4 gu2 jan4 hau6 mou4 loi4 ze2
+前言不對後語,cin4 jin4 bat1 deoi3 hau6 jyu5
+前車之覆，後車之鑑,cin4 ce1 zi1 fuk6 hau6 ce1 zi1 gaam3
+前車之覆，後車之鑒,cin4 ce1 zi1 fuk1 hau6 ce1 zi1 gaam3
+力不勝任,lik6 bat1 sing1 jam6
+力不從心,lik6 bat1 cung4 sam1
+功不可沒,gung1 bat1 ho2 mut6
+功大於過,gung1 daai6 jyu1 gwo3
+功完行滿,gung1 jyun4 hang5 mun5
+功德圓滿,gung1 dak1 jyun4 mun5
+功德無量,gung1 dak1 mou4 loeng4
+功成不居,gung1 sing4 bat1 geoi1
+功成名就,gung1 sing4 ming4 zau6
+功成名遂,gung1 sing4 ming4 seoi6
+功成身退,gung1 sing4 san1 teoi3
+功敗垂成,gung1 baai6 seoi4 sing4
+功虧一簣,gung1 kwai1 jat1 gwai6
+功過相抵,gung1 gwo3 soeng1 dai2
+功高不賞,gung1 gou1 bat1 soeng2
+功高望重,gung1 gou1 mong6 zung6
+功高蓋主,gung1 gou1 koi3 zyu2
+加油添醋,gaa1 jau4 tim1 cou3
+加鹽加醋,gaa1 jim4 gaa1 cou3
+劣幣驅逐良幣,lyut3 bai6 keoi1 zuk6 loeng4 bai6
+劣績斑斑,lyut6 zik1 baan1 baan1
+劣跡斑斑,lyut3 zik1 baan1 baan1
+助人爲樂,zo6 jan4 wai4 lok6
+努力不懈,nou5 lik6 bat1 haai6
+努力以赴,nou5 lik6 ji5 fu6
+劫富濟貧,gip3 fu3 zai2 pan4
+勇者不懼,jung5 ze2 bat1 geoi6
+勉力而爲,min5 lik6 ji4 wai4
+勉爲其難,min5 wai4 kei4 naan4
+勒住褲頭,laak6 zyu6 fu3 tau4
+勒緊褲帶,lak6 gan2 fu3 daai2
+勒緊褲頭,laak6 gan2 fu3 tau4
+動人心弦,dung6 jan4 sam1 jin4
+動人心魄,dung6 jan4 sam1 paak3
+動刀動槍,dung6 dou1 dung6 coeng1
+動輒得咎,dung6 zip3 dak1 gau3
+動魄驚心,dung6 paak3 ging1 sam1
+勝券在握,sing3 gyun3 zoi6 aak1
+勞民傷財,lou4 man4 soeng1 coi4
+勞而無功,lou4 ji4 mou4 gung1
+勞苦功高,lou4 fu2 gung1 gou1
+勞苦大衆,lou4 fu2 daai6 zung3
+勢不兩立,sai3 bat1 loeng5 laap6
+勢不可擋,sai3 bat1 ho2 dong2
+勢在必得,sai3 zoi6 bit1 dak1
+勢在必行,sai3 zoi6 bit1 hang4
+勢均力敵,sai3 gwan1 lik6 dik6
+勢如破竹,sai3 jyu4 po3 zuk1
+勢孤力弱,sai3 gu1 lik6 joek6
+勢想不到,sai3 soeng2 bat1 dou2
+勢成水火,sai3 sing4 seoi2 fo2
+勢成騎虎,sai3 sing4 ke4 fu2
+勢所必然,sai3 so2 bit1 jin4
+勢所難免,sai3 so2 naan4 min5
+勢高益危,sai3 gou1 jik1 ngai4
+勤以補拙,kan4 ji5 bou2 zyut3
+勤儉持家,gim6 kan4 ci4 gaa1
+勤勞致富,kan4 lou4 zi3 fu3
+勤能補拙,kan4 nang4 bou2 zyut3
+勵精圖治,lai6 zing1 tou4 zi6
+勸善懲惡,hyun3 sin6 cing4 ok3
+勾三搭四,ngau1 saam1 daap3 sei3
+勾心鬥角,ngau1 sam1 dau3 gok3
+勾朋結黨,ngau1 pang4 git3 dong2
+勿庸置疑,mat6 jung4 zi3 ji4
+勿忘國恥,mat6 mong4 gwok3 ci2
+化爲泡影,faa3 wai4 paau3 jing2
+化爲烏有,faa3 wai4 wu1 jau5
+化繁爲簡,faa3 faan4 wai4 gaan2
+化險爲夷,faa3 him2 wai4 ji4
+化鴟爲鳳,faa3 ci1 wai4 fung6
+千揀萬揀，揀着個爛燈盞,cin1 gaan2 maan6 gaan2 gaan2 zoek6 go3 laan6 dang1 zaan2
+千揀萬揀，揀着個爛燈膽,cin1 gaan2 maan6 gaan2 gaan2 zoek6 go3 laan6 dang1 daam2
+千瘡百孔,cin1 cong1 baak3 hung2
+千真萬確,cin1 zan1 maan6 kok3
+千秋萬世,cin1 cau1 maan6 sai3
+千篇一律,cin1 pin1 jat1 leot6
+千紅萬紫,cin1 hung4 maan6 zi2
+千絲萬縷,cin1 si1 maan6 lau5
+千經萬卷,cin1 ging1 maan6 gyun2
+千言萬語,cin1 jin4 maan6 jyu5
+千變萬化,cin1 bin3 maan6 faa3
+千變萬軫,cin1 bin3 maan6 zan2
+千軍萬馬,cin1 gwan1 maan6 maa5
+千載一時,cin1 zoi2 jat1 si4
+千載難逢,cin1 zoi2 naan4 fung4
+千辛萬苦,cin1 san1 maan6 fu2
 千里之行，始於足下,cin1 lei5 zi1 hang4 ci2 jyu1 zuk1 haa6
 千里送鵝毛，物輕人意重,cin1 lei5 sung3 ngo4 mou4 mat6 hing1 jan4 ji3 zung6
 千里送鵝毛，物輕情意重,cin1 lei5 sung3 ngo4 mou4 mat6 hing1 cing4 ji3 zung6
@@ -156,7 +350,29 @@ char,jyutping
 千里送鵝毛，禮輕人意重,cin1 lei5 sung3 ngo4 mou4 lai5 hing1 jan4 ji3 zung6
 千里送鵝毛，禮輕情意重,cin1 lei5 sung3 ngo4 mou4 lai5 hing1 cing4 ji3 zung6
 千里送鵝毛，禮輕情義重,cin1 lei5 sung3 ngo4 mou4 lai5 hing1 cing4 ji6 zung6
+千金一擲,cin1 gam1 jat1 zaak6
+千金一諾,cin1 gam1 jat1 nok6
+千鈞一髮,cin1 gwan1 jat1 faat3
+千錘百鍊,cin1 seoi4 baak3 lin6
+卑躬屈節,bei1 gung1 wat1 zit3
+卑躬屈膝,bei1 gung1 wat1 sat1
+卑辭厚禮,bei1 ci4 hau5 lai5
+卑鄙小人,bei1 pei2 siu2 jan4
+卑鄙無恥,bei1 pei2 mou4 ci2
+卑鄙齷齪,bei1 pei2 ak1 cuk1
+卑陋齷齪,bei1 lau6 ak1 cuk1
+卓爾不羣,coek3 ji5 bat1 kwan4
+卓爾不群,coek3 ji5 bat1 kwan4
+南腔北調,naam4 hong1 bak1 diu6
+南轅北轍,naam4 jyun4 bak1 cit3
 博一博，單車變摩托,bok3 jat1 bok3 daan1 ce1 bin3 mo1 tok3
+博古通今,bok3 gu2 tung1 gam1
+博大精深,bok3 daai6 zing1 sam1
+博學多聞,bok3 hok6 do1 man4
+博學多能,bok3 hok6 do1 nang4
+博文約禮,bok3 man4 joek3 lai5
+博紅顏一笑,bok3 hung4 ngaan4 jat1 siu3
+博聞多識,bok3 man4 do1 sik1
 去咗賣鹹鴨蛋,heoi3 zo2 maai6 haam4 aap3 daan6
 及時處理，事半功倍,kap6 si4 cyu2 lei5 si6 bun3 gung1 pui5
 反其道而行之,faan2 kei4 dou6 ji4 hang4 zi1
@@ -222,6 +438,10 @@ char,jyutping
 唔出聲冇人當你啞,m4 ceot1 seng1 mou5 jan4 dong3 nei5 aa2
 唔出聲冇人話你係啞,m4 ceot1 seng1 mou5 jan4 waa6 nei5 hai6 aa2
 唔出聲冇人話你啞,m4 ceot1 seng1 mou5 jan4 waa6 nei5 aa2
+坐井觀天,zo6 zeng2 gun1 tin1
+坐享其成,zo6 hoeng2 kei4 sing4
+坐以待斃,zo6 ji5 doi6 bai6
+坐這山望那山，一事無成,zo6 ze2 saan1 mong6 naa5 saan1 jat1 si6 mou4 sing4
 姜太公釣魚，願者上釣,goeng1 taai3 gung1 diu3 jyu4 jyun6 ze2 soeng5 diu3
 姜太公釣魚，願者上鉤,goeng1 taai3 gung1 diu3 jyu4 jyun6 ze2 soeng5 ngau1
 幼吾幼，以及人之幼,jau3 ng4 jau3 ji5 kap6 jan4 zi1 jau3
@@ -277,6 +497,8 @@ char,jyutping
 曹操都有知心友，關公亦有對頭人,cou4 cou1 dou1 jau5 zi1 sam1 jau5 gwaan1 gung1 jik6 jau5 deoi3 tau4 jan4
 曹操都有知心友，關公都有對頭人,cou4 cou1 dou1 jau5 zi1 sam1 jau5 gwaan1 gung1 dou1 jau5 deoi3 tau4 jan4
 曾經滄海難爲水，除卻巫山不是雲,cang4 ging1 cong1 hoi2 naan4 wai4 seoi2 ceoi4 koek3 mou4 saan1 bat1 si6 wan4
+有事鍾無艷，無事夏迎春,jau5 si6 zung1 mou4 jim6 mou4 si6 haa6 jing4 ceon1
+有事鍾無豔，無事夏迎春,jau5 si6 zung1 mou4 jim6 mou4 si6 haa6 jing4 ceon1
 有嘢就講，有屁就放,jau5 je5 zau6 gong2 jau5 pei3 zau6 fong3
 有奶便是娘,jau5 naai5 bin6 si6 noeng4
 有姿勢，冇實際,jau5 zi1 sai3 mou5 sat6 zai3
@@ -312,6 +534,7 @@ char,jyutping
 淡淡定，有錢剩,daam6 daam6 ding6 jau5 cin2 zing6
 清官難審家庭事,cing1 gun1 naan4 sam2 gaa1 ting4 si6
 清官難斷家務事,cing1 gun1 naan4 dyun3 gaa1 mou6 si6
+渾身解數,wan6 san1 gaai2 sou3
 溫故而知新,wan1 gu3 ji4 zi1 san1
 溫良恭儉讓,wan1 loeng4 gung1 gim6 joeng6
 滿招損，謙受益,mun5 ziu1 syun2 him1 sau6 jik1
@@ -417,6 +640,7 @@ char,jyutping
 窮在鬧市無人問，富在深山有遠親,kung4 zoi6 naau6 si5 mou4 jan4 man6 fu3 zoi6 sam1 saan1 jau5 jyun5 can1
 竹籃打水，一場空,zuk1 laam4 daa2 seoi2 jat1 coeng4 hung1
 竹門對竹門，木門對木門,zuk1 mun4 deoi3 zuk1 mun4 muk6 mun4 deoi3 muk6 mun4
+管中窺豹,gun2 zung1 kwai1 paau3
 精人出口，笨人出手,zeng1 jan4 ceot1 hau2 ban6 jan4 ceot1 sau2
 精誠所至，金石爲開,zing1 sing4 so2 zi3 gam1 sek6 wai4 hoi1
 細時偷針，大時偷金,sai3 si4 tau1 zam1 daai6 si4 tau1 gam1
@@ -424,13 +648,13 @@ char,jyutping
 置諸死地而後生,zi3 zyu1 sei2 dei6 ji4 hau6 sang1
 罷黜百家，獨尊儒術,baa6 ceot1 baak3 gaa1 duk6 zyun1 jyu4 seot6
 老吾老，以及人之老,lou5 ng4 lou5 ji5 kap6 jan4 zi1 lou5
-耳聽爲虛，眼見爲實,ji5 ting1 wai4 heoi1 ngaan5 gin3 wai4 sat6
-耳聽爲虛，眼見爲實,ji5 ting1 wai4 heoi1 ngaan5 gin3 wai4 sat6
+耳聽爲虛，眼見爲實,ji5 ting3 wai4 heoi1 ngaan5 gin3 wai4 sat6
 聰明一世，懵懂一時,cung1 ming4 jat1 sai3 mung2 dung2 jat1 si4
 聰明一世，糊塗一時,cung1 ming4 jat1 sai3 wu4 tou4 jat1 si4
 聰明一世，蠢鈍一時,cung1 ming4 jat1 sai3 ceon2 deon6 jat1 si4
 聰明反被聰明誤,cung1 ming4 faan2 bei6 cung1 ming4 ng6
 聲大大，冇嘢賣,seng1 daai6 daai6 mou5 je5 maai6
+能醫百病,nang6 ji1 baak3 beng6
 臨淵羨魚，不如退而結網,lam4 jyun1 sin6 jyu4 bat1 jyu4 teoi3 ji4 git3 mong5
 臭坑出臭草,cau3 haang1 ceot1 cau3 cou2
 臭罌出臭草,cau3 aang1 ceot1 cau3 cou2
