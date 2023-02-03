@@ -1,15 +1,24 @@
 from glob import iglob
 
 def sort_criteria(line):
-    return tuple(line.rstrip('\n').split(','))
+    return tuple(line.split(','))
 
 for filename in iglob('*.csv'):
     with open(filename, encoding='utf-8') as f:
-        header = next(f)
-        entries = set(f)
+        header = next(f).rstrip('\n')
+        seen = set()
+        seen_add = seen.add
+        entries = []
+        entries_append = entries.append
+        for line in f:
+            line = line.rstrip('\n')
+            if line not in seen:
+                entries_append(line)
+                seen_add(line)
 
     entries_sorted = sorted(entries, key=sort_criteria)
 
     with open(filename, 'w', encoding='utf-8') as f:
-        f.write(header)
-        f.writelines(entries_sorted)
+        print(header, file=f)
+        for line in entries_sorted:
+            print(line, file=f)

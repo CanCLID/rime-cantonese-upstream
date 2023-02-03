@@ -3,9 +3,16 @@ seen_add = seen.add
 
 for filename in ['fixed_expressions.csv', 'phrase_fragment.csv', 'trending.csv', 'word.csv']:
     with open(filename, encoding='utf-8') as f:
-        header = next(f)
-        entries = [line for line in f if not (line in seen or seen_add(line))]
+        header = next(f).rstrip('\n')
+        entries = []
+        entries_append = entries.append
+        for line in f:
+            line = line.rstrip('\n')
+            if line not in seen:
+                entries_append(line)
+                seen_add(line)
 
     with open(filename, 'w', encoding='utf-8') as f:
-        f.write(header)
-        f.writelines(entries)
+        print(header, file=f)
+        for line in entries:
+            print(line, file=f)

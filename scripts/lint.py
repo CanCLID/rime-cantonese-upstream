@@ -1,5 +1,6 @@
 import jyutping
 import time
+import os
 from glob import iglob
 from os.path import basename
 from itertools import zip_longest, accumulate
@@ -22,7 +23,7 @@ simplified_start = "䌶䜣䞌䢀䥺䦶䭪䯃䲝䴓䶭丬卤纟见觇讠贝车钅
 simplified_end = "䍁䜩䞐䢂䦆䦸䭪䯅䲤䴙䶮丬卤缵觅觑谶赣辚镶长阛韬颧飚飞馕骧鳤鹴鹾麦麺黄黾鼍齑龌龛龟鿏鿕鿭鿺𦈡𧮪𧹗𨐊𨱖𨸎𩐀𩖗𩙰𩠏𩨐𩽿𩾈𩾌𩾎𪉕𪎐𪚐𫄹𫌭𫍿𫎬𫐙𫔕𫔹𫖖𫖺𫗌𫗵𫘱𫚭𫜆𫜊𫜕" + \
     "𫜟𫜰𫜳𫟇𫟢𫟦𫠂𫠈𫠌𫠒𫠗𫠜𬌒𬙋𬢔𬤱𬦀𬨕𬮃𬮹𬰸𬱳𬲈𬳔𬴐𬶻𬷕𬸱𬸹𬹎𬹤𬹳𬺖𬺞𮉯𮙋𮝺𮣷𮤸𮧵𮨶𮩞𮪥𮬤𮭪𮭰𮮇𮯙黾𰠘𰭁𰴞𰶏𰷮𰺤𰿊𰿖𱀀𱂌𱂻𱃠𱄊𱅬𱈜𱊵𱊽𱋮𱌉𱌙𱌽𱍈𱭘𱺰𲁙𲂗𲃆𲅃𲈡𲈥𲉈𲊥𲋃𲋑𲋓𲋬𲌋𲍙𲎊𲎓𲎫𲎮"
 
-ignoreroman_list = {}
+ignoreroman_list = set()
 
 cache = {}
 headers = {}
@@ -59,8 +60,30 @@ def utf16_byte_length(char):
 def column_start(column):
     return len(column) + 1
 
+if os.name == 'nt':
+    def file(filename):
+        import win32file
+        import msvcrt
+        return msvcrt.open_osfhandle(
+            win32file
+                .CreateFile(
+                    filename,
+                    win32file.GENERIC_READ,
+                    win32file.FILE_SHARE_DELETE | win32file.FILE_SHARE_READ | win32file.FILE_SHARE_WRITE,
+                    None,
+                    win32file.OPEN_EXISTING,
+                    win32file.FILE_ATTRIBUTE_NORMAL,
+                    None
+                )
+                .Detach(),
+            os.O_RDONLY
+        )
+else:
+    def file(filename):
+        return filename
+
 def lint(filename):
-    with open(filename, encoding='utf-8') as f:
+    with open(file(filename), encoding='utf-8') as f:
         new_messages = []
 
         first_line = next(f, "")
@@ -214,7 +237,7 @@ def lint(filename):
 
 def start_linter():
     global ignoreroman_list, cache, headers, curr_messages
-    with open('scripts/ignore.csv', encoding='utf-8') as f:
+    with open(file('scripts/ignore.csv'), encoding='utf-8') as f:
         next(f, "")
         ignoreroman_list = set(map(lambda line: tuple(line.rstrip('\n').split(',')), f))
     cache = {}

@@ -3,7 +3,7 @@
     "editor.fontSize": 24
   },
   "[markdown]": {
-    "editor.wordWrap": "off",
-  },
-  "editor.fontSize": 16
+    "editor.fontSize": 16,
+    "editor.wordWrap": "off"
+  }
 }
