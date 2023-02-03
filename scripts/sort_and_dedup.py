@@ -1,8 +1,7 @@
 from glob import iglob
 
 def sort_criteria(line):
-    word, romans, *_ = line.rstrip('\n').split(',')
-    return word, romans, *_
+    return tuple(line.rstrip('\n').split(','))
 
 for filename in iglob('*.csv'):
     with open(filename, encoding='utf-8') as f:

@@ -22,30 +22,9 @@ class ValidationStatus:
     UNCOMMON = 1
     INVALID = 2
 
-def validate(jyutping):
-    '''
-    >>> validate('jyut6')
-    0  # ValidationStatus.VALID
-    >>> validate('fing6')
-    1  # ValidationStatus.UNCOMMON
-    >>> validate('nguk1')
-    2  # ValidationStatus.INVALID
-    '''
-    match = re.match('^([gk]w?|ng|[bpmfdtnlhwzcsj]?)(?![1-6]$)(aa?|oe?|eo?|y?u|i?)(ng|[iumnptk]?)([1-6])$', jyutping)
-    if match is None: return ValidationStatus.INVALID
-    return validate_args(*match.groups())
-
-def validate_args(*args):
-    '''
-    >>> validate('j', 'yu', 't', '6')
-    0  # ValidationStatus.VALID
-    >>> validate('gw', 'e', 'k', '6')
-    1  # ValidationStatus.UNCOMMON
-    >>> validate('ng', 'u', 'k', '1')
-    2  # ValidationStatus.INVALID
-    '''
+class TestSet:
     valid, alert, error = ValidationStatus.VALID, ValidationStatus.UNCOMMON, ValidationStatus.INVALID
-    return Validator(args).test({
+    STRICT = {
         'Onset - Nucleus - Coda': [
             (valid, ('-', '-', 'm ng')),
             (alert, ('h', '-', 'm ng')),
@@ -158,4 +137,98 @@ def validate_args(*args):
         'Other': [
             (alert, (None, None, 'p t k', '4 5')),
         ],
-    })
+    }
+    LOOSE = {
+        'Onset - Nucleus - Coda': [
+            (valid, ('- h', '-', 'm ng')),
+            (error, (None, '-', None)),
+
+            (valid, ('z c s j', 'yu', '-')),
+            (error, (None, 'yu', '-')),
+
+            (alert, ('w', 'i', '-')),
+            (error, ('w', 'i', 'n t')),
+            (error, ('w', 'u', 'ng k')),
+        ],
+        'Nucleus - Coda': [
+            (error, (None, 'o', 'm p')),
+            (alert, (None, 'e', 't')),
+            (error, (None, 'e', 'n')),
+
+            (valid, (None, 'oe', '- ng k')),
+            (valid, ('- z c', 'oe', 't')),
+            (error, (None, 'oe', None)),
+            (valid, (None, 'eo', 'i n t')),
+            (error, (None, 'eo', None)),
+
+            (error, (None, 'i', 'i')),
+            (error, (None, 'u', 'u m p')),
+            (valid, (None, 'yu', '- n t')),
+            (error, (None, 'yu', None)),
+        ],
+        'Onset - Coda': [
+            (error, ('gw kw w', None, 'u')),
+            (alert, ('b p m f gw kw w', None, 'm p')),
+        ],
+        'Onset - Nucleus': [
+            (error, ('- b p m f ng gw kw w', 'oe eo yu', None)),
+
+            (valid, ('-', 'e', '-')),
+            (alert, ('-', 'e', 'i')),
+            (error, ('-', 'e', None)),
+
+            (valid, ('-', 'u', 'ng k')),
+            (alert, ('-', 'i', 'k')),
+            (error, ('-', 'i u', None)),
+
+            (valid, ('ng', 'i', 't')),
+            (alert, ('- ng gw kw w', 'e', None)),
+            (valid, ('gw kw', 'i', 'ng k')),
+            (error, ('ng gw kw', 'i u', None)),
+
+            (valid, ('d t n l h z c s j', 'u', 'ng k')),
+            (error, ('d t n l h z c s j', 'u', None)),
+        ],
+    }
+    MINIMAL = {
+        'Onset - Nucleus - Coda': [
+            (valid, ('- h', '-', 'm ng')),
+            (error, (None, '-', None)),
+        ],
+        'Nucleus - Coda': [
+            (error, (None, 'oe', 'i')),
+            (error, (None, 'eo', '- u')),
+
+            (error, (None, 'i', 'i')),
+            (error, (None, 'u', 'u')),
+            (valid, (None, 'yu', '- n t')),
+            (error, (None, 'yu', None)),
+        ],
+        'Onset - Nucleus': [
+            (error, ('gw kw w', 'yu', None)),
+        ],
+    }
+
+def validate(jyutping, test_set=TestSet.STRICT):
+    '''
+    >>> validate('jyut6')
+    0  # ValidationStatus.VALID
+    >>> validate('fing6')
+    1  # ValidationStatus.UNCOMMON
+    >>> validate('nguk1')
+    2  # ValidationStatus.INVALID
+    '''
+    match = re.match('^([gk]w?|ng|[bpmfdtnlhwzcsj]?)(?![1-6]$)(aa?|oe?|eo?|y?u|i?)(ng|[iumnptk]?)([1-6])$', jyutping)
+    if match is None: return ValidationStatus.INVALID
+    return validate_args(test_set, *match.groups())
+
+def validate_args(test_set, *args):
+    '''
+    >>> validate('j', 'yu', 't', '6')
+    0  # ValidationStatus.VALID
+    >>> validate('f', 'i', 'ng', '6')
+    1  # ValidationStatus.UNCOMMON
+    >>> validate('ng', 'u', 'k', '1')
+    2  # ValidationStatus.INVALID
+    '''
+    return Validator(args).test(test_set)

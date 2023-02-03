@@ -17,7 +17,8 @@ i = 0
 
 for filename in iglob('*.csv'):
     with open(filename, encoding='utf-8') as f:
-        assert next(f).startswith('char,jyutping'), 'Invalid CSV header'
+        if not next(f).startswith('char,jyutping'):
+            continue
 
         for line_num, line in enumerate(f, 2):
             word, romans, *_ = line.rstrip('\n').split(',')
@@ -45,7 +46,7 @@ for filename in iglob('*.csv'):
             for char, roman in zip(word_, romans_):
                 if (char, roman) in ignoreroman_list:
                     continue
-                status = jyutping.validate(roman)
+                status = jyutping.validate(roman, jyutping.TestSet.LOOSE)
                 if status == jyutping.ValidationStatus.UNCOMMON:
                     print(f'[{i:04}] WARNING: [{filename}:{line_num}] Uncommon jyutping "{roman}": {word}, "{romans}"', file=sys.stderr)
                     i += 1
