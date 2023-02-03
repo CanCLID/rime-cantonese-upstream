@@ -17,6 +17,9 @@ column_values = {
     "literary_vernacular": {"", "文讀", "白讀"},
     "class": {"罕見", "日文", "韓文", "來歷不明"},
 }
+validation_set = {
+    "onomatopoeia.csv": jyutping.TestSet.LOOSE,
+}
 
 simplified_start = "䌶䜣䞌䢀䥺䦶䭪䯃䲝䴓䶭丬卤纟见觇讠贝车钅长门韦页风飞饣马鱼鸟鹾麦麸黄黾鼋齐齿龙龟鿏鿔鿭鿴𦈈𧮪𧹑𨐅𨰾𨷿𩏼𩖕𩙥𩟾𩧦𩽹𩾁𩾊𩾎𪉁𪎈𪚏𫄙𫌨𫍙𫎦𫐄𫓥𫔬𫖑𫖪𫗇𫗞𫘛𫚈𫛚𫜊𫜑" + \
     "𫜟𫜨𫜲𫟃𫟞𫟤𫟲𫠅𫠊𫠏𫠖𫠜𬌒𬘓𬢇𬣙𬥳𬨁𬬧𬮘𬰱𬱓𬱵𬲥𬳳𬶀𬷕𬷻𬸵𬹅𬹣𬹳𬹺𬺛𮉠𮙉𮝳𮣲𮤫𮧴𮨴𮩛𮪡𮬛𮭡𮭰𮮃𮯙黾𰠗𰫼𰴕𰵊𰷞𰹯𰽕𰿖𰿥𱂃𱂠𱃔𱃱𱄼𱇍𱉇𱊺𱋄𱋾𱌗𱌩𱍁𱭗𱺏𲁑𲂂𲂺𲅀𲇭𲈤𲈵𲊥𲊹𲋎𲋓𲋢𲌄𲍆𲍫𲎑𲎧𲎮"
@@ -185,7 +188,7 @@ def lint(filename):
                                 elif not is_unified_ideograph(char):
                                     error(char_i - len(char), char_i, f'Invalid character "{char}"{get_additional_information(char)}')
                         if roman and (char, roman) not in ignoreroman_list:
-                            status = jyutping.validate(roman)
+                            status = jyutping.validate(roman, validation_set.get(filename, jyutping.TestSet.STRICT))
                             if status == jyutping.ValidationStatus.UNCOMMON:
                                 warn(roman_i - len(roman), roman_i, f'Uncommon jyutping: "{roman}"')
                             elif status == jyutping.ValidationStatus.INVALID:
@@ -209,7 +212,7 @@ def lint(filename):
                 if romans_column_index is not None:
                     if romans_column_index < len(columns):
                         for roman_i, roman in yield_romans(columns[romans_column_index], columns_start[romans_column_index]):
-                            status = jyutping.validate(roman)
+                            status = jyutping.validate(roman, validation_set.get(filename, jyutping.TestSet.STRICT))
                             if status == jyutping.ValidationStatus.UNCOMMON:
                                 warn(roman_i - len(roman), roman_i, f'Uncommon jyutping: "{roman}"')
                             elif status == jyutping.ValidationStatus.INVALID:
@@ -239,7 +242,7 @@ def start_linter():
     global ignoreroman_list, cache, headers, curr_messages
     with open(file('scripts/ignore.csv'), encoding='utf-8') as f:
         next(f, "")
-        ignoreroman_list = set(map(lambda line: tuple(line.rstrip('\n').split(',')), f))
+        ignoreroman_list = {tuple(line.rstrip('\n').split(',')) for line in f}
     cache = {}
     headers = {}
     curr_messages = {}
