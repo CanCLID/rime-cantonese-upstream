@@ -1,16 +1,23 @@
-from glob import iglob
 import jyutping
-import re
 import sys
+from glob import iglob
 
-non_han = list('，：')
-multisyllable_allowlist = list('兡瓸䇉竡尣兛瓩竏𥪕兝瓰竕嗧浬兞瓱竓呎吋啢𠺖兣糎甅竰卅𠯢兙瓧䇆竍卌')
+non_han = {*'，：'}
+multisyllable_allowlist = {*'兡瓸䇉竡尣兛瓩竏𥪕兝瓰竕嗧浬兞瓱竓呎吋啢𠺖兣糎甅竰卅𠯢兙瓧䇆竍卌'}
 
 with open('scripts/ignore.csv', encoding='utf-8') as f:
     next(f)
-    ignoreroman_list = list(map(lambda line: tuple(line.rstrip('\n').split(',')), f))
+    ignoreroman_list = {tuple(line.rstrip('\n').split(',')) for line in f}
 
-hanregex = re.compile(r'[\u3007\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\U00020000-\U0002a6df\U0002a700-\U0002ebef\U0002f800-\U0002fa1f\U00030000-\U000323af]')
+def is_han(char):
+    return char == '\u3007' or \
+           '\u3400' <= char <= '\u4dbf' or \
+           '\u4e00' <= char <= '\u9fff' or \
+           '\uf900' <= char <= '\ufaff' or \
+           '\U00020000' <= char <= '\U0002a6df' or \
+           '\U0002a700' <= char <= '\U0002ebef' or \
+           '\U0002f800' <= char <= '\U0002fa1f' or \
+           '\U00030000' <= char <= '\U000323af'
 
 has_error = False
 i = 0
@@ -38,7 +45,7 @@ for filename in iglob('*.csv'):
                 has_error = True
                 i += 1
 
-            if not all(re.fullmatch(hanregex, char) for char in word_):
+            if not all(is_han(char) for char in word_):
                 print(f'[{i:04}] \033[91m  ERROR: [{filename}:{line_num}] Word contains invalid char: {word}, "{romans}"\033[0m', file=sys.stderr)
                 has_error = True
                 i += 1
