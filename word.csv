@@ -1468,7 +1468,6 @@ char,jyutping
 上款,soeng6 fun2
 上水,soeng6 seoi2
 上流,soeng6 lau4
-上海,soeng6 hoi2
 上海合作組織,soeng6 hoi2 hap6 zok3 zou2 zik1
 上海汽車工業,soeng6 hoi2 hei3 ce1 gung1 jip6
 上海證券交易所綜合股價指,soeng6 hoi2 zing3 gyun3 gaau1 jik6 so2 zung3 hap6 gu2 gaa3 zi2
@@ -2692,7 +2691,6 @@ char,jyutping
 中和作用,zung1 wo4 zok3 jung6
 中和劑,zung1 wo4 zai1
 中圈套,zung3 hyun1 tou3
-中國,zung1 gwok3
 中國中央電視臺,zung1 gwok3 zung1 joeng1 din6 si6 toi4
 中國中心主義,zung1 gwok3 zung1 sam1 zyu2 ji6
 中國人權組織,zung1 gwok3 jan4 kyun4 zou2 zik1
@@ -2785,7 +2783,6 @@ char,jyutping
 中場,zung1 coeng4
 中壓管,zung1 aat3 gun2
 中外,zung1 ngoi6
-中大,zung1 daai6
 中大伏,zung3 daai6 fuk6
 中大西洋脊,zung1 daai6 sai1 joeng4 zek3
 中央,zung1 joeng1
@@ -3396,11 +3393,9 @@ char,jyutping
 九宮格數獨,gau2 gung1 gaak3 sou3 duk6
 九寨溝風景名勝區,gau2 zaai6 kau1 fung1 ging2 ming4 sing3 keoi1
 九州,gau2 zau1
-九巴,gau2 baa1
 九巴總部,gau2 baa1 zung2 bou6
 九年級,gau2 nin4 kap1
 九座泳池,gau2 zo6 wing6 ci4
-九廣鐵路,gau2 gwong2 tit3 lou6
 九廿幾,gau2 aa6 gei2
 九成,gau2 sing4
 九折,gau2 zit3
@@ -12486,7 +12481,6 @@ char,jyutping
 化骨龍,faa3 gwat1 lung4
 化齋,faa3 zaai1
 北上,bak1 soeng5
-北京,bak1 ging1
 北京周報,bak1 ging1 zau1 bou3
 北京商務中心區,bak1 ging1 soeng1 mou6 zung1 sam1 keoi1
 北京填鴨,bak1 ging1 tin4 aap2
@@ -19877,8 +19871,6 @@ char,jyutping
 城區,sing4 keoi1
 城垣,sing4 wun4
 城堡,sing4 bou2
-城大,sing4 daai6
-城巴,sing4 baa1
 城市,sing4 si5
 城市依賴症,sing4 si5 ji1 laai6 zing3
 城市區域,sing4 si5 keoi1 wik6
@@ -21587,8 +21579,6 @@ char,jyutping
 大型室內,daai6 jing4 sat1 noi6
 大型強子對撞機,daai6 jing4 koeng4 zi2 deoi3 zong6 gei1
 大型浮雕,daai6 jing4 fau4 diu1
-大埔,daai6 bou3
-大埔墟,daai6 bou6 heoi1
 大埠,daai6 fau6
 大堂,daai6 tong4
 大場,daai6 coeng4
@@ -27596,12 +27586,8 @@ char,jyutping
 屬意,suk6 ji3
 屬於,suk6 jyu1
 屬象,suk6 zoeng6
-屯元天,tyun4 jyun4 tin1
-屯公,tyun4 gung1
 屯戍,tyun4 syu3
 屯落,tyun4 lok6
-屯赤,tyun4 cek3
-屯門,tyun4 mun4
 屯門牛,tyun4 mun4 ngau4
 屯馬綫,tyun4 maa5 sin3
 山丘,saan1 jau1
@@ -40897,7 +40883,6 @@ char,jyutping
 新屋入夥,san1 uk1 jap6 fo2
 新屎坑,san1 si2 haang1
 新山,san1 saan1
-新巴,san1 baa1
 新巿鎮,san1 fat1 zan3
 新市鎮,san1 si5 zan3
 新帝女花,san1 dai3 neoi5 faa1
@@ -43720,7 +43705,6 @@ char,jyutping
 李嘉誠,lei5 gaa1 sing4
 李娃傳,lei5 waa1 zyun6
 李季蘭,lei5 gwai3 laan4
-李家超,lei5 gaa1 ciu1
 李富春,lei5 fu3 ceon1
 李悝,lei5 fui1
 李懷遠,lei5 waai4 jyun5
@@ -44084,8 +44068,6 @@ char,jyutping
 林立,lam4 lap6
 林紓,lam4 syu1
 林芝地區,lam4 zi1 dei6 keoi1
-林鄭,lam4 zeng6
-林鄭月娥,lam4 zeng6 jyut6 ngo4
 林鷚,lam4 lau6
 林鷸,lam4 wat6
 枘鑿,jeoi6 zok6
@@ -48397,7 +48379,6 @@ char,jyutping
 沙特魯,saa1 dak6 lou5
 沙琪瑪,saa1 kei4 maa5
 沙瓜,saa1 gwaa1
-沙田,saa1 tin4
 沙田小築,saa1 tin4 siu2 zuk1
 沙田柚,saa1 tin4 jau2
 沙甸魚,saa1 din1 jyu2
@@ -69748,7 +69729,6 @@ char,jyutping
 臺柱子,toi4 cyu5 zi2
 臺步,toi4 bou6
 臺港澳,toi4 gong2 ou3
-臺灣,toi4 waan1
 臺灣問題,toi4 waan1 man6 tai4
 臺灣土狗,toi4 waan1 tou2 gau2
 臺灣小食,toi4 waan1 siu2 sik6
@@ -87818,7 +87798,6 @@ char,jyutping
 青少年,cing1 siu3 nin4
 青少年口腔護理,cing1 siu3 nin4 hau2 hong1 wu6 lei5
 青山,cing1 saan1
-青山公路,cing1 saan1 gung1 lou6
 青山出嚟,cing1 saan1 ceot1 lai4
 青山走犯,cing1 saan1 zau2 faan2
 青山醫院,cing1 saan1 ji1 jyun2
