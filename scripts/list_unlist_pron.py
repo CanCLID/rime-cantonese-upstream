@@ -3,6 +3,7 @@ from operator import itemgetter
 from collections import defaultdict
 
 non_han = {*'，： '}
+two_syllable_char = {*'卅𠯢卌'}
 
 def is_ascii_lowercase_letter(char):
     return 'a' <= char <= 'z'
@@ -69,9 +70,15 @@ for filename in iglob("*.csv"):
                 romans_orig = columns[romans_column_index]
                 chars = yield_chars(chars_orig)
                 romans = yield_romans(romans_orig)
-                for pair in zip(chars, romans):
-                    if pair not in listed:
-                        unlisted[pair][filename].append(f'{line_num} {chars_orig} {romans_orig}')
+                for char in chars:
+                    try:
+                        roman = next(romans)
+                        if char in two_syllable_char:
+                            roman += ' ' + next(romans)
+                    except StopIteration:
+                        break
+                    if (char, roman) not in listed:
+                        unlisted[(char, roman)][filename].append(f'{line_num} {chars_orig} {romans_orig}')
 
 with open('scripts/unlisted.csv', 'w', encoding='utf-8') as f:
     print('char', 'jyutping', 'location', sep=',', file=f)
