@@ -2944,6 +2944,8 @@ char,jyutping
 噏得出就噏,ngap1 dak1 ceot1 zau6 ngap1
 噝哩沙啦,si4 li1 saa4 laa4
 嚇到鼻哥窿都冇肉,haak3 dou3 bei6 go1 lung1 dou1 mou5 juk6
+嚇唔到,haak3 m4 dou2
+嚇唔到我嘅,haak3 m4 dou2 ngo5 ge3
 嚇嚇你,haak3 haak3 nei5
 嚇懵咗,haak3 mung2 zo2
 嚇我一驚,haak3 ngo5 jat1 geng1
@@ -6709,7 +6711,14 @@ char,jyutping
 邊個話㗎,bin1 go3 waa6 gaa3
 邊個阿媽生你㗎,bin1 go3 aa3 maa1 saang1 nei5 gaa3
 邊啲嘢,bin1 di1 je5
+邊夠,bin1 gau3
 邊夠你,bin1 gau3 nei5
+邊夠做,bin1 gau3 zou6
+邊夠用,bin1 gau3 jung6
+邊夠皮,bin1 gau3 pei2
+邊夠裝,bin1 gau3 zong1
+邊夠食,bin1 gau3 sik6
+邊夠飲,bin1 gau3 jam2
 邊度㗎,bin1 dou6 gaa3
 邊度來㗎,bin1 dou6 loi4 gaa2
 邊度係,bin1 dou6 hai6
@@ -6717,8 +6726,11 @@ char,jyutping
 邊度係呢,bin1 dou6 hai6 ne1
 邊度唔掂,bin1 dou6 m4 dim6
 邊度啊,bin1 dou6 aa2
+邊有人,bin1 jau5 jan4
 邊有咁大隻蛤乸隨街跳,bin1 jau5 gam3 daai6 zek3 gaap3 naa2 ceoi4 gaai1 tiu3
 邊有啊,bin1 jau5 aa3
+邊有地,bin1 jau5 dei6
+邊有錢,bin1 jau5 cin4
 邊樣,bin1 joeng6
 邊理得咁多,bin1 lei5 dak1 gam3 do1
 邊處係呢,bin1 syu3 hai6 ne1
@@ -7224,15 +7236,3 @@ char,jyutping
 𨳒你老味,diu2 nei5 lou5 mei2
 𨳒你老母,diu2 nei5 lou5 mou2
 𨳒你鹵味,diu2 nei5 lou5 mei2
-嚇唔到,haak3 m4 dou2
-嚇唔到我嘅,haak3 m4 dou2 ngo5 ge3
-邊夠,bin1 gau3
-邊夠用,bin1 gau3 jung6
-邊夠皮,bin1 gau3 pei2
-邊夠裝,bin1 gau3 zong1
-邊夠食,bin1 gau3 sik6
-邊夠飲,bin1 gau3 jam2
-邊夠做,bin1 gau3 zou6
-邊有地,bin1 jau5 dei6
-邊有錢,bin1 jau5 cin4
-邊有人,bin1 jau5 jan4
