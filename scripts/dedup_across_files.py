@@ -1,9 +1,13 @@
+from glob import iglob
+
 seen = set()
 seen_add = seen.add
 
-for filename in ['fixed_expressions.csv', 'phrase_fragment.csv', 'trending.csv', 'word.csv']:
+for filename in iglob('*.csv'):
     with open(filename, encoding='utf-8') as f:
         header = next(f).rstrip('\n')
+        if header != 'char,jyutping':
+            continue
         entries = []
         entries_append = entries.append
         for line in f:
