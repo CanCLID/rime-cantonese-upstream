@@ -37,6 +37,7 @@ char,jyutping
 一個餅印噉,jat1 go3 beng2 jan3 gam2
 一借冇回頭,jat1 ze3 mou5 wui4 tau4
 一傳十，十傳百,jat1 cyun4 sap6 sap6 cyun4 baak3
+一兩次,jat1 loeng5 ci3
 一切向錢看,jat1 cai3 hoeng3 cin2 hon3
 一則以喜，一則以憂,jat1 zak1 ji5 hei2 jat1 zak1 ji5 jau1
 一動不如一靜,jat1 dung6 bat1 jyu4 jat1 zing6
@@ -5329,6 +5330,7 @@ char,jyutping
 瓜賴藤藤賴瓜,gwaa1 laai6 tang4 tang4 laai6 gwaa1
 瓦檐獅子，叻到舋,ngaa5 jam4 si1 zi2 lek1 dou3 man3
 瓦簷獅子，叻到舋,ngaa5 jam4 si1 zi2 lek1 dou3 man3
+甜嘢,tim4 je5
 生不帶來，死不帶去,sang1 bat1 daai3 loi4 sei2 bat1 daai3 heoi3
 生仔冇屎忽,saang1 zai2 mou5 si2 fat1
 生仔冇屎窟,saang1 zai2 mou5 si2 fat1
@@ -6615,6 +6617,7 @@ char,jyutping
 轉關係,zyun2 gwaan1 hai6
 辛苦搵嚟志在食,san1 fu2 wan2 lei4 zi3 zoi6 sik6
 辛苦搵嚟自在食,san1 fu2 wan2 lai4 zi6 zoi6 sik6
+辣嘢,laat6 je5
 辭咗工,ci4 zo2 gung1
 辭工啦,ci4 gung1 laa1
 近唔近,kan5 m4 kan5
@@ -7040,7 +7043,9 @@ char,jyutping
 食懵咗你,sik6 mung2 zo2 nei5
 食我夾棍,sik6 ngo5 gaap3 gwan3
 食滯咗,sik6 zai6 zo2
+食甜嘢,sik6 tim4 je5
 食糖糖,sik6 tong2 tong2
+食辣嘢,sik6 laat6 je5
 食返餐勁嘅,sik6 faan1 caan1 ging6 ge3
 食過返尋味,sik6 gwo3 faan1 cam4 mei6
 食飯未啊,sik6 faan6 mei6 aa3
@@ -7221,8 +7226,3 @@ char,jyutping
 𨳒你老味,diu2 nei5 lou5 mei2
 𨳒你老母,diu2 nei5 lou5 mou2
 𨳒你鹵味,diu2 nei5 lou5 mei2
-一兩次,jat1 loeng5 ci3
-甜嘢,tim4 je5
-辣嘢,laat6 je5
-食甜嘢,sik6 tim4 je5
-食辣嘢,sik6 laat6 je5
