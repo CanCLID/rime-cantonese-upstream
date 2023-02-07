@@ -242,6 +242,7 @@ char,jyutping
 乜花款,mat1 faa1 fun2
 乜解究,mat1 gaai2 gau3
 乜說話,mat1 syut3 waa6
+乜都係假,mat1 dou1 hai6 gaa2
 乜都假,mat1 dou1 gaa2
 乜都唔會,mat1 dou1 m4 wui5
 乜都唔驚,mat1 dou1 m4 geng1
@@ -431,6 +432,7 @@ char,jyutping
 估唔倒,gu2 m4 dou2
 估唔到你,gu2 m4 dou2 nei5
 伴君如伴虎,bun6 gwan1 jyu4 bun6 fu2
+伸前,san1 cin4
 伸手不見五指,san1 sau2 bat1 gin3 ng5 zi2
 伸縮喇叭,san1 suk1 laa3 baa1
 似乜樣呢,ci5 mat1 joeng2 le1
@@ -2963,6 +2965,7 @@ char,jyutping
 嚟唔切,lai4 m4 cit3
 嚟唔得切,lai4 m4 dak1 cit3
 嚟把屁咩,lai4 baa2 pei3 me1
+嚟計,lai4 gai3
 嚟遲咗,lai4 ci4 zo2
 嚤囉差玩音樂,mo1 lo1 caa1 waan2 jam1 ngok6
 嚤囉差都有殖民地,mo1 lo1 caa1 dou1 jau5 zik6 man4 dei6
@@ -4738,6 +4741,7 @@ char,jyutping
 晒料啦,saai3 liu2 la1
 晚安喇,maan5 on1 laa3
 晨七咁早,san4 cat1 gam3 zou2
+普通房,pou2 tung1 fong2
 暈得一陣陣,wan4 dak1 jat1 zan2 zan6
 暖唔暖,nyun5 m4 nyun5
 暗啞抵啦,am3 aa2 dai2 laa1
@@ -4984,6 +4988,7 @@ char,jyutping
 條褲爛咗,tiu4 fu3 laan6 zo2
 條路自己揀,tiu4 lou6 zi6 gei2 gaan2
 條路自己揀，仆街唔好喊,tiu4 lou6 zi6 gei2 gaan2 puk1 gaai1 m4 hou2 haam3
+條頸鬆晒,tiu4 geng2 sung1 saai3
 棄之如敝屣,hei3 zi1 jyu4 bai6 saai2
 棟樓,dung6 lau2
 棵嘢,po1 je5
@@ -5111,6 +5116,7 @@ char,jyutping
 沒有甚麼不可能,mut6 jau5 sam6 mo1 bat1 ho2 nang4
 沒有生育能力,mut6 jau5 sang1 juk6 nang4 lik6
 沒關係,mut6 gwaan1 hai6
+沖完,cung1 jyun4
 沖完喇,cung1 jyun4 laa3
 沖完涼,cung1 jyun4 loeng4
 沖完涼喇,cung1 jyun4 loeng4 laa3
@@ -5348,6 +5354,7 @@ char,jyutping
 生滋貓入眼,saang1 zi1 maau1 jap6 ngaan5
 生產關係,sang1 caan2 gwaan1 hai6
 生累街坊，死累朋友,saang1 leoi6 gaai1 fong1 sei2 leoi6 pang4 jau5
+生育權,sang1 juk6 kyun4
 生蝦咁跳,saang1 haa1 gam2 tiu3
 生蝦噉跳,saang1 haa1 daam6 tiu3
 生蝦噉跳,saang1 haa1 gam2 tiu3
@@ -6028,6 +6035,7 @@ char,jyutping
 腳踏兩條船,goek3 daap6 loeng5 tiu4 syun4
 腳頭唔好,goek3 tau4 m4 hou2
 膊頭高過耳,bok3 tau4 gou1 gwo3 ji5
+膊頭鬆晒,bok3 tau4 sung1 saai3
 膝頭哥唔食辣椒醬,sat1 tau4 go1 m4 sik6 laat6 ziu1 zoeng3
 膝頭哥對上就係脾,sat1 tau4 go1 deoi3 soeng6 zau6 hai6 bei2
 膝頭哥對上就係髀,sat1 tau4 go1 deoi3 soeng6 zau6 hai6 bei2
@@ -6434,6 +6442,7 @@ char,jyutping
 豆釘咁細,dau6 deng1 gam3 sai3
 豈勢噉,hei2 sai3 gam2
 豎起大拇指,syu6 hei2 daai6 mou5 zi2
+豪華房,hou4 waa4 fong2
 豬咁蠢,zyu1 gam3 ceon2
 豬嚟㗎,zyu1 lai4 gaa3
 豬扒都係肉,zyu1 paa2 dou1 hai6 juk6
@@ -6876,6 +6885,10 @@ char,jyutping
 陣腳未打好,zan6 goek3 mei6 daa2 hou2
 除咗你,ceoi4 zo2 nei5
 除唔開,ceoi4 m4 hoi1
+除晒,ceoi4 saai3
+除晒衫,ceoi4 saai3 saam1
+除晒衫褲,ceoi4 saai3 saam1 fu3
+除晒衫褲鞋襪,ceoi4 saai3 saam1 fu3 haai4 mat6
 除皮冇肉,ceoi4 pei4 mou5 juk6
 陪下你,pui4 haa5 nei5
 陪下我,pui4 haa5 ngo5
@@ -6929,6 +6942,10 @@ char,jyutping
 電話冇人聽,din6 waa2 mou5 jan4 teng1
 電話畀我,din6 waa2 bei2 ngo5
 需要是發明之母,seoi1 jiu3 si6 faat3 ming4 zi1 mou5
+霸定,baa3 ding6
+霸定位,baa3 ding6 wai2
+霸定位先,baa3 ding6 wai2 sin1
+霸晒,baa3 saai3
 霸王硬上弓,baa3 wong4 ngaang6 soeng5 gung1
 霹靂啪啦,pik1 lik1 paak1 laa1
 靈犀一點通,ling4 sai1 jat1 dim2 tung1
@@ -7110,6 +7127,7 @@ char,jyutping
 高處不勝寒,gou1 cyu3 bat1 sing1 hon4
 高過你,gou1 gwo3 nei5
 高音喇叭,gou1 jam1 laa3 baa1
+鬆晒,sung1 saai3
 鬧咗一輪,naau6 zo2 jat1 leon4
 鬧衰佢,naau6 seoi1 keoi5
 鬧都唔醒,naau6 dou1 m4 seng2
@@ -7226,21 +7244,3 @@ char,jyutping
 𨳒你老味,diu2 nei5 lou5 mei2
 𨳒你老母,diu2 nei5 lou5 mou2
 𨳒你鹵味,diu2 nei5 lou5 mei2
-乜都係假,mat1 dou1 hai6 gaa2
-嚟計,lai4 gai3
-伸前,san1 cin4
-生育權,sang1 juk6 kyun4
-普通房,pou2 tung1 fong2
-豪華房,hou4 waa4 fong2
-沖完,cung1 jyun4
-除晒,ceoi4 saai3
-除晒衫,ceoi4 saai3 saam1
-除晒衫褲,ceoi4 saai3 saam1 fu3
-除晒衫褲鞋襪,ceoi4 saai3 saam1 fu3 haai4 mat6
-霸晒,baa3 saai3
-霸定,baa3 ding6
-霸定位,baa3 ding6 wai2
-霸定位先,baa3 ding6 wai2 sin1
-鬆晒,sung1 saai3
-膊頭鬆晒,bok3 tau4 sung1 saai3
-條頸鬆晒,tiu4 geng2 sung1 saai3
