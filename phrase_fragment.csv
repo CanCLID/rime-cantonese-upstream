@@ -3200,6 +3200,7 @@ char,jyutping
 夾死,gep6 sei2
 夾硬要佢去,gaap3 ngaang6 jiu3 keoi5 heoi3
 夾硬迫入去,gaap3 ngaang6 bik1 jap6 heoi3
+夾返份,gaap3 faan1 fan2
 奈乜何,noi6 mat1 ho4
 奈佢唔何,noi6 keoi5 m4 ho4
 奈唔何,noi6 m4 ho4
@@ -3250,6 +3251,7 @@ char,jyutping
 好唔好去,hou2 m4 hou2 heoi3
 好唔好啊,hou2 m4 hou2 aa3
 好唔好啫,hou2 m4 hou2 zek1
+好唔好彩,hou2 m4 hou2 coi2
 好唔好玩,hou2 m4 hou2 waan2
 好唔好用,hou2 m4 hou2 jung6
 好唔好睇,hou2 m4 hou2 tai2
@@ -3406,6 +3408,8 @@ char,jyutping
 家醜不得外傳,gaa1 cau2 bat1 dak1 ngoi6 cyun4
 容乜易,jung4 mat1 ji6
 宿舍嘅,suk1 se3 ge3
+寄落嚟,gei3 lok6 lai4
+寄過嚟,gei3 gwo3 lai4
 密啲手,mat6 di1 sau2
 密實姑娘假正經,mak6 sat6 gu1 noeng4 gaa2 zing3 ging1
 密食當三番,mak6 sik6 dong3 saam1 faan1
@@ -5090,6 +5094,7 @@ char,jyutping
 民以食爲天,man4 ji5 sik6 wai4 tin1
 水乾至見塘底凸,seoi2 gon1 zi3 gin3 tong4 dai2 dat6
 水尾嘢,seoi2 mei5 je5
+水平堪憂,seoi2 ping4 ham1 jau1
 水洗唔清,seoi2 sai2 m4 cing1
 水洗唔甩,seoi2 sai2 m4 lat1
 水洗都唔清,seoi2 sai2 dou1 m4 cing1
@@ -5939,8 +5944,8 @@ char,jyutping
 纜住,laam6 zyu6
 纜住條頸巾,laam6 zyu6 tiu4 geng2 gan1
 纜頸巾,laam6 geng2 gan1
-置頂,zi3 deng2
 置咗頂,zi3 zo2 deng2
+置頂,zi3 deng2
 羊咩仔,joeng4 me1 zai2
 羊咩咩,joeng4 me1 me1
 羊咩屎,joeng4 me1 si2
@@ -6250,6 +6255,9 @@ char,jyutping
 計極唔啱,gai3 gik6 m4 ngaam1
 託你鴻福,tok3 nei5 hung4 fuk1
 託我手踭,tok3 ngo5 sau2 zaang1
+記低,gei3 dai1
+記低佢,gei3 dai1 keoi5
+記低晒,gei3 dai1 saai3
 記住咗,gei3 zyu6 zo2
 記唔住,gei3 m4 zyu6
 記得咗,gei3 dak1 zo2
@@ -6889,6 +6897,7 @@ char,jyutping
 隔咗好耐,gaak3 zo2 hou2 noi6
 隔咗排,gaak3 zo2 paai4
 隔夜茶唔飲得,gaak3 je6 caa4 m4 jam2 dak1
+隔幾日,gaak3 gei2 jat6
 隔成條墟咁遠,gaak3 seng4 tiu4 heoi1 gam3 jyun5
 隨你揀,ceoi4 nei5 gaan2
 隨口噏當祕笈,ceoi4 hau2 ngap1 dong3 bei3 kap1
@@ -7215,8 +7224,10 @@ char,jyutping
 𡁶都唔笑,zit1 dou1 m4 siu3
 𢺳唔番,maan1 m4 faan1
 𢺳唔返,maan1 m4 faan1
+𥄫一𥄫,gap6 jat1 gap6
 𥄫下,gap6 haa5
 𥄫住佢,gap6 zyu6 keoi5
+𥄫𥄫佢,gap6 gap6 keoi3
 𥋇唔開眼,caang3 m4 hoi1 ngaan5
 𦧲口水講過,loe1 hau2 seoi2 gong2 gwo3
 𧨾你開心,tam5 nei5 hoi1 sam1
@@ -7225,14 +7236,3 @@ char,jyutping
 𨳒你老味,diu2 nei5 lou5 mei2
 𨳒你老母,diu2 nei5 lou5 mou2
 𨳒你鹵味,diu2 nei5 lou5 mei2
-夾返份,gaap3 faan1 fan2
-好唔好彩,hou2 m4 hou2 coi2
-寄落嚟,gei3 lok6 lai4
-寄過嚟,gei3 gwo3 lai4
-水平堪憂,seoi2 ping4 ham1 jau1
-記低,gei3 dai1
-記低佢,gei3 dai1 keoi5
-記低晒,gei3 dai1 saai3
-隔幾日,gaak3 gei2 jat6
-𥄫一𥄫,gap6 jat1 gap6
-𥄫𥄫佢,gap6 gap6 keoi3
