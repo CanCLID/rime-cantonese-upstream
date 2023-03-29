@@ -3,19 +3,20 @@ import time
 import os
 from glob import iglob
 from os.path import basename
-from itertools import zip_longest, accumulate
+from itertools import accumulate
 from bisect import bisect
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 non_han = {*'，： '}
 other_han = {*'〇﨎﨏﨑﨓﨔﨟﨡﨣﨤﨧﨨﨩'}
+two_syllable_char = {*'卅𠯢卌'}
 multisyllable_allowlist = {*'兡瓸䇉竡尣兛瓩竏𥪕兝瓰竕嗧浬兞瓱竓呎吋啢𠺖兣糎甅竰卅𠯢兙瓧䇆竍卌'}
 column_values = {
     "pron_rank": {"預設", "常用", "罕見", "棄用"},
     "tone_var": {"", "本調", "變調"},
     "literary_vernacular": {"", "文讀", "白讀"},
-    "class": {"罕見", "日文", "韓文", "來歷不明"},
+    "class": {"罕見", "古文", "日文", "韓文", "來歷不明"},
 }
 validation_set = {
     "onomatopoeia.csv": jyutping.TestSet.LOOSE,
@@ -164,6 +165,20 @@ def lint(filename):
                     else:
                         yield (i, s)
 
+            def validate_char(char_i, char):
+                if not is_ascii_letter(char):
+                    if is_simplified_ideograph(char):
+                        warn(char_i - len(char), char_i, f'Character "{char}" is definitely a simplified ideograph')
+                    elif not is_unified_ideograph(char):
+                        error(char_i - len(char), char_i, f'Invalid character "{char}"{get_additional_information(char)}')
+
+            def validate_roman(roman_i, roman):
+                status = jyutping.validate(roman, validation_set.get(filename, jyutping.TestSet.STRICT))
+                if status == jyutping.ValidationStatus.UNCOMMON:
+                    warn(roman_i - len(roman), roman_i, f'Uncommon jyutping: "{roman}"')
+                elif status == jyutping.ValidationStatus.INVALID:
+                    error(roman_i - len(roman), roman_i, f'Invalid jyutping: "{roman}"')
+
             utf16_column_mapper = list(accumulate(map(utf16_byte_length, line), initial=1))
             columns = line.rstrip('\n').split(',')
             columns_start = list(accumulate(map(column_start, columns), initial=0))
@@ -172,27 +187,30 @@ def lint(filename):
             if chars_column_index is not None and romans_column_index is not None:
                 if chars_column_index < len(columns) > romans_column_index:
                     length_mismatch = False
-                    for (char_i, char), (roman_i, roman) in zip_longest(
-                        yield_chars(columns[chars_column_index], columns_start[chars_column_index]),
-                        yield_romans(columns[romans_column_index], columns_start[romans_column_index]),
-                        fillvalue=(None, None)
-                    ):
-                        if length_mismatch is not None and (not char or not roman):
+                    chars = yield_chars(columns[chars_column_index], columns_start[chars_column_index])
+                    romans = yield_romans(columns[romans_column_index], columns_start[romans_column_index])
+                    for char_i, char in chars:
+                        validate_char(char_i, char)
+                        try:
+                            roman_i, roman = next(romans)
+                        except StopIteration:
                             length_mismatch = True
-                        if char:
-                            if char in multisyllable_allowlist:
-                                length_mismatch = None
-                            if not is_ascii_letter(char):
-                                if is_simplified_ideograph(char):
-                                    warn(char_i - len(char), char_i, f'Character "{char}" is definitely a simplified ideograph')
-                                elif not is_unified_ideograph(char):
-                                    error(char_i - len(char), char_i, f'Invalid character "{char}"{get_additional_information(char)}')
-                        if roman and (char, roman) not in ignoreroman_list:
-                            status = jyutping.validate(roman, validation_set.get(filename, jyutping.TestSet.STRICT))
-                            if status == jyutping.ValidationStatus.UNCOMMON:
-                                warn(roman_i - len(roman), roman_i, f'Uncommon jyutping: "{roman}"')
-                            elif status == jyutping.ValidationStatus.INVALID:
-                                error(roman_i - len(roman), roman_i, f'Invalid jyutping: "{roman}"')
+                            break
+                        if (char, roman) not in ignoreroman_list:
+                            validate_roman(roman_i, roman)
+                        if char in (multisyllable_allowlist if filename == 'char.csv' else two_syllable_char):
+                            try:
+                                roman_i, roman = next(romans)
+                            except StopIteration:
+                                length_mismatch = filename != 'char.csv'
+                                break
+                            validate_roman(roman_i, roman)
+                    try:
+                        next(romans)
+                    except StopIteration:
+                        pass
+                    else:
+                        length_mismatch = True
 
                     if length_mismatch:
                         warn(columns_start[start_column_index], columns_end[end_column_index], 'Word length does not match the number of syllables')
@@ -202,21 +220,13 @@ def lint(filename):
                 if chars_column_index is not None:
                     if chars_column_index < len(columns):
                         for char_i, char in yield_chars(columns[chars_column_index], columns_start[chars_column_index]):
-                            if not is_ascii_letter(char):
-                                if is_simplified_ideograph(char):
-                                    warn(char_i - len(char), char_i, f'Character "{char}" is definitely a simplified ideograph')
-                                elif not is_unified_ideograph(char):
-                                    error(char_i - len(char), char_i, f'Invalid character "{char}"{get_additional_information(char)}')
+                            validate_char(char_i, char)
                     else:
                         error(0, columns_end[-1], "Invalid line")
                 if romans_column_index is not None:
                     if romans_column_index < len(columns):
                         for roman_i, roman in yield_romans(columns[romans_column_index], columns_start[romans_column_index]):
-                            status = jyutping.validate(roman, validation_set.get(filename, jyutping.TestSet.STRICT))
-                            if status == jyutping.ValidationStatus.UNCOMMON:
-                                warn(roman_i - len(roman), roman_i, f'Uncommon jyutping: "{roman}"')
-                            elif status == jyutping.ValidationStatus.INVALID:
-                                error(roman_i - len(roman), roman_i, f'Invalid jyutping: "{roman}"')
+                            validate_roman(roman_i, roman)
                     else:
                         error(0, columns_end[-1], "Invalid line")
 
