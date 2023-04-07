@@ -1,9 +1,9 @@
 {
   "[plaintext][csv]": {
-    "editor.fontSize": 24
+    "editor.fontSize": 12
   },
   "[markdown]": {
-    "editor.fontSize": 16,
+    "editor.fontSize": 12,
     "editor.wordWrap": "off"
   }
 }
