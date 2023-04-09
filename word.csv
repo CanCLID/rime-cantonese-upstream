@@ -3516,8 +3516,6 @@ char,jyutping
 乸型,naa2 jing4
 乸形,naa2 jing4
 乸聲乸氣,naa2 seng1 naa2 hei3
-揦脷,laa2 lei6
-揦西,laa2 sai1
 乾一杯,gon1 jat1 bui1
 乾兒子,gon1 ji4 zi2
 乾冰,gon1 bing1
@@ -8793,8 +8791,8 @@ char,jyutping
 全壘打,cyun4 leoi5 daa2
 全天候,cyun4 tin1 hau6
 全家,cyun4 gaa1
-全家𢫏竇,cyun4 gaa1 kam2 dau3
 全家福,cyun4 gaa1 fuk1
+全家𢫏竇,cyun4 gaa1 kam2 dau3
 全局,cyun4 guk6
 全局性,cyun4 guk6 sing3
 全年,cyun4 nin4
@@ -9681,17 +9679,13 @@ char,jyutping
 冗雜,jung2 zaap6
 冗食,jung2 sik6
 冗餘,jung2 jyu4
-𢫏一巴掌,kam2 jat1 baa1 zoeng2
 冚世界,ham6 sai3 gaai3
-𢫏住𢫏住,kam2 zyu6 kam2 zyu6
-𢫏𢫏埋埋,kam2 kam2 maai4 maai4
 冚冚聲,ham4 ham2 seng1
 冚包散,ham6 baau1 saan2
 冚呯唥,ham6 baang6 laang6
 冚唪唥,ham6 baang6 laang6
 冚啲,ham6 di1
 冚嘣啉,ham6 bang1 lam4
-𢫏國旗,kam2 gwok3 kei4
 冚家,ham6 gaa1
 冚家伶,ham6 gaa1 ling1
 冚家剷,ham4 gaa1 caan2
@@ -9702,20 +9696,10 @@ char,jyutping
 冚家祥,ham6 gaa1 coeng4
 冚家鏟,ham6 gaa1 caan2
 冚巴唥,ham6 baa6 laang6
-𢫏數,kam2 sou3
-𢫏斗,kam2 dau2
-𢫏旗,kam2 kei4
-𢫏棉胎,kam2 min4 toi1
-𢫏檔,kam2 dong3
-𢫏牀布,kam2 cong4 bou3
 冚球剷,ham6 kau4 caan2
 冚球鏟,ham6 kau4 caan2
 冚盅,ham6 zung1
 冚竇,ham6 dau6
-𢫏竇,kam2 dau3
-𢫏蓋,kam2 goi3
-𢫏被,kam2 pei5
-𢫏陷,kam2 haam6
 冚𠾴唥,ham6 baang6 laang6
 冞家,mai1 gaa1
 冠上,gun3 soeng6
@@ -13210,7 +13194,6 @@ char,jyutping
 卡佬,kaa1 lou2
 卡債,kaat1 zaai3
 卡其,kaa1 kei4
-卡𢫏卡,kaat1 kam2 kaat1
 卡加利,kaa1 gaa1 lei6
 卡卡聲,kaa4 kaa2 seng1
 卡口,kaa1 hau2
@@ -13263,6 +13246,7 @@ char,jyutping
 卡關,kaa1 gwaan1
 卡類通信,kaa1 leoi6 tung1 seon3
 卡駱馳,kaa1 lok3 ci4
+卡𢫏卡,kaat1 kam2 kaat1
 卦義,gwaa3 ji6
 卯兔,maau5 tou3
 卯時,maau5 si4
@@ -16415,11 +16399,11 @@ char,jyutping
 咬雲,ngaau5 wan4
 咬飯,ngaau5 faan6
 咬齧,ngaau5 ngit6
-咭𢫏咭,kaat1 kam2 kaat1
 咭咭呱呱,gat1 gat1 gwaa1 gwaa1
 咭數,kaat1 sou3
 咭片,kaat1 pin2
 咭紙,kaat1 zi2
+咭𢫏咭,kaat1 kam2 kaat1
 咯吱,lok3 zi1
 咯咯,gok4 gok1
 咯咯咯咯,gok4 gok1 gok3 gok6
@@ -22187,9 +22171,9 @@ char,jyutping
 大訂,daai6 deng6
 大計,daai6 gai3
 大話,daai6 waa6
-大話𢫏大話,daai6 waa6 kam2 daai6 waa6
 大話精,daai6 waa6 zing1
 大話骰,daai6 waa6 sik1
+大話𢫏大話,daai6 waa6 kam2 daai6 waa6
 大調,daai6 diu6
 大談特談,daai6 taam4 dak6 taam4
 大豆,daai6 dau2
@@ -27166,7 +27150,6 @@ char,jyutping
 尼龍絲襪,nei4 lung4 si1 mat6
 尾七,mei5 cat1
 尾二,mei1 ji2
-尾𢫏,mei5 kam2
 尾刀,mei5 dou1
 尾場,mei5 coeng4
 尾巴,mei5 baa1
@@ -27200,6 +27183,7 @@ char,jyutping
 尾韻,mei5 wan5
 尾頁,mei5 jip6
 尾龍骨,mei5 lung4 gwat1
+尾𢫏,mei5 kam2
 尿不溼,niu6 bat1 sap1
 尿兜,niu6 dau1
 尿嘧啶,niu6 mat6 ding6
@@ -32984,7 +32968,6 @@ char,jyutping
 戀腳癖者,lyun2 goek3 pik1 ze2
 戀舊情結,lyun2 gau6 cing4 git3
 戇佬,ngong6 lou2
-戇鳩鳩,ngong6 gau1 gau1
 戇喪,ngong6 song3
 戇居,ngong6 geoi1
 戇居仔,ngong6 geoi1 zai2
@@ -33000,6 +32983,7 @@ char,jyutping
 戇頭戇腦,ngong6 tau4 ngong6 nou5
 戇鳩,ngong6 gau1
 戇鳩仔,ngong6 gau1 zai2
+戇鳩鳩,ngong6 gau1 gau1
 戇𨳊𨳊,ngong6 gau1 gau1
 戈壁,gwo1 bik1
 戈壁灘,gwo1 bik1 taan1
@@ -37399,8 +37383,10 @@ char,jyutping
 揦屎上身,laa2 si2 soeng5 san1
 揦手,laa2 sau2
 揦篩,laa2 sai1
+揦脷,laa2 lei6
 揦苴,laa5 zaa2
 揦茜,laa2 sai1
+揦西,laa2 sai1
 揦起,laa2 hei2
 揦起塊面,laa2 hei2 faai3 min6
 揦返拃沙,laa2 faan2 zaa3 saa1
@@ -45684,7 +45670,6 @@ char,jyutping
 橫丫路,waang4 aa1 lou6
 橫九掂十,waang4 gau2 dim6 sap6
 橫傳,waang4 cyun4
-橫𢫏,waang1 kam2
 橫刀,waang4 dou1
 橫刀奪愛,waang4 dou1 dyut6 oi3
 橫切面,waang4 cit3 min2
@@ -45778,6 +45763,7 @@ char,jyutping
 橫額,waang4 ngaak2
 橫風橫雨,waang4 fung1 waang4 jyu5
 橫𠶧,waang4 dim6
+橫𢫏,waang1 kam2
 檀君,taan4 gwan1
 檀香,taan4 hoeng1
 檀香木,taan4 hoeng1 muk6
@@ -48276,7 +48262,6 @@ char,jyutping
 沙井,saa1 zeng2
 沙井口,saa1 zeng2 hau2
 沙俄,saa1 ngo4
-沙𢫏,saa1 kam2
 沙冧,saa3 lam1
 沙冰,saa1 bing1
 沙利度胺,saa1 lei6 dou6 on1
@@ -48396,6 +48381,7 @@ char,jyutping
 沙鵖,saa1 gip3
 沙鼠,saa1 syu2
 沙龍,saa1 lung4
+沙𢫏,saa1 kam2
 沬水銅人,mei6 seoi2 tung4 jan4
 沮喪,zeoi2 song3
 沱沱河,to4 to4 ho4
@@ -54127,7 +54113,6 @@ char,jyutping
 牀位,cong4 wai6
 牀位寓所,cong4 wai2 jyu6 so2
 牀側,cong4 zak1
-牀𢫏,cong4 kam2
 牀前,cong4 cin4
 牀友,cong4 jau2
 牀單,cong4 daan1
@@ -54156,6 +54141,7 @@ char,jyutping
 牀鋪被蓆,cong4 pou1 pei5 zek6
 牀頭,cong4 tau4
 牀頭櫃,cong4 tau4 gwai6
+牀𢫏,cong4 kam2
 牀𩩍,cong4 peng1
 牆垣,coeng4 wun4
 牆壁,coeng4 bik1
@@ -69543,8 +69529,8 @@ char,jyutping
 臭屁勒,cau3 pei3 laak6
 臭屁𤷫,cau3 pei3 laat6
 臭屎,cau3 si2
-臭屎密𢫏,cau3 si2 mat6 kam2
 臭屎密𠖫,cau3 si2 mat6 kam2
+臭屎密𢫏,cau3 si2 mat6 kam2
 臭崩天,cau3 bang1 tin1
 臭崩崩,cau3 bang1 bang1
 臭彈,cau3 daan2
@@ -79643,8 +79629,8 @@ char,jyutping
 軟體配送者,jyun5 tai2 pui3 sung3 ze2
 軟齶,jyun5 ngok6
 軟𢴈𢴈,jyun5 daat3 daat3
-軨𢫏,ling1 kam2
 軨蓋,ling1 goi3
+軨𢫏,ling1 kam2
 軫方,zan2 fong1
 軭神,waang1 san2
 軲轆,gu1 lok1
@@ -84017,7 +84003,6 @@ char,jyutping
 鎮靜藥,zan3 zing6 joek6
 鎳材,nip1 coi4
 鏇子,syun4 zi2
-鏈𢫏,lin2 kam2
 鏈式反應,lin2 sik1 faan2 jing3
 鏈式裂變反應,lin2 sik1 lit6 bin3 faan2 jing3
 鏈板,lin2 baan2
@@ -84027,6 +84012,7 @@ char,jyutping
 鏈表,lin2 biu2
 鏈路層,lin2 lou6 cang4
 鏈鋸,lin2 goe3
+鏈𢫏,lin2 kam2
 鏊子,ngou6 zi2
 鏍屎,leoi1 si2
 鏍銯頭,lo4 si1 tau2
@@ -88629,7 +88615,6 @@ char,jyutping
 頭伏,tau4 fuk6
 頭像,tau4 zoeng6
 頭先,tau4 sin1
-頭𢫏,tau4 kam2
 頭半天,tau4 bun3 tin1
 頭向前,tau4 hoeng3 cin4
 頭啖湯,tau4 daam6 tong1
@@ -88743,6 +88728,7 @@ char,jyutping
 頭馬,tau4 maa5
 頭髮,tau4 faat3
 頭髮腳,tau4 faat3 goek3
+頭𢫏,tau4 kam2
 頭𣤩,tau4 cek3
 頭𩓥𩓥,tau4 ngok6 ngok6
 頰窩,haap3 wo1
@@ -93481,6 +93467,20 @@ char,jyutping
 𢪎個輪,faak3 go3 leon2
 𢪎個輪,faat3 go3 leon2
 𢪎蛋,faat3 daan2
+𢫏一巴掌,kam2 jat1 baa1 zoeng2
+𢫏住𢫏住,kam2 zyu6 kam2 zyu6
+𢫏國旗,kam2 gwok3 kei4
+𢫏數,kam2 sou3
+𢫏斗,kam2 dau2
+𢫏旗,kam2 kei4
+𢫏棉胎,kam2 min4 toi1
+𢫏檔,kam2 dong3
+𢫏牀布,kam2 cong4 bou3
+𢫏竇,kam2 dau3
+𢫏蓋,kam2 goi3
+𢫏被,kam2 pei5
+𢫏陷,kam2 haam6
+𢫏𢫏埋埋,kam2 kam2 maai4 maai4
 𢫕掉,wing1 diu6
 𢫕頭,wing6 tau2
 𢫕頭,wing6 tau4
