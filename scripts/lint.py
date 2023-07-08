@@ -52,6 +52,27 @@ def get_additional_information(char):
            ': Compatibility Ideographs Supplement' if '\U0002f800' <= char <= '\U0002fa1f' else \
            ''
 
+simplified_ideograph = set()
+maybe_simplified_ideograph = set()
+with open("scripts/Unihan_Variants.txt", encoding="utf-8") as f:
+    for line in f:
+        line = line.rstrip("\n")
+        if not line or line[0] == "#":
+            continue
+        code_point, variant, values = line.split("\t")
+        if variant == "kTraditionalVariant":
+            char = chr(int(code_point[2:], base=16))
+            values = {chr(int(value[2:], base=16)) for value in values.split(" ")}
+            if char not in values:
+                simplified_ideograph.add(char)
+        elif variant == "kSimplifiedVariant":
+            char = chr(int(code_point[2:], base=16))
+            values = {chr(int(value[2:], base=16)) for value in values.split(" ")}
+            if char not in values:
+                maybe_simplified_ideograph |= values
+
+maybe_simplified_ideograph -= {*"丑丢云仆余佣克冬准几出划刮制千卜卷厘只台合同后向吓咤咸回困奸姜家干御志恒才扑挽斗旋晒曲朱松板栗沈注漓灶症秋系累胡致舍芸范葱蒙蔑表谷辟郁采霉面"}
+
 def is_ascii_lowercase_letter(char):
     return 'a' <= char <= 'z'
 
@@ -98,6 +119,7 @@ def lint(filename):
         end_column_index = max(chars_column_index or 0, romans_column_index or 0)
 
         if first_line != headers.get(filename):
+            headers[filename] = first_line
             cache[filename] = {}
 
         for line_num, line in enumerate(f, 2):
@@ -168,7 +190,11 @@ def lint(filename):
             def validate_char(char_i, char):
                 if not is_ascii_letter(char):
                     if is_simplified_ideograph(char):
-                        warn(char_i - len(char), char_i, f'Character "{char}" is definitely a simplified ideograph')
+                        error(char_i - len(char), char_i, f'Character "{char}" is definitely a simplified ideograph')
+                    elif char in simplified_ideograph:
+                        error(char_i - len(char), char_i, f'Character "{char}" is a simplified ideograph')
+                    elif char in maybe_simplified_ideograph:
+                        warn(char_i - len(char), char_i, f'Character "{char}" is possibly a simplified ideograph')
                     elif not is_unified_ideograph(char):
                         error(char_i - len(char), char_i, f'Invalid character "{char}"{get_additional_information(char)}')
 
