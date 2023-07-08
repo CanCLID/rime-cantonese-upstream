@@ -117,16 +117,12 @@ class TestSet:
             (alert, ('f', 'i', None)),
             (error, ('j', 'o', None)),
 
-            (valid, ('-', 'e', '-')),
-            (alert, ('-', 'e', 'i')),
             (error, ('-', 'e', None)),
 
             (valid, ('-', 'u', 'ng k')),
-            (alert, ('-', 'i', 'k')),
             (error, ('-', 'i u', None)),
 
-            (alert, ('ng', 'i e', 't')),
-            (alert, ('- ng gw w', 'e', '-')),
+            (alert, ('w', 'e', '-')),
             (error, ('ng gw kw w', 'e', None)),
             (valid, ('gw kw', 'i', 'ng k')),
             (error, ('ng gw kw', 'i u', None)),
@@ -134,7 +130,17 @@ class TestSet:
             (valid, ('d t n l h z c s j', 'u', 'ng k')),
             (error, ('d t n l h z c s j', 'u', None)),
         ],
-        'Other': [
+        'Onset - Nucleus - Tone': [
+            (error, ('n', 'o', None, '1 2 3')),
+        ],
+        'Onset - Tone': [
+            (error, ('ng', None, None, '1 2 3')),
+
+            (valid, ('-', 'aa', '-', '4 5 6')),
+            (valid, ('-', '-', 'm ng', '4 5 6')),
+            (error, ('-', None, None, '4 5 6')),
+        ],
+        'Coda - Tone': [
             (alert, (None, None, 'p t k', '4 5')),
         ],
     }
