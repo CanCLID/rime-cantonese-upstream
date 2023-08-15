@@ -1,8 +1,8 @@
+[English](README-en.md)
+
 # rime-cantonese 上游詞表
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-red.svg)](https://creativecommons.org/licenses/by/4.0/)
-
-[English](https://github.com/CanCLID/rime-cantonese-upstream#rime-cantonese-upstream-word-list)
 
 本倉庫係 [rime-cantonese](https://github.com/rime/rime-cantonese) 嘅上游詞表。rime-cantonese 作為下游輸入法碼表會通過 CI 自動從本倉庫揸取更新構建新碼表。
 
