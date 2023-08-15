@@ -1,3 +1,5 @@
+[粵語](README.md)
+
 # rime-cantonese Upstream Word List
 
 This repo serves as the upstream data storage for [rime-cantonese](https://github.com/rime/rime-cantonese). The rime-cantonese repo regularly pulls data from this repo and compile the lexicon.
